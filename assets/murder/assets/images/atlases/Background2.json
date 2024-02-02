@@ -1,0 +1,148 @@
+{"frames": {
+
+    "HarleEnd":
+    {
+        "frame": {"x":1,"y":1,"w":960,"h":640},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":960,"h":640},
+        "sourceSize": {"w":960,"h":640}
+    },
+    "LoserMan_001":
+    {
+        "frame": {"x":731,"y":1285,"w":183,"h":284},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":66,"y":0,"w":183,"h":284},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_054":
+    {
+        "frame": {"x":1328,"y":897,"w":363,"h":250},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":2,"w":363,"h":250},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_055":
+    {
+        "frame": {"x":1328,"y":643,"w":363,"h":252},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":8,"y":1,"w":363,"h":252},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_056":
+    {
+        "frame": {"x":963,"y":899,"w":363,"h":253},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":14,"y":0,"w":363,"h":253},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_057":
+    {
+        "frame": {"x":1,"y":1285,"w":363,"h":254},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":19,"y":0,"w":363,"h":254},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_058":
+    {
+        "frame": {"x":963,"y":643,"w":363,"h":254},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":22,"y":0,"w":363,"h":254},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_059":
+    {
+        "frame": {"x":366,"y":1285,"w":363,"h":254},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":23,"y":0,"w":363,"h":254},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_060":
+    {
+        "frame": {"x":1319,"y":1364,"w":353,"h":210},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":30,"y":66,"w":353,"h":210},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_061":
+    {
+        "frame": {"x":1684,"y":1292,"w":353,"h":212},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":34,"y":64,"w":353,"h":212},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_062":
+    {
+        "frame": {"x":1693,"y":860,"w":354,"h":214},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":36,"y":62,"w":354,"h":214},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_063":
+    {
+        "frame": {"x":1693,"y":1076,"w":354,"h":214},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":38,"y":62,"w":354,"h":214},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_064":
+    {
+        "frame": {"x":1693,"y":643,"w":354,"h":215},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":38,"y":61,"w":354,"h":215},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_065":
+    {
+        "frame": {"x":963,"y":1154,"w":354,"h":214},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":38,"y":62,"w":354,"h":214},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoserMan_066":
+    {
+        "frame": {"x":1328,"y":1149,"w":354,"h":213},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":38,"y":63,"w":354,"h":213},
+        "sourceSize": {"w":392,"h":284}
+    },
+    "LoveEnd1":
+    {
+        "frame": {"x":1,"y":643,"w":960,"h":640},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":960,"h":640},
+        "sourceSize": {"w":960,"h":640}
+    },
+    "LoveEnd2":
+    {
+        "frame": {"x":963,"y":1,"w":960,"h":640},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":960,"h":640},
+        "sourceSize": {"w":960,"h":640}
+    }},
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "Background2.png",
+        "format": "RGBA8888",
+        "size": {"w":2048,"h":1575},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:eeca2cc18a0c88c8655b910b3fe67996:b98fc487d6aa51286883926424e03af2:16d630c8a63f310e66cc2540f9d2c6fd$"
+    }
+    }

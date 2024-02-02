@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/orientation_utils.css" type="text/css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+	<meta name="msapplication-tap-highlight" content="no"/>
+        
+        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/createjs-2014.12.12.min.js"></script>
+        <script type="text/javascript" src="js/TreeModel.js"></script>
+        <script type="text/javascript" src="js/CTree.js"></script>
+        <script type="text/javascript" src="js/CTreeDecision.js"></script>
+        <script type="text/javascript" src="js/ctl_utils.js"></script>
+        <script type="text/javascript" src="js/sprite_lib.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
+        <script type="text/javascript" src="js/CLang.js"></script>
+        <script type="text/javascript" src="js/CPreloader.js"></script>
+        <script type="text/javascript" src="js/CCreditsPanel.js"></script>
+        <script type="text/javascript" src="js/CMain.js"></script>
+        <script type="text/javascript" src="js/CTextButton.js"></script>
+        <script type="text/javascript" src="js/CToggle.js"></script>
+        
+        <script type="text/javascript" src="js/CGfxButton.js"></script>
+        <script type="text/javascript" src="js/CMessage.js"></script>
+        <script type="text/javascript" src="js/CMenu.js"></script>
+        <script type="text/javascript" src="js/CModeMenu.js"></script>        
+        <script type="text/javascript" src="js/CGame.js"></script>
+        <script type="text/javascript" src="js/CInterface.js"></script>
+        <script type="text/javascript" src="js/CStartAnimation.js"></script>
+        <script type="text/javascript" src="js/CInfoTurn.js"></script>
+        <script type="text/javascript" src="js/CThinking.js"></script>
+        <script type="text/javascript" src="js/CEndPanel.js"></script>
+        <script type="text/javascript" src="js/CCell.js"></script>
+        <script type="text/javascript" src="js/CMovingCell.js"></script>
+        
+        <script type="text/javascript" src="js/Y8logo.js"></script>
+        <script type="text/javascript" src="js/CBlacklist.js"></script>
+        
+    </head>
+    <body ondragstart="return false;" ondrop="return false;" >
+	<div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>
+          <script>
+            $(document).ready(function(){
+                     var oMain = new CMain({
+                                            check_orientation: true,
+                                            fullscreen: true
+                                           });
+                                           
+                                           
+                     $(oMain).on("start_session", function(evt) {
+                            if(getParamValue('ctl-arcade') === "true"){
+                                parent.__ctlArcadeStartSession();
+                            }
+                            //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                     
+                    $(oMain).on("end_session", function(evt) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeEndSession();
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                    
+                    $(oMain).on("save_score", function(evt,iWinner, iBlackTime, iWhiteTime, s_iGameType, iWhiteScore) {
+							// iWinner: 
+							// -1 IS DRAW
+							//0 WHITE WINS
+							//1 BLACK WINS
+							//2 WHITE WINS CAUSE BLACK CAN'T MOVE
+							//3 BLACK WINS CAUSE WHITE CAN'T MOVE
+							
+                            //alert("iBlackPoints: "+iBlackPoints+", iWhitePoints: "+iWhitePoints+", iBlackTime: "+iBlackTime+", iWhiteTime: "+iWhiteTime);
+                            if(getParamValue('ctl-arcade') === "true" && s_iGameType === 1 && iWinner === 0){
+                               parent.__ctlArcadeSaveScore({score:iWhiteScore, szMode: s_iGameType+""});
+                           }
+                     });
+                     
+                     $(oMain).on("share_event", function(evt, iScore, s_iGameType, iWinner) {
+                           if(getParamValue('ctl-arcade') === "true" && s_iGameType === 1 && iWinner === 0){
+                               parent.__ctlArcadeShareEvent({   img: TEXT_SHARE_IMAGE,
+                                                                title: TEXT_SHARE_TITLE,
+                                                                msg: TEXT_SHARE_MSG1 + iScore + TEXT_SHARE_MSG2,
+                                                                msg_share: TEXT_SHARE_SHARE1 + iScore + TEXT_SHARE_SHARE1});
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+
+
+                    $(oMain).on("show_interlevel_ad", function(evt) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeShowInterlevelAD();
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                     
+                     if(isIOS()){ 
+                        setTimeout(function(){sizeHandler();},200); 
+                    }else{
+                        sizeHandler(); 
+                    }
+                    
+                    /*************************Idnet *************************/
+                    window.idAsyncInit = function() {
+                    // use an id.net event to wait until after init
+                    ID.Event.subscribe('id.init', function(){
+                        // use jquery to call methods on clicks
+                        console.log('from')
+                         ID.getLoginStatus(idCallback)
+                         ID.Protection.isBlacklisted(function(blacklisted){
+                            //blacklisted = true
+                            oMain.blackListState(blacklisted);
+                            console.log('[BLACKLIST] : ' + blacklisted);
+                        });
+                         ID.Protection.isSponsor(function(sponsor){
+                            //sponsor = true
+                            oMain.sponsorStatus(sponsor);
+                            console.log('[SPONSOR] : ' + sponsor);
+                        });
+                        
+                        //oMain.LoadData()
+                    });
+                    // using an optional callback to capture data on the client
+                    var userName;
+                    var idCallback = function(response){
+                        if (response) { // That means that the server processed the response
+                            console.log(response);
+                            console.log(response.status);
+                             console.log('Working');
+                            if(response.status === 'ok')
+                            {
+                               userName = response.authResponse.details.nickname;
+                               oMain.getUserName(userName,true);
+                            }
+                            else if(response.status === 'not_linked')
+                            {
+                                ID.login(idCallback);
+                            }
+                        }
+                    }
+                    // init the JS interface
+                    ID.init({
+                        appId : '5a1d7db4e694aa842de7090f'
+                    });
+                };
+
+                // load the idnet js interface
+                (function(d, s, id){
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement(s); js.id = id;
+                    js.src =  document.location.protocol == 'https:' ? "https://scdn.id.net/api/sdk.js" : "http://cdn.id.net/api/sdk.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'id-jssdk'));
+                /**************************************************************/
+           });
+
+        </script>
+         <div id="adv_mainContainer">
+            <div id="adv_content">
+                    <video id="adv_contentElement">
+                    <source src="video/android.mp4"></source>
+                     <source src="video/android.webm"></source> 
+                </video>
+            <div id="adv_adContainer"></div>
+        </div>
+        </div>
+        <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+        <script type="text/javascript" src="js/gamebreak.js"></script>
+        <canvas id="canvas" class='ani_hack' width="1280" height="1920"> </canvas>
+        <div data-orientation="portrait" class="orientation-msg-container"><p class="orientation-msg-text">Please rotate your device</p></div>
+        <div id="adv_emptContainer" style="position: fixed; background-color:#000000;opacity: 0.7; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+        <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+
+      
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

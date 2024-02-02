@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stickman Fighter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <meta name="generator" content="Scirra Construct">
+    <meta name="author" content="ARF Games">
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="icon" type="image/png" href="icons/icon-32.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+	<script>
+        var mpConfig = {
+            "game": "stick-fighter",
+            "partner": "miniplay"
+        };
+    </script>
+    <script src="https://ext.minijuegosgratis.com/external-host/main.js"></script>
+
+</head>
+
+<body>
+
+    <script>
+        if (location.protocol.substr(0, 4) === "file") {
+            alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+        }
+    </script>
+    <script src="gameanalytics.js"></script>
+    
+
+    <script src="bundle.js"></script>
+    <noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+
+<div class="watermark">
+    <a href="https://platformerio.bitbucket.io/games/" target="_parent"><img class="logo" style="opacity: 0.7; width: 50px; height: 50px; position: absolute; left: 10px; bottom: 10px;" src="https://platformerio.bitbucket.io/favicon.png"></a>
+</div>
+</body>
+
+<style>
+    html,
+    body {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        touch-action: pan-x pan-y;
+    }
+
+    /* @media only screen and (orientation:landscape) {
+			body {
+				transform: rotate(90deg);
+			}
+		} */
+
+    .floating {
+        position: absolute;
+        animation-name: floating;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes floating {
+        from {
+            transform: translate(0, 0px);
+        }
+        65% {
+            transform: translate(0, 15px);
+        }
+        to {
+            transform: translate(0, -0px);
+        }
+    }
+</style>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

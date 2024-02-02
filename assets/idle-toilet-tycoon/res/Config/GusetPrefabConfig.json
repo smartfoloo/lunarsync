@@ -1,0 +1,98 @@
+{
+    "0": {
+        "id": 0,
+        "name": "man_butler",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "1": {
+        "id": 1,
+        "name": "man_cyclist",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "2": {
+        "id": 2,
+        "name": "man_doctor",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "3": {
+        "id": 3,
+        "name": "man_skate",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "4": {
+        "id": 4,
+        "name": "man_naval_officer",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "5": {
+        "id": 5,
+        "name": "man_paramedic",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "6": {
+        "id": 6,
+        "name": "man_pilot",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "7": {
+        "id": 7,
+        "name": "man_reporter",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "8": {
+        "id": 8,
+        "name": "man_scientist",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "9": {
+        "id": 9,
+        "name": "man_tennis",
+        "isMale": true,
+        "isAttachment": false
+    },
+    "10": {
+        "id": 10,
+        "name": "woman_basketball_player",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "11": {
+        "id": 11,
+        "name": "woman_carpenter",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "12": {
+        "id": 12,
+        "name": "woman_casual",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "13": {
+        "id": 13,
+        "name": "woman_dentist",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "14": {
+        "id": 14,
+        "name": "woman_metalhead",
+        "isMale": false,
+        "isAttachment": false
+    },
+    "15": {
+        "id": 15,
+        "name": "woman_tennis",
+        "isMale": false,
+        "isAttachment": false
+    }
+}

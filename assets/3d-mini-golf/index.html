@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="description" content="3d, photo, gallery, advanced, javascript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="stylesheet" href="css/mg3d.prod.min.css">
+<title>3D Mini Golf / Играть на igroutka.ru</title>
+<script src=""></script>
+<script src="js/cannon.min.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/THREE.MeshLine.min.js"></script>
+<script src="js/GLTFLoader.min.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/SkeletonUtils.min.js"></script>
+<script src="js/mg3d.min.js"></script>
+<script type="text/javascript" src="//m.igroutka.ru/files/scripts/scr.js"></script></head>
+<body>
+
+<div id="wrapper">
+
+<div class="rs-container">
+<div class="rs-mg3d">
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+      document.body.onload = function() {
+
+        "use strict";
+
+        var el = document.querySelector('.rs-mg3d');
+        var mg3d = new MiniGolf(el);
+        window.mg3d = mg3d;
+      }
+    </script>
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Getaway Shootout</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/GetawayShootoutTwoPlayerGamesOrg.json");
+
+      window.addEventListener('DOMContentLoaded',function () {
+        var onResize;
+
+        (onResize = function() {
+          var canvas = gameInstance.Module.canvas;
+
+          canvas.width  = window.innerWidth;
+          canvas.height = window.innerHeight;
+        })();
+
+        window.addEventListener("resize", onResize);
+      });
+
+    </script>
+  </head>
+  <body style="margin: 0; padding: 0; overflow: hidden">
+    <div id="gameContainer" style="width: 100%; height: 100%"></div>
+    
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

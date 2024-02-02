@@ -1,0 +1,719 @@
+<language>
+	<Settings>
+	
+	    <pp>
+			<en></en>
+			<es></es>
+			<fr></fr>
+			<de></de>
+			<pt></pt>
+			<it></it>
+			<ru></ru>
+			<tr></tr>
+		</pp>
+		
+		<settings>
+			<en>SETTINGS</en>
+			<es>AJUSTES</es>
+			<fr>PARAMÈTRES</fr>
+			<de>EINSTELLUNGEN</de>
+			<pt>CONFIGURAÇÕES</pt>
+			<it>IMPOSTAZIONI</it>
+			<ru>НАСТРОЙКИ</ru>
+			<tr>AYARLAR</tr>
+		</settings>
+		
+		<sounds>
+			<en>SOUNDS</en>
+			<es>SONIDOS</es>
+			<fr>SONS</fr>
+			<de>SOUNDS</de>
+			<pt>SONS</pt>
+			<it>SUONI</it>
+			<ru>ЗВУКИ</ru>
+			<tr>SESLER</tr>
+		</sounds>
+		
+		<music>
+			<en>MUSIC</en>
+			<es>MÚSICA</es>
+			<fr>MUSIQUE</fr>
+			<de>MUSIK</de>
+			<pt>MÚSICA</pt>
+			<it>MUSICA</it>
+			<ru>МУЗЫКА</ru>
+			<tr>MÜZİK</tr>
+		</music>
+		
+		<language>
+			<en>LANGUAGE</en>
+			<es>IDIOMA</es>
+			<fr>LANGUE</fr>
+			<de>SPRACHE</de>
+			<pt>LÍNGUA</pt>
+			<it>LINGUA</it>
+			<ru>ЯЗЫК</ru>
+			<tr>DİL</tr>
+		</language>
+		
+		<on>
+			<en>ENABLE</en>
+			<es>HABILITAR</es>
+			<fr>ACTIVER</fr>
+			<de>AKTIVIEREN</de>
+			<pt>HABILITAR</pt>
+			<it>ABILITARE</it>
+			<ru>ВКЛ</ru>
+			<tr>ETKİNLEŞTİR</tr>
+		</on>
+		
+		<off>
+			<en>DISABLE</en>
+			<es>DESHABILITAR</es>
+			<fr>DÉSACTIVER</fr>
+			<de>DEAKTIVIEREN</de>
+			<pt>DESABILITAR</pt>
+			<it>DISABILITARE</it>
+			<ru>ВЫКЛ</ru>
+			<tr>DEVRE DIŞI BIRAK</tr>
+		</off>
+		
+		<emoji>
+			<en>Emoji</en>
+			<es>Emoji</es>
+			<fr>Émoji</fr>
+			<de>Emoji</de>
+			<pt>Emoji</pt>
+			<it>Emoji</it>
+			<ru>Эмодзи</ru>
+			<tr>Emoji</tr>
+		</emoji>
+		
+		<decor>
+			<en>Decor</en>
+			<es>Decoración</es>
+			<fr>Décor</fr>
+			<de>Dekor</de>
+			<pt>Decoração</pt>
+			<it>Arredamento</it>
+			<ru>Декор</ru>
+			<tr>Dekor</tr>
+		</decor>
+		
+		
+		<info>
+			<en>Info</en>
+			<es>Info</es>
+			<fr>Info</fr>
+			<de>Info</de>
+			<pt>Info</pt>
+			<it>Info</it>
+			<ru>Инфо</ru>
+			<tr>Bilgi</tr>
+		</info>
+		
+		<credits>
+			<en>Credits</en>
+			<es>Autores</es>
+			<fr>Auteurs</fr>
+			<de>Autoren</de>
+			<pt>Autores</pt>
+			<it>Autori</it>
+			<ru>Авторы</ru>
+			<tr>Yazarlar</tr>
+		</credits>
+		
+	</Settings>
+	
+	
+	
+	
+	
+	
+	<Menu>
+		
+		<shop>
+			<en>Shop</en>
+			<es>Tienda</es>
+			<fr>Boutique</fr>
+			<de>Shop</de>
+			<pt>Loja</pt>
+			<it>Negozio</it>
+			<ru>Магазин</ru>
+			<tr>Mağaza</tr>
+		</shop>
+		
+		<choose>
+			<en>Choose</en>
+			<es>Elija</es>
+			<fr>Choisir</fr>
+			<de>Wählen Sie</de>
+			<pt>Escolha</pt>
+			<it>Scegliere</it>
+			<ru>Выбрать</ru>
+			<tr>Seçin</tr>
+		</choose>
+		
+		<leaderboard>
+			<en>Discord</en>
+			<es>Discord</es>
+			<fr>Discord</fr>
+			<de>Discord</de>
+			<pt>Discord</pt>
+			<it>Discord</it>
+			<ru>Дискорд</ru>
+			<tr>Discord</tr>
+		</leaderboard>
+		
+		<emoji>
+			<en>Emoji</en>
+			<es>Emoji</es>
+			<fr>Émoji</fr>
+			<de>Emoji</de>
+			<pt>Emoji</pt>
+			<it>Emoji</it>
+			<ru>Эмодзи</ru>
+			<tr>Emoji</tr>
+		</emoji>
+		
+		<tasks>
+			<en>Tasks</en>
+			<es>Tareas</es>
+			<fr>Tâches</fr>
+			<de>Aufgaben</de>
+			<pt>Tarefas</pt>
+			<it>Compiti</it>
+			<ru>Задания</ru>
+			<tr>Görevler</tr>
+		</tasks>
+		
+		<play>
+			<en>PLAY</en>
+			<es>JUGAR</es>
+			<fr>JOUER</fr>
+			<de>SPIELEN</de>
+			<pt>JOGAR</pt>
+			<it>GIOCARE</it>
+			<ru>ИГРАТЬ</ru>
+			<tr>OYUN</tr>
+		</play>
+	</Menu>
+	
+	
+	
+	
+	<Shop>
+	
+	    <shop>
+			<en>Shop</en>
+			<es>Tienda</es>
+			<fr>Boutique</fr>
+			<de>Shop</de>
+			<pt>Loja</pt>
+			<it>Negozio</it>
+			<ru>Магазин</ru>
+			<tr>Mağaza</tr>
+		</shop>
+		
+	    <thxjoin>
+			<en>Thank you! For joining our discord. You have received 49 GEMS!</en>
+			<es>Gracias. Por unirte a nuestra discord. ¡Has recibido 49 GEMAS!</es>
+			<fr>Merci d'avoir rejoint notre discord. D'avoir rejoint notre discord. Vous avez reçu 49 GEMS !</fr>
+			<de>Vielen Dank! Für den Beitritt zu unserem Discord. Du hast 49 EDELSTEINE erhalten!</de>
+			<pt>Obrigado! Por participar de nossa discod. Você recebeu 49 GEMAS!</pt>
+			<it>Grazie! Per esserti unito al nostro discord. Hai ricevuto 49 GEMS!</it>
+			<ru>Спасибо! За то, что присоединились к нашему дискорду. Вы получили 49 КРИСТАЛЛОВ!</ru>
+			<tr>Teşekkür ederiz! Anlaşmazlığımıza katıldığınız için. 49 KRİSTALLER kazandınız!</tr>
+		</thxjoin>
+		
+	    <chaget>
+			<en>Free runner</en>
+			<es>Corredor libre</es>
+			<fr>Coureur gratuit</fr>
+			<de>Freier Läufer</de>
+			<pt>Corredor gratuito</pt>
+			<it>Corridore libero</it>
+			<ru>Бесплатный бегун</ru>
+			<tr>Serbest koşucu</tr>
+		</chaget>
+		
+	    <subsget>
+			<en>Join in discord!</en>
+			<es>¡Únete en discordia!</es>
+			<fr>Rejoignez-nous sur discord !</fr>
+			<de>Schließt euch im Discord an!</de>
+			<pt>Participe do discord!</pt>
+			<it>Unisciti a discord!</it>
+			<ru>Присоединяйтесь в discord!</ru>
+			<tr>Discord'a katılın!</tr>
+		</subsget>
+		
+		
+	    <rewget>
+			<en>REWARD RECEIVED</en>
+			<es>RECOMPENSA RECIBIDA</es>
+			<fr>RÉCOMPENSE REÇUE</fr>
+			<de>ERHALTENE BELOHNUNG</de>
+			<pt>RECOMPENSA RECEBIDA</pt>
+			<it>RICOMPENSA RICEVUTA</it>
+			<ru>НАГРАДА ПОЛУЧЕНА</ru>
+			<tr>ALINAN ÖDÜL</tr>
+		</rewget>
+		
+	    <deals>
+			<en>DEALS</en>
+			<es>VENTA</es>
+			<fr>VENTE</fr>
+			<de>AKTIONEN</de>
+			<pt>VENDA</pt>
+			<it>SCONTI</it>
+			<ru>АКЦИИ</ru>
+			<tr>SATIŞ</tr>
+		</deals>
+		
+		<boxes>
+			<en>BOXES</en>
+			<es>CAJAS</es>
+			<fr>BOÎTES</fr>
+			<de>BOXEN</de>
+			<pt>CAIXAS</pt>
+			<it>SCATOLE</it>
+			<ru>ЯЩИКИ</ru>
+			<tr>KUTULAR</tr>
+		</boxes>
+	
+		<coins>
+			<en>COINS</en>
+			<es>MONEDAS</es>
+			<fr>COINS</fr>
+			<de>MÜNZEN</de>
+			<pt>MOEDAS</pt>
+			<it>MONETE</it>
+			<ru>МОНЕТЫ</ru>
+			<tr>PARALAR</tr>
+		</coins>
+		
+		<gems>
+			<en>GEMS</en>
+			<es>GEMAS</es>
+			<fr>GEMMES</fr>
+			<de>EDELSTEINE</de>
+			<pt>GEMAS</pt>
+			<it>GEMME</it>
+			<ru>КРИСТАЛЛЫ</ru>
+			<tr>KRİSTALLER</tr>
+		</gems>
+		
+		<special>
+			<en>SPECIAL</en>
+			<es>SPECIAL</es>
+			<fr>SPÉCIAL</fr>
+			<de>SPEZIAL</de>
+			<pt>ESPECIAL</pt>
+			<it>SPECIALE</it>
+			<ru>ВЫГОДНО</ru>
+			<tr>ÖZEL</tr>
+		</special>
+		
+		<free>
+			<en>FREE</en>
+			<es>GRAT.</es>
+			<fr>GRAT.</fr>
+			<de>KOST.</de>
+			<pt>GRÁT.</pt>
+			<it>GRAT.</it>
+			<ru>БЕСП.</ru>
+			<tr>ÜCRE.</tr>
+		</free>
+		
+		<sale>
+			<en>SALE</en>
+			<es>DESCU.</es>
+			<fr>RABAIS</fr>
+			<de>RABATT</de>
+			<pt>DESCO.</pt>
+			<it>SCONTO</it>
+			<ru>СКИДКА</ru>
+			<tr>İNDİRİM</tr>
+		</sale>
+		
+		<standardbox>
+			<en>STANDARD</en>=p[]
+			<es>ESTÁNDAR</es>
+			<fr>STANDARD</fr>
+			<de>STANDARD</de>
+			<pt>PADRÃO</pt>
+			<it>STANDARD</it>
+			<ru>ОБЫЧНЫЙ</ru>
+			<tr>STANDART</tr>
+		</standardbox>
+		
+		<bigbox>
+			<en>BIG</en>
+			<es>BIG</es>
+			<fr>GRAND</fr>
+			<de>BIG</de>
+			<pt>GRANDE</pt>
+			<it>GRANDE</it>
+			<ru>БОЛЬШОЙ</ru>
+			<tr>BÜYÜK</tr>
+		</bigbox>
+		
+		<superbox>
+			<en>SUPER</en>
+			<es>SUPER</es>
+			<fr>SUPER</fr>
+			<de>SUPER</de>
+			<pt>SUPER</pt>
+			<it>SUPER</it>
+			<ru>СУПЕР</ru>
+			<tr>SÜPER</tr>
+		</superbox>
+		
+		<info>
+			<en>Information</en>
+			<es>Información</es>
+			<fr>Informations</fr>
+			<de>Informationen</de>
+			<pt>Informações</pt>
+			<it>Informazioni</it>
+			<ru>Информация</ru>
+			<tr>Bilgi</tr>
+		</info>
+		
+		<freebox>
+			<en>Free rewards</en>
+			<es>Recompensas gratuitas</es>
+			<fr>Récompenses gratuites</fr>
+			<de>Kostenlose Belohnungen</de>
+			<pt>Recompensas gratuitas</pt>
+			<it>Premi gratuiti</it>
+			<ru>Бесплатные награды</ru>
+			<tr>Ücretsiz ödüller</tr>
+		</freebox>
+		
+		<getfreebox>
+			<en>GET</en>
+			<es>OBTENER</es>
+			<fr>OBTENIR</fr>
+			<de>BEKOMMEN</de>
+			<pt>OBTER</pt>
+			<it>OTTENERE</it>
+			<ru>ПОЛУЧИТЬ</ru>
+			<tr>ALMAK</tr>
+		</getfreebox>
+		
+		<canget>
+			<en>Done in:</en>
+			<es>Hecho:</es>
+			<fr>Fait en :</fr>
+			<de>Erledigt in:</de>
+			<pt>Feito em:</pt>
+			<it>Fatto in:</it>
+			<ru>Готово через:</ru>
+			<tr>Bitti:</tr>
+		</canget>
+		
+	</Shop>
+	
+	
+	<SelectionRoom>
+	
+		<twist>
+			<en>Twist</en>
+			<es>Twist</es>
+			<fr>Twist</fr>
+			<de>Twist</de>
+			<pt>Twist</pt>
+			<it>Twist</it>
+			<ru>Твист</ru>
+			<tr>Twist</tr>
+		</twist>
+		
+		<flicker>
+			<en>Flicker</en>
+			<es>Flicker</es>
+			<fr>Flicker</fr>
+			<de>Flicker</de>
+			<pt>Flicker</pt>
+			<it>Flicker</it>
+			<ru>Фликер</ru>
+			<tr>Flikker</tr>
+		</flicker>
+		
+		<blaze>
+			<en>Blaze</en>
+			<es>Blaze</es>
+			<fr>Blaze</fr>
+			<de>Blaze</de>
+			<pt>Blaze</pt>
+			<it>Blaze</it>
+			<ru>Блэйз</ru>
+			<tr>Blaze</tr>
+		</blaze>
+		
+		<shiro>
+			<en>Shiro</en>
+			<es>Shiro</es>
+			<fr>Shiro</fr>
+			<de>Shiro</de>
+			<pt>Shiro</pt>
+			<it>Shiro</it>
+			<ru>Широ</ru>
+			<tr>Şiro</tr>
+		</shiro>
+	
+		<sky>
+			<en>Sky</en>
+			<es>Sky</es>
+			<fr>Sky</fr>
+			<de>Sky</de>
+			<pt>Sky</pt>
+			<it>Sky</it>
+			<ru>Скай</ru>
+			<tr>Sky</tr>
+		</sky>
+		
+		<hopper>
+			<en>Hopper</en>
+			<es>Hopper</es>
+			<fr>Hopper</fr>
+			<de>Hopper</de>
+			<pt>Hopper</pt>
+			<it>Hopper</it>
+			<ru>Хоппер</ru>
+			<tr>Hopper</tr>
+		</hopper>
+	
+		<strix>
+			<en>Strix</en>
+			<es>Strix</es>
+			<fr>Strix</fr>
+			<de>Strix</de>
+			<pt>Strix</pt>
+			<it>Strix</it>
+			<ru>Стрикс</ru>
+			<tr>Striks</tr>
+		</strix>
+		
+		<yes>
+			<en>YES</en>
+			<es>Sí</es>
+			<fr>Oui</fr>
+			<de>Ja</de>
+			<pt>Sim</pt>
+			<it>Sì</it>
+			<ru>ДА</ru>
+			<tr>evet</tr>
+		</yes>
+		
+		<no>
+			<en>NO</en>
+			<es>NO</es>
+			<fr>NON</fr>
+			<de>Nein</de>
+			<pt>NO</pt>
+			<it>No</it>
+			<ru>НЕТ</ru>
+			<tr>hayır</tr>
+		</no>
+		
+		<uwb>
+			<en>Do you want to buy?</en>
+			<es>¿Quiere comprar?</es>
+			<fr>Voulez-vous acheter ?</fr>
+			<de>Möchten Sie kaufen?</de>
+			<pt>Você quer comprar?</pt>
+			<it>Vuoi comprare?</it>
+			<ru>Вы хотите купить?</ru>
+			<tr>Satın almak istiyor musunuz?</tr>
+		</uwb>
+		
+	</SelectionRoom>
+	
+	
+	<E-room>
+	
+		<select>
+			<en>SELECT</en>
+			<es>SELECCIONE</es>
+			<fr>SELECTIONNER</fr>
+			<de>SELECT</de>
+			<pt>SELECIONAR</pt>
+			<it>SELEZIONARE</it>
+			<ru>ВЫБРАТЬ</ru>
+			<tr>SEÇİNİZ</tr>
+		</select>
+		
+		<features>
+			<en>Features</en>
+			<es>Características</es>
+			<fr>Caractéristiques</fr>
+			<de>Eigenschaften</de>
+			<pt>Características</pt>
+			<it>Caratteristiche</it>
+			<ru>Характеристики</ru>
+			<tr>Özellikler</tr>
+		</features>
+		
+		<dexterity>
+			<en>Dexterity</en>
+			<es>Destreza</es>
+			<fr>Dextérité</fr>
+			<de>Geschicklichkeit</de>
+			<pt>Destreza</pt>
+			<it>Destrezza</it>
+			<ru>Ловкость</ru>
+			<tr>El Becerisi</tr>
+		</dexterity>
+		
+		<sustainability>
+			<en>Sustainability</en>
+			<es>Sostenibilidad</es>
+			<fr>Durabilité</fr>
+			<de>Nachhaltigkeit</de>
+			<pt>Sustentabilidade</pt>
+			<it>Sostenibilità</it>
+			<ru>Устойчивость</ru>
+			<tr>Sürdürülebilirlik</tr>
+		</sustainability>
+	
+		<maxlvl>
+			<en>MAX. LEVEL</en>
+			<es>MAX. NIVEL</es>
+			<fr>NIV. MAX</fr>
+			<de>MAX. STUFE</de>
+			<pt>NÍV. MÁX.</pt>
+			<it>LIV. MAX</it>
+			<ru>МАКС. УРВ.</ru>
+			<tr>MAKS. SEVİYE</tr>
+		</maxlvl>
+		
+		
+	</E-room>
+	
+	
+	<JellyPass>
+	
+	    <standardbox>
+			<en>STANDARD</en>=p[]
+			<es>ESTÁNDAR</es>
+			<fr>STANDARD</fr>
+			<de>STANDARD</de>
+			<pt>PADRÃO</pt>
+			<it>STANDARD</it>
+			<ru>ОБЫЧНЫЙ</ru>
+			<tr>STANDART</tr>
+		</standardbox>
+		
+		<bigbox>
+			<en>BIG</en>
+			<es>BIG</es>
+			<fr>GRAND</fr>
+			<de>BIG</de>
+			<pt>GRANDE</pt>
+			<it>GRANDE</it>
+			<ru>БОЛЬШ.</ru>
+			<tr>BÜYÜK</tr>
+		</bigbox>
+		
+		<superbox>
+			<en>SUPER</en>
+			<es>SUPER</es>
+			<fr>SUPER</fr>
+			<de>SUPER</de>
+			<pt>SUPER</pt>
+			<it>SUPER</it>
+			<ru>СУПЕР</ru>
+			<tr>SÜPER</tr>
+		</superbox>
+		
+		<activate>
+			<en>ACTIVATE</en>
+			<es>ACTIVAR</es>
+			<fr>ACTIVER</fr>
+			<de>AKTIVIEREN</de>
+			<pt>ATIVAR</pt>
+			<it>ATTIVARE</it>
+			<ru>КУПИТЬ</ru>
+			<tr>ETKİNLEŞTİR</tr>
+		</activate>
+		
+		<emoji>
+			<en>Emoji</en>
+			<es>Emoji</es>
+			<fr>Émoji</fr>
+			<de>Emoji</de>
+			<pt>Emoji</pt>
+			<it>Emoji</it>
+			<ru>Эмодзи</ru>
+			<tr>Emoji</tr>
+		</emoji>
+		
+		<endseason>
+			<en>Until the end of the season:</en>
+			<es>Hasta el final de la temporada:</es>
+			<fr>Jusqu'à la fin de la saison :</fr>
+			<de>Bis zum Ende der Saison:</de>
+			<pt>Até o final da temporada:</pt>
+			<it>Fino alla fine della stagione:</it>
+			<ru>До конца сезона:</ru>
+			<tr>Sezon sonuna kadar:</tr>
+		</endseason>
+
+		
+	</JellyPass>
+	
+	
+	<tasks>
+	
+	
+	   <tasks>
+			<en>Tasks</en>
+			<es>Tareas</es>
+			<fr>Tâches</fr>
+			<de>Aufgaben</de>
+			<pt>Tarefas</pt>
+			<it>Compiti</it>
+			<ru>Задания</ru>
+			<tr>Görevler</tr>
+		</tasks>
+		
+	   <everydaytasks>
+			<en>Daily assignments</en>
+			<es>Tareas diarias</es>
+			<fr>Travaux quotidiens</fr>
+			<de>Tägliche Aufgaben</de>
+			<pt>Atribuições diárias</pt>
+			<it>Incarichi giornalieri</it>
+			<ru>Ежедневные задания</ru>
+			<tr>Günlük ödevler</tr>
+		</everydaytasks>
+		
+	   <eddisc>
+			<en>Complete tasks to unlock new rewards in Gold Pass</en>
+			<es>Completa tareas para desbloquear nuevas recompensas en el Pase Dorado</es>
+			<fr>Terminez des tâches pour débloquer de nouvelles récompenses dans le Gold Pass.</fr>
+			<de>Erfülle Aufgaben, um neue Belohnungen im Gold Pass freizuschalten</de>
+			<pt>Conclua tarefas para desbloquear novas recompensas no Gold Pass</pt>
+			<it>Completate i compiti per sbloccare nuovi premi nel Gold Pass</it>
+			<ru>Выполняйте задания, чтобы разблокировать новые награды в Gold Pass</ru>
+			<tr>Gold Pass'te yeni ödüllerin kilidini açmak için görevleri tamamlayın</tr>
+		</eddisc>
+		
+	   <newtasks>
+			<en>New Assignments via:</en>
+			<es>Nuevas asignaciones vía:</es>
+			<fr>Nouvelles affectations via :</fr>
+			<de>Neue Zuweisungen über:</de>
+			<pt>Novas atribuições via:</pt>
+			<it>Nuovi incarichi via:</it>
+			<ru>Новые задания через:</ru>
+			<tr>Yeni Atamalar aracılığıyla:</tr>
+		</newtasks>
+	
+
+		
+	</tasks>
+	
+</language>

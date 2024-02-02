@@ -1,0 +1,393 @@
+<html lang="en" class="wf-allerdisplay-n4-active wf-cfcrackbold-n4-active wf-impact2-n4-active wf-impact3-n4-active wf-impact-n4-active wf-active"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">    
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">    
+    <title>Basketball Star</title>
+    <meta name="description" content="You can play solo or with a friend as a variety of legendary basketball players. Play Basketball Star Unblocked on TBG95">
+    <script type="text/javascript" src="/cloak.js"></script>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<link rel="stylesheet" href="assets/css/AllerDisplay.css" media="all"><link rel="stylesheet" href="assets/css/CfCrackBold.css" media="all"><link rel="stylesheet" href="assets/css/impact.css" media="all"><link rel="stylesheet" href="assets/css/impact2.css" media="all"><link rel="stylesheet" href="assets/css/impact3.css" media="all"><style>
+.pokiSdkContainer {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pokiSdkContainer.pokiSdkFixed {
+	position: fixed;
+}
+
+.pokiSdkContainer.pokiSdkVisible {
+	display: block;
+}
+
+
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer.pokiSdkHidden {
+	display: none;
+}
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer {
+	pointer-events: none;
+}
+
+.pokiSdkSpinnerContainer {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('https://a.poki.com/images/thumb_anim_2x.gif') 50% 50% no-repeat;
+	user-select: none;
+}
+
+.pokiSdkInsideContainer {
+	background: #000;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.pokiSdkContainer.pokiSdkVisible .pokiSdkInsideContainer {
+	opacity: 1;
+}
+
+.pokiSDKAdContainer, .pokiSdkVideoContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.pokiSdkStartAdButton {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFF;
+
+	font: 700 15pt 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: 0.1s ease-in-out;
+	line-height: 1em;
+}
+
+.pokiSdkPauseButton {
+	cursor:pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.pokiSdkPauseButton:before {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	user-select: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: background-color 0.5s ease;
+	animation: 1s linear infinite pulse;
+}
+
+.pokiSdkPauseButton:after {
+	content: '';
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 26px 0 26px 40px;
+	pointer-events: none;
+	animation: 1s linear infinite pulse;
+	left: 6px;
+}
+.pokiSdkPauseButtonBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    background: rgba(0, 43, 80, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.pokiSdkPauseButtonBG:hover{
+	background: rgba(0, 43, 80, 0.7);
+}
+
+@keyframes pulse {
+	0% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+	70% {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+}
+
+.pokiSdkProgressContainer {
+	background: #B8C7DD;
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+}
+
+.pokiSdkProgressBar {
+	position:relative;
+	bottom:0px;
+	background: #FFDC00;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+	transition-timing-function: linear;
+}
+
+.pokiSdkProgressBar.pokiSdkVisible, .pokiSdkPauseButton.pokiSdkVisible, .pokiSdkStartAdButton.pokiSdkVisible {
+	display: block;
+	pointer-events: auto;
+}
+
+.pokiSdkProgressBar.pokiSdkHidden, .pokiSdkPauseButton.pokiSdkHidden, .pokiSdkStartAdButton.pokiSdkHidden {
+	display: none;
+	pointer-events: none;
+}
+</style><script type="text/javascript">/**
+* A horizontal blur filter by Mat Groves http://matgroves.com/ @Doormat23
+*/
+Phaser.Filter.BlurX = function (game) {
+
+    Phaser.Filter.call(this, game);
+
+    this.uniforms.blur = { type: '1f', value: 1 / 512 };
+
+    this.fragmentSrc = [
+
+      "precision mediump float;",
+      "varying vec2 vTextureCoord;",
+      "varying vec4 vColor;",
+      "uniform float blur;",
+      "uniform sampler2D uSampler;",
+
+        "void main(void) {",
+
+          "vec4 sum = vec4(0.0);",
+
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x - 4.0*blur, vTextureCoord.y)) * 0.05;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x - 3.0*blur, vTextureCoord.y)) * 0.09;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x - 2.0*blur, vTextureCoord.y)) * 0.12;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x - blur, vTextureCoord.y)) * 0.15;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y)) * 0.16;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x + blur, vTextureCoord.y)) * 0.15;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x + 2.0*blur, vTextureCoord.y)) * 0.12;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x + 3.0*blur, vTextureCoord.y)) * 0.09;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x + 4.0*blur, vTextureCoord.y)) * 0.05;",
+
+          "gl_FragColor = sum;",
+
+        "}"
+    ];
+
+};
+
+Phaser.Filter.BlurX.prototype = Object.create(Phaser.Filter.prototype);
+Phaser.Filter.BlurX.prototype.constructor = Phaser.Filter.BlurX;
+
+Object.defineProperty(Phaser.Filter.BlurX.prototype, 'blur', {
+
+    get: function() {
+        return this.uniforms.blur.value / (1/7000);
+    },
+
+    set: function(value) {
+        this.dirty = true;
+        this.uniforms.blur.value = (1/7000) * value;
+    }
+
+});
+</script><script type="text/javascript">/**
+* A vertical blur filter by Mat Groves http://matgroves.com/ @Doormat23
+*/
+Phaser.Filter.BlurY = function (game) {
+
+    Phaser.Filter.call(this, game);
+
+    this.uniforms.blur = { type: '1f', value: 1 / 512 };
+
+    this.fragmentSrc = [
+
+      "precision mediump float;",
+      "varying vec2 vTextureCoord;",
+      "varying vec4 vColor;",
+      "uniform float blur;",
+      "uniform sampler2D uSampler;",
+
+        "void main(void) {",
+
+          "vec4 sum = vec4(0.0);",
+
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y - 4.0*blur)) * 0.05;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y - 3.0*blur)) * 0.09;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y - 2.0*blur)) * 0.12;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y - blur)) * 0.15;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y)) * 0.16;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y + blur)) * 0.15;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y + 2.0*blur)) * 0.12;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y + 3.0*blur)) * 0.09;",
+          "sum += texture2D(uSampler, vec2(vTextureCoord.x, vTextureCoord.y + 4.0*blur)) * 0.05;",
+
+          "gl_FragColor = sum;",
+
+        "}"
+
+    ];
+
+};
+
+Phaser.Filter.BlurY.prototype = Object.create(Phaser.Filter.prototype);
+Phaser.Filter.BlurY.prototype.constructor = Phaser.Filter.BlurY;
+
+Object.defineProperty(Phaser.Filter.BlurY.prototype, 'blur', {
+
+    get: function() {
+        return this.uniforms.blur.value / (1/7000);
+    },
+
+    set: function(value) {
+        this.dirty = true;
+        this.uniforms.blur.value = (1/7000) * value;
+    }
+
+});
+</script></head>
+
+<body>
+    
+    <div id="content"></div>
+    <div id="orientation"></div>
+    <div id="loader" style="display: none;">Loading ...</div>
+    
+    <script src="/poki-sdk.js"></script>    
+	<script src="/poki-sdk-core-v2.263.0.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/box2dweb/nape.min.js">
+        var nape = "nape.min.js";
+    </script>
+    <script type="text/javascript" src="assets/box2dweb/nape-debug-draw.min.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/easeljs-0.8.2.combined.js"></script>
+    <script type="text/javascript" src="assets/box2dweb/bluebird.min.js"></script>
+
+    
+
+    <script type="text/javascript">
+    var useEvents = (typeof(Event) === 'function');
+
+        var myDispatchEvent = function (name){
+            var event;
+            if (useEvents){
+                event =  new Event(name);
+            }else{
+                event = document.createEvent('Event');
+                event.initEvent(name, true, true);
+            }
+            document.getElementById("content").dispatchEvent(event);
+        }
+
+        var StartLoading = function () {
+            PokiSDK.gameLoadingStart();
+        }
+
+        document.getElementById('content').addEventListener('poki_init',
+            function () { 
+                PokiSDK.init().then(StartLoading)
+                    .catch(
+                        () => {
+                                StartLoading();
+                        }
+                        );
+                    // PokiSDK.setDebug(true); // remove this line when submitting to us
+            });
+
+        document.getElementById('content').addEventListener('poki_loaded',
+            function () { 
+                PokiSDK.gameLoadingFinished();
+            });
+
+        document.getElementById('content').addEventListener('poki_load_pr',
+            function (e) { 
+                var data = {};
+                console.log('poki_load_pr',e.detail)
+                data.percentageDone = e.detail;
+                PokiSDK.gameLoadingProgress(data);
+            });
+
+        document.getElementById('content').addEventListener('poki_start',
+            function () { 
+                PokiSDK.gameplayStart();
+            });
+
+        document.getElementById('content').addEventListener('poki_stop',
+            function () { 
+                PokiSDK.gameplayStop();
+            });
+
+        
+        document.getElementById('content').addEventListener('poki_happy',
+            function () { 
+                PokiSDK.happyTime(0.5);
+            });
+
+        document.getElementById('content').addEventListener('poki_commercial',
+            function () { 
+                myDispatchEvent('poki_mute');
+                PokiSDK.commercialBreak().then(restartGame);
+            });
+
+            function restartGame(){
+                //reset game here
+                console.log('restartGame');
+                myDispatchEvent('poki_unmute');
+            }
+    </script>
+
+<script type="text/javascript" src="basketball_legends_2019.min.js?10f68117b1ca168146fb"></script>
+  
+</body>
+
+<script src="/js/site-lock.js"></script>
+</html>

@@ -1,0 +1,76 @@
+{"frames": {
+
+    "Skelz_018":
+    {
+        "frame": {"x":1,"y":1,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_019":
+    {
+        "frame": {"x":995,"y":1,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_020":
+    {
+        "frame": {"x":1,"y":290,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_021":
+    {
+        "frame": {"x":995,"y":290,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_022":
+    {
+        "frame": {"x":1,"y":579,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_023":
+    {
+        "frame": {"x":995,"y":579,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_024":
+    {
+        "frame": {"x":1,"y":868,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_025":
+    {
+        "frame": {"x":995,"y":868,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    }},
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "Skelz2.png",
+        "format": "RGBA8888",
+        "size": {"w":1988,"h":1156},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:f054811d4ad5d75b95c07e25cec459dd:e6d5cb33e2ff8cff61fa33c63def795c:43ef8fbf835e79dfc7af2f56aca831d9$"
+    }
+    }

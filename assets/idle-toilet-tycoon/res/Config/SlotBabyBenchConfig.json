@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Bench",
+        "Describe": "A Hard Seat",
+        "updateCostCoin": 500000,
+        "income": 900
+    },
+    "2": {
+        "id": 2,
+        "Name": "Single Person Sofa",
+        "Describe": "The Comfort Is Acceptable",
+        "updateCostCoin": 750000,
+        "income": 1100
+    },
+    "3": {
+        "id": 3,
+        "Name": "High Grade Sofa",
+        "Describe": "Improved Comfort",
+        "updateCostCoin": 1500000,
+        "income": 1350
+    },
+    "4": {
+        "id": 4,
+        "Name": "Row Sofa",
+        "Describe": "Increase The Space",
+        "updateCostCoin": 2250000,
+        "income": 1650
+    },
+    "5": {
+        "id": 5,
+        "Name": "Multi-Function Sofa",
+        "Describe": "The User Can Also Lie Down",
+        "updateCostCoin": 4500000,
+        "income": 2000
+    }
+}

@@ -1,0 +1,197 @@
+{
+
+  "1" : {
+      "overlayTask": [
+        ["clearCells",[2,3,3,2,3,3,4,3]]
+      ],
+      "inputCells": [3,2,3,3],
+      "handCells": [3,2,3,3],
+      "msg": {"text" : "This is how you Match 3 Cookies", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing to 500 points!"
+  },
+
+  "4" : {
+      "booster" : true,
+      "boosterNr" : 1,
+      "overlayTask": [
+        ["clearCells",[2,0,2,1,2,2,2,3,2,4,5,0,5,1,5,2,5,3,5,4]]
+      ],
+      "inputCells": [2,2,5,2],
+      "handCells": [2,2],
+      "msg": {"text" : "Hey! You can Match 5 with your new Booster!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Now match the bombs to make cookies explode!",
+      "afterMsgTime": 5000
+  },
+
+  "5" :  {
+    "overlayTask":  [
+      ["clearCells", [3,4,4,4]]
+    ],
+    "inputCells":  [3,4,4,4],
+    "handCells":  [4,4,3,4],
+    "msg":  {"text" :  "Try this and see what happens!", "position":  0.95},
+    "nextOn" :  "match",
+    "afterMsg" :  "Wow! That was incredible!",
+    "afterMsgTime":  4500
+  },
+
+  "3" :  {
+    "overlayTask":  [
+      ["clearCells",[2,3,3,3,4,3,5,3]]
+    ],
+    "inputCells":  [2,3,3,3],
+    "handCells":  [2,3,3,3],
+    "msg": {"text" :  "The cookies are on waffles! Save them by making matches!", "position":  0.85},
+    "nextOn" :  "match",
+    "afterMsg" :  "Keep matching and remove all waffles!",
+    "afterMsgTime" :  4000
+  },
+
+  "2" :  {
+      "overlayTask":  [
+        ["clearCells", [2,3,3,3,4,3,5,3,4,2]]
+      ],
+      "inputCells": [4,2,4,3],
+      "handCells":  [4,2,4,3],
+      "msg": {"text" : "Did you notice? Matching 4 gives you a special surprise!", "position": 0.85},
+      "nextOn" :  "match",
+      "afterMsg": "Crunch! Now, collect more delicious blue cookies!",
+      "afterMsgTime": 5000  
+  },
+
+  "6": {
+    "overlayTask": [
+      ["clearCells", [ 2,2,2,3,2,4,2,5,2,6,2,7,3,2,3,3,3,4,3,5,3,6,3,7,4,2,4,3,4,4,4,5,4,6,4,7,5,2,5,3,5,4,5,5,5,6,5,7,5,1]]
+    ],
+    "inputCells": [5,1,5,2],
+    "handCells": [5,1,5,2],
+    "msg": {"text" : "Match around the Ice to break it!", "position": 0.05},
+    "nextOn": "match",
+    "afterMsg": "Great! Now break all the ice and collect your waffles!",
+    "afterMsgTime": 5000
+  },
+
+  "7":  {
+    "overlayTask":  [
+      ["clearCells", [0,0,0,3,6,3,3,2,3,3,2,3,4,3,6,0,1,3,5,3]]
+    ],
+    "inputCells": [3,2,3,3],
+    "handCells":  [3,2,3,3],
+    "msg": {"text" :  "Match next to Chests to unlock them!", "position": 0.85},
+    "nextOn":  "match",
+    "afterMsg": "Coins galor! Now collect your Waffles and Cherry Pies!",
+    "afterMsgTime": 5000
+  },
+
+  "8":  {
+    "overlayTask": [
+      ["clearCells", [0,2,0,3,0,4,0,5,0,6,1,7,2,7,2,7,3,7,4,7,5,7,6,7,7,6,7,5,7,4,7,3,7,2,1,1,1,2,1,3,1,4,1,5,1,6,2,6,3,6,4,6,5,6,6,6,6,5,6,4,6,3,6,2,6,1]]
+    ],
+    "inputCells": [6,1,6,2],
+    "handCells": [6,1,6,2],
+    "msg":  {"text" :  "This ice is stronger! Match twice to break it!", "position":  0.075},
+    "nextOn":  "match",
+    "afterMsg":  "Now that's crunchy! Break it all! Fast!",
+    "afterMsgTime": 3500
+  },
+
+  "11" : {
+      "booster" : true,
+      "boosterNr" : 2,
+      "overlayTask": [
+        ["clearCells",[3,4]]
+      ],
+      "inputCells": [3,4],
+      "handCells": [3,4],
+      "msg": {"text" : "Try your new Booster to help you Match more!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Crunch! Explosions!"
+  },
+
+  "12" :  {
+      "overlayTask": [
+        ["clearCells",[2,2,5,2,2,5,5,5,3,1,3,2,4,2]]
+      ],
+      "inputCells":  [3,1,3,2],
+      "handCells":  [3,1,3,2],
+      "msg":  {"text" :  "Yum! Chocolate Waffles! They require two matches to collect!", "position":  0.85},
+      "nextOn" :  "match",
+      "afterMsg" :  "Choco-tastic! Now collect the items in 25 moves!",
+      "afterMsgTime": 4000
+  },
+  
+  "13" : {
+      "overlayTask": [
+        ["clearCells",[4,0,4,1,4,2,4,3,4,4,4,5,4,6,4,7,3,4]]
+      ],
+      "inputCells": [3,4,4,4],
+      "handCells": [3,4,4,4],
+      "msg": {"text" : "Bring the strawberries to the bottom of the floor by matching below them!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  },
+
+  "18" : {
+      "overlayTask": [
+        ["clearCells",[4,1,4,2,5,2,6,2]]
+      ],
+      "inputCells": [4,1,4,2],
+      "handCells": [4,1,4,2],
+      "msg": {"text" : "Save the cookies from the blocker by matching them!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  },
+
+  "24" : {
+      "overlayTask": [
+        ["clearCells",[3,1,3,2,3,3,4,1,4,2,4,3]]
+      ],
+      "inputCells": [3,2,4,2],
+      "handCells": [3,2,4,2],
+      "msg": {"text" : "Stones block the cookies! Match blocked cookies to remove the stone!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  },
+  
+  "25" : {
+      "booster" : true,
+      "boosterNr" : 3,
+      "overlayTask": [
+        ["clearCells",[0,3,1,3,2,3,3,3,4,3,5,3,6,3,7,3]]
+      ],
+      "inputCells": [0,3,1,3,2,3,3,3,4,3,5,3,6,3,7,3],
+      "handCells": [3,3],
+      "msg": {"text" : "Try your new booster!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  },
+  
+  "30" : {
+      "booster" : true,
+      "boosterNr" : 4,
+      "overlayTask": [
+        ["clearCells",[5,0,5,1,5,2,5,3,5,4,5,5,5,6,5,7]]
+      ],
+      "inputCells": [5,0,5,1,5,2,5,3,5,4,5,5,5,6,5,7],
+      "handCells": [5,3],
+      "msg": {"text" : "Try your new booster!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  },
+  
+
+  "81" : {
+      "overlayTask": [
+        ["clearCells",[3,2,2,3,3,3,3,4,4,3]]
+      ],
+      "inputCells": [3,2,3,3],
+      "handCells": [3,2,3,3],
+      "msg": {"text" : "Stop infections from spreading! Make a match next to an infection to remove it!", "position": 0.85},
+      "nextOn" : "match",
+      "afterMsg" : "Nice! Keep playing!"
+  }
+
+
+}

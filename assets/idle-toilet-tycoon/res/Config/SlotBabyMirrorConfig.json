@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Long length mirror",
+        "Describe": "Very ordinary",
+        "updateCostCoin": 300000,
+        "income": 110
+    },
+    "2": {
+        "id": 2,
+        "Name": "Beautiful looking mirror",
+        "Describe": "There is a difference in height",
+        "updateCostCoin": 500000,
+        "income": 180
+    },
+    "3": {
+        "id": 3,
+        "Name": "Picture frame mirror",
+        "Describe": "The aesthetic degree is acceptable",
+        "updateCostCoin": 1000000,
+        "income": 260
+    },
+    "4": {
+        "id": 4,
+        "Name": "Cartoon mirror",
+        "Describe": "Cartoons bring pleasure",
+        "updateCostCoin": 1500000,
+        "income": 350
+    },
+    "5": {
+        "id": 5,
+        "Name": "Makeup mirror",
+        "Describe": "Lights like a stage",
+        "updateCostCoin": 300000,
+        "income": 450
+    }
+}

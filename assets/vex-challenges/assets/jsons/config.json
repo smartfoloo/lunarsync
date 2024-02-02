@@ -1,0 +1,26 @@
+{
+  "LEVEL_START": {
+    "eventName": "level_start_%%"
+  },
+  "LEVEL_COMPLETE": {
+    "eventName": "level_complete_%%"
+  },
+  "LEVEL_FAIL": {
+    "eventName": "level_failed_%%_$$"
+  },
+  "CHALLENGE_START": {
+    "eventName": "challenge_start"
+  },
+  "CHALLENGE_COMPLETE": {
+    "eventName": "challenge_complete"
+  },
+  "CHALLENGE_FAIL": {
+    "eventName": "challenge_failed_%%_$$"
+  },
+  "EXTRA_LIFE_LEVEL": {
+    "eventName": "level_adClick_%%"
+  },
+  "EXTRA_LIFE_CHALLENGE": {
+    "eventName": "challenge_adClick_%%"
+  }
+}

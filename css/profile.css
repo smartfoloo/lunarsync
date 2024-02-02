@@ -1,0 +1,193 @@
+body {
+  color: #fff;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.main-content {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.box {
+  background: #1b1b1b;
+  border-radius: 15px;
+  margin: 10px 200px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-div {
+  text-align: left;
+}
+
+#editInput {
+  background: transparent;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0px;
+  border-radius: 10px;
+  text-decoration-style: solid;
+  text-decoration-color: #fff;
+  transition: 300ms;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+#saveButton {
+  background: transparent;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: fit-content;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  text-decoration-style: solid;
+  text-decoration-color: #fff;
+  transition: 300ms;
+  outline: 1px solid #495057;
+  align-self: center !important;
+}
+
+#saveButton:hover {
+  transform: scale(0.95)
+}
+
+.level {
+  text-align: left;
+  line-height: 2;
+}
+
+#user-Level {
+  text-align: left;
+}
+
+#xp-bar {
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  border-radius: 20px;
+  position: relative;
+  margin: 30px 0px;
+}
+
+#xp-progress {
+  width: 0;
+  height: 100%;
+  background-color: var(--default);
+  border-radius: 20px;
+}
+
+#user-info {
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.username {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.editicon {
+  color: #fff;
+  background: transparent;
+  border: 0px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 300ms;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  outline: 1px solid #495057;
+  margin: 0px;
+}
+
+.editicon:hover {
+  transform: scale(0.9);
+}
+
+#editableHeading {
+  margin: 10px;
+}
+
+.stat-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-card {
+  width: 30%;
+  outline: 1px solid #495057;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.stat-card:hover {
+  opacity: 0.7;
+}
+
+.stat-card h4 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    margin: 10px 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    margin: 10px 50px;
+  }
+}

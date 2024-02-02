@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="monkeytype-lite.png">
+<title>monkeytype-lite</title>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body translate="no" onload="initWords();" id="body">
+  <div id="commandLineWrapper" class="hidden">
+  <div id="commandLine">
+    <input type="text" class="input" placeholder="Command">
+    
+    <div class="separator hidden"></div>
+    <div class="listTitle">Title</div>
+    <div class="suggestions">
+    </div>
+  </div>
+</div>
+<div id="timerWrapper">
+  <div id="timer"></div>
+</div>
+<div id="resultScreenshot" class="">
+  <div class="stats">
+    <div class="group">
+      <div class="top">wpm</div>
+      <div class="bottom">100</div>
+    </div>
+    <div class="group">
+      <div class="top">key</div>
+      <div class="bottom">100/2</div>
+    </div>
+    <div class="group">
+      <div class="top">acc</div>
+      <div class="bottom">100%</div>
+    </div>
+  </div>
+</div>
+<div class="outOfFocusWarning" id="fw">
+  <i class="fas fa-mouse-pointer"></i>
+  Click the words below to focus
+</div>
+<div id="centerContent">
+  
+  <div id="middle">
+    <div id="top">
+      <a href="https://monkeytype.com/" style="text-decoration: none;" target="_blank" rel="noreferrer"><div class="logo">
+        <div class="icon">
+          <img src="monkeytype-lite.svg">
+        </div>
+        <div class="text">
+        <div class="top">monkey see</div>
+        monkeytype-lite
+        </div>
+        </div></a>
+
+      <div class="result hidden">
+        <div class="group testmode" style="align-self: center">
+          <div class="title mode1">words</div>
+          <div class="title mode2">100</div>
+          <div class="title mode3">100</div>
+        </div>
+        <div class="group key">
+          <div class="title">key</div>
+          <div class="val">100/1</div>
+        </div>
+        <div class="group acc">
+          <div class="title">acc</div>
+          <div class="val">95%</div>
+        </div>
+        <div class="group wpm">
+          <div class="title">wpm</div>
+          <div class="val">100</div>
+        </div>
+      </div>
+      <div class="config">
+        <div class="group punctuationMode">
+          <div class="buttons">
+            <div class="button toggleButton">punctuation</div>
+          </div>
+        </div>
+        <div class="group mode">
+          <div class="buttons">
+            <div class="button" mode="time">time</div>
+            <div class="button active" mode="words">words</div>
+            <div class="button" mode="custom">custom</div>
+          </div>
+        </div>
+        <div class="group wordCount">
+          <div class="buttons">
+            <div class="button" wordCount="10">10</div>
+            <div class="button active" wordCount="25">25</div>
+            <div class="button" wordCount="50">50</div>
+            <div class="button" wordCount="100">100</div>
+          </div>
+        </div>
+        <div class="group time hidden">
+          <div class="buttons">
+            <div class="button" timeConfig="15">15</div>
+            <div class="button active" timeConfig="30">30</div>
+            <div class="button" timeConfig="60">60</div>
+            <div class="button" timeConfig="120">120</div>
+          </div>
+        </div>
+        <div class="group customText hidden">
+          <div class="buttons">
+            <div class="button">change</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="caret" class="hidden"></div>
+    <div id="liveWpm"></div>
+    <div id="words"></div>
+  </div>
+  <focus-trap><input id="wordsInput" class="" tabindex="-1" type="text" autocomplete="off" autocapitalize="off" autocorrect="off"></focus-trap>
+  <div id="restartTestButton" tabindex="0"><i class="fas fa-redo-alt"></i></div>
+  <p style="text-align:center;">Click the button above or press tab to restart.</p>
+</div>
+
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js'></script>
+<script src="words.js"></script>
+<script src="main.js"></script>
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

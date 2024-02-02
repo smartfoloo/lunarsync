@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>nut simulator 2</title>
+		<link rel="icon" type="image/png" href="nut.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="theme-color" content="#e8ac53">
+		<meta name="msapplication-navbutton-color" content="#e8ac53">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#e8ac53">
+	</head>
+	<body oncontextmenu="">
+		<div id="bg"></div>
+
+		<div id="container">
+			<canvas id="nutcanvas"></canvas>
+
+			<div class="row" id="title">
+				<div>nut simulator 2</div>
+				<div id="playtime" class="secondary"></div>
+			</div>
+
+			<div class="row" id="levelrow">
+				<div id="level">
+					<div id="innerlevel"></div>
+				</div>
+				<div id="levelstats">
+					<div id="levelnum"></div>
+					<div id="xpnum"></div>
+				</div>
+			</div>
+
+			<canvas id="boughtnuts" style="display:none"></canvas>  <!-- do like cookie clicker show lil bros walkin around -->
+
+			<div class="row">
+				<div class="nutInfo" style="left:0;">
+					<div class="expander" id="nutHelpers">
+						<h1>nut helpers</h1>
+					</div>
+				</div>
+
+				<div id="center">
+					<span id="nutAmount"></span>  <span id="nutspersec"></span>  <span id="combo"></span>
+					<div id="nut">
+						<div id="nutpopup"></div>
+						<div id="nutclicked"></div>
+					</div>
+				</div>
+
+				<div class="nutInfo" style="right:0;">
+					<div class="expander" id="upgrades">
+						<h1>upgrades</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="story"><br></div>
+			</div>
+
+			<div class="row">
+				<div id="nuts"></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="main.js"></script>
+
+<script src="/js/sitelock.js"></script>
+<script src="/js/site-lock.js"></script>
+</html>

@@ -1,0 +1,37 @@
+{
+    "-1": {
+        "id": -1,
+        "clear_color": "#3a3a59",
+        "ambient_color": "#f6f6f6",
+        "light_color": "#f6f6f6",
+        "light_intensity": 1.0
+    },
+    "0": {
+        "id": 0,
+        "clear_color": "#3a3a59",
+        "ambient_color": "#f6f6f6",
+        "light_color": "#f6f6f6",
+        "light_intensity": 1.0
+    },
+    "1": {
+        "id": 1,
+        "clear_color": "#3a3a59",
+        "ambient_color": "#f6f6f6",
+        "light_color": "#f6f6f6",
+        "light_intensity": 0.3
+    },
+    "2": {
+        "id": 2,
+        "clear_color": "#3a3a59",
+        "ambient_color": "#f6f6f6",
+        "light_color": "#f6f6f6",
+        "light_intensity": 1.0
+    },
+    "3": {
+        "id": 3,
+        "clear_color": "#3a3a59",
+        "ambient_color": "#f6f6f6",
+        "light_color": "#f6f6f6",
+        "light_intensity": 1.0
+    }
+}

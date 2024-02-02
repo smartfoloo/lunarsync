@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Beam shelf",
+        "Describe": "It is very convenient for people",
+        "updataCostCoin": 300,
+        "income": 100
+    }
+}

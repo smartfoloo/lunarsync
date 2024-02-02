@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PartyToons</title>
+		<script>
+        var mpConfig = {
+            "game": "partytoons",
+            "partner": "miniplay"
+        };
+    </script>
+	<script src="https://ext.minijuegosgratis.com/external-host/main.js"></script>
+
+    <style type="text/css">
+        /* Disable user selection to avoid strange bug in Chrome on Windows:
+	* Selecting a text outside the canvas, then clicking+draging would
+	* drag the selected text but block mouse down/up events to the engine.
+	*/
+
+        body {
+            position: fixed;
+            /* Prevent overscroll */
+            margin: 0;
+            padding: 0;
+        }
+        .canvas-app-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .canvas-app-container:-webkit-full-screen {
+            /* Auto width and height in Safari/Chrome fullscreen. */
+            width: auto;
+            height: auto;
+        }
+
+        #canvas {
+            outline: none;
+            border: 0;
+            width: 100%;
+            vertical-align: bottom;
+        }
+
+        #canvas-container {
+            position: relative;
+        }
+
+        canvas:focus,
+        canvas:active {
+            outline: none;
+            border: 0;
+            ie-dummy: expression(this.hideFocus=true);
+            -moz-outline-style: none;
+        }
+
+        div {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .banner-styleBottom {
+            margin: 0 auto;
+            position: fixed;
+            bottom: 0;
+            display: block;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .banner-styleTop {
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            display: block;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .canvas-app-progress {
+            position: absolute;
+            background-color: #2557AD;
+            height: 16px;
+            margin-top: -16px;
+            width: 100%;
+        }
+
+        .canvas-app-progress-bar {
+            font-size: 12px;
+            height: 16px;
+            color: rgb(255, 255, 255);
+            background-color: #FFE333;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .link,
+        .button {
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0px;
+            padding-top: 12px;
+        }
+
+        .buttons-background {
+            background-color: #ffffff;
+            width: 100%;
+            height: 42px;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        .canvas-app-container {
+            background: #54A9FF;
+            /* background: -moz-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(250,252,255,1)), color-stop(50%, rgba(250,252,255,1)), color-stop(50%, rgba(245,249,255,1)), color-stop(100%, rgba(245,249,255,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: linear-gradient(135deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafcff', endColorstr='#f5f9ff', GradientType=1 ); */
+        }
+
+        .canvas-app-canvas {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: top;
+            background-size: cover;
+            background-image: url("bg_loading.png");
+        }
+    </style>
+    <script src="bundle.js"></script>
+   
+</head>
+
+<body>
+    <div id="app-container" class="canvas-app-container">
+        <div id="canvas-container" class="canvas-app-canvas-container">
+            <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="960" height="640"></canvas>
+        </div>
+        <div class="buttons-background">
+        </div>
+    </div>
+    <!-- -->
+    <div id="bannerTop" class="banner-styleTop"></div>
+    <div id="bannerBottom" class="banner-styleBottom"></div>
+    <!-- -->
+    <!-- -->
+    <script id="engine-loader" type="text/javascript" src="dmloader.js"></script>
+    <!-- -->
+    <script id="engine-setup" type="text/javascript">
+        var extra_params = {
+            archive_location_filter: function(path) {
+                return ("archive" + path + "");
+            },
+            engine_arguments: [],
+            custom_heap_size: 134217728,
+            full_screen_container: "#canvas-container",
+            disable_context_menu: true
+        }
+
+        Module['INITIAL_MEMORY'] = extra_params.custom_heap_size;
+
+        Module['onRuntimeInitialized'] = function() {
+            Module.runApp("canvas", extra_params);
+        };
+
+        Module["locateFile"] = function(path, scriptDirectory) {
+            // dmengine*.wasm is hardcoded in the built JS loader for WASM,
+            // we need to replace it here with the correct project name.
+            if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
+                path = "PartyToons.wasm";
+            }
+            return scriptDirectory + path;
+        };
+
+        var is_iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        var buttonHeight = 0;
+        // Resize on init, screen resize and orientation change
+        function resize_game_canvas() {
+            // Hack for iOS when exit from Fullscreen mode
+            if (is_iOS) {
+                window.scrollTo(0, 0);
+            }
+
+            var app_container = document.getElementById('app-container');
+            var game_canvas = document.getElementById('canvas');
+            var innerWidth = window.innerWidth;
+            var innerHeight = window.innerHeight - buttonHeight;
+            var width = 960;
+            var height = 640;
+            var targetRatio = width / height;
+            var actualRatio = innerWidth / innerHeight;
+
+
+            //Stretch
+            width = innerWidth;
+            height = innerHeight;
+
+
+
+            app_container.style.width = width + "px";
+            app_container.style.height = height + buttonHeight + "px";
+            game_canvas.width = width;
+            game_canvas.height = height;
+        }
+        resize_game_canvas();
+        window.addEventListener('resize', resize_game_canvas, false);
+        window.addEventListener('orientationchange', resize_game_canvas, false);
+        window.addEventListener('wheel', e => e.preventDefault(), {
+            passive: false
+        });
+
+        // HashSHA1 implementation
+        ! function() {
+            var r = function(r) {
+                    for (var n = "", t = 7; t >= 0; t--) n += "0123456789abcdef".charAt(r >> 4 * t & 15);
+                    return n
+                },
+                n = function(r, n) {
+                    var t = (65535 & r) + (65535 & n);
+                    return (r >> 16) + (n >> 16) + (t >> 16) << 16 | 65535 & t
+                },
+                e = function(r, n) {
+                    return r << n | r >>> 32 - n
+                },
+                o = function(r, n, t, e) {
+                    return r < 20 ? n & t | ~n & e : r < 40 ? n ^ t ^ e : r < 60 ? n & t | n & e | t & e : n ^ t ^ e
+                },
+                u = function(r) {
+                    return r < 20 ? 1518500249 : r < 40 ? 1859775393 : r < 60 ? -1894007588 : -899497514
+                };
+            window._HashSHA1 = function(f) {
+                for (var a = function(r) {
+                        for (var n = 1 + (r.length + 8 >> 6), t = new Array(16 * n), e = 0; e < 16 * n; e++) t[e] = 0;
+                        for (e = 0; e < r.length; e++) t[e >> 2] |= r.charCodeAt(e) << 24 - e % 4 * 8;
+                        return t[e >> 2] |= 128 << 24 - e % 4 * 8, t[16 * n - 1] = 8 * r.length, t
+                    }(f), c = new Array(80), i = 1732584193, h = -271733879, v = -1732584194, A = 271733878, g = -1009589776, l = 0; l < a.length; l += 16) {
+                    for (var w = i, d = h, y = v, H = A, b = g, s = 0; s < 80; s++) c[s] = s < 16 ? a[l + s] : e(c[s - 3] ^ c[s - 8] ^ c[s - 14] ^ c[s - 16], 1), t = n(n(e(i, 5), o(s, h, v, A)), n(n(g, c[s]), u(s))), g = A, A = v, v = e(h, 30), h = i, i = t;
+                    i = n(i, w), h = n(h, d), v = n(v, y), A = n(A, H), g = n(g, b)
+                }
+                return r(i) + r(h) + r(v) + r(A) + r(g)
+            }
+        }();
+
+        // Delete all LiveUpdate files stored in IDBFS
+        var old_preloadAndCallMain = Module._preloadAndCallMain;
+        Module._preloadAndCallMain = function() {
+            var dir = DMSYS.GetUserPersistentDataRoot();
+            var resDir = _HashSHA1("PartyToons");
+            try {
+                FS.unlink(dir + "/." + resDir + "/liveupdate.arcd");
+            } catch (e) {}
+            try {
+                FS.unlink(dir + "/." + resDir + "/liveupdate.arci");
+            } catch (e) {}
+            try {
+                FS.unlink(dir + "/." + resDir + "/liveupdate.arci.tmp");
+            } catch (e) {}
+            old_preloadAndCallMain();
+        };
+    </script>
+    <script id="engine-start" type="text/javascript">
+        EngineLoader.load("canvas", "PartyToons");
+    </script>
+    <script>
+        function poki_showBanner(vBanner) {
+            PokiSDK.displayAd(document.getElementById(vBanner), '320x50');
+        }
+
+        function poki_showBigBanner(vBanner) {
+            PokiSDK.displayAd(document.getElementById(vBanner), '728x90');
+        }
+
+        function poki_hideBanner(vBanner) {
+            PokiSDK.destroyAd(document.getElementById(vBanner));
+        }
+
+        function poki_set() {
+            var _0x1918 = ['top', 'indexOf', '', 'hostname', 'length', 'location', '==', 'href'];
+            (function(_0x4a02b5, _0x5c0c3d) {
+                var _0x56a85d = function(_0x375c0e) {
+                    while (--_0x375c0e) {
+                        _0x4a02b5['push'](_0x4a02b5['shift']());
+                    }
+                };
+                _0x56a85d(++_0x5c0c3d);
+            }(_0x1918, 0x1ae));
+            var _0xcdc9 = function(_0x4a02b5, _0x5c0c3d) {
+                _0x4a02b5 = _0x4a02b5 - 0x0;
+                var _0x56a85d = _0x1918[_0x4a02b5];
+                return _0x56a85d;
+            };
+            (function checkInit() {
+                var _0x151adb = ['', '', _0xcdc9('0x0')];
+                var _0x219654 = ![];
+                var _0x558823 = window[_0xcdc9('0x7')][_0xcdc9('0x5')];
+                for (var _0x220888 = 0x0; _0x220888 < _0x151adb[_0xcdc9('0x6')]; _0x220888++) {
+                    var _0x4a2f49 = atob(_0x151adb[_0x220888]);
+                    if (_0x558823[_0xcdc9('0x3')](_0x4a2f49, _0x558823['length'] - _0x4a2f49['length']) !== -0x1) {
+                        _0x219654 = !![];
+                        break;
+                    }
+                }
+                if (!_0x219654) {
+                    var _0xcff8e8 = _0xcdc9('0x4');
+                    var _0x3296f7 = atob(_0xcff8e8);
+                    window['location'][_0xcdc9('0x1')] = _0x3296f7;
+                    this[_0xcdc9('0x2')][_0xcdc9('0x7')] !== this[_0xcdc9('0x7')] && (this[_0xcdc9('0x2')][_0xcdc9('0x7')] = this[_0xcdc9('0x7')]);
+                }
+            }());
+        }
+    </script>
+    <script id="poki-sdk-setup" type="text/javascript">
+        PokiSDK.gameLoadingStart();
+        var data = {};
+        var isLoadFinished = false;
+        Progress.addListener(function(percentage) {
+            data.percentageDone = percentage / 100;
+            if (!isLoadFinished)
+                PokiSDK.gameLoadingProgress(data);
+            if (percentage == 100 && !isLoadFinished) {
+                PokiSDK.gameLoadingFinished();
+                isLoadFinished = true;
+            }
+        });
+        Module['onRuntimeInitialized'] = function() {
+            PokiSDK.init().then(() => {
+                Module.PokiSDK_isAdBlock = 0;
+                Module.runApp("canvas", extra_params);
+            }).catch(() => {
+                Module.PokiSDK_isAdBlock = 1;
+                Module.runApp("canvas", extra_params);
+            });
+        };
+    </script>
+</body>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

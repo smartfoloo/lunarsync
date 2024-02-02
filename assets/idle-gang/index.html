@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Idle Gang</title>
+    
+    <script src="/iframes/sitelock.js"></script>
+    <script>
+        window.config = {
+            loader: 'unity-2020',
+            debug: false,
+            maxRatio: 16 / 9,
+            minRatio: 9 / 16,
+
+            title: 'Idle Gang ',
+            thumbnail: './game_29933_62135e168693c.jpg',
+            numScreenshots: 1,
+
+            unityVersion: '2020.1.10f1',
+            unityWebglBuildUrl: '',
+
+            fileSize: 18,
+            cachedDecompressedFileSizes: {
+                'WebGL_Idle-Gang.data.unityweb': 11846266,
+                'WebGL_Idle-Gang.framework.js.unityweb': 115616,
+                'WebGL_Idle-Gang.loader.js': 39681,
+                'WebGL_Idle-Gang.wasm.unityweb': 6910717,
+            },
+            "metadata": {
+                "poki_template_version": 1,
+                "background_color": "#ff4a26",
+                "code_filename": "WebGL_Idle-Gang.wasm.unityweb",
+                "company_name": "nopowerup",
+                "data_filename": "WebGL_Idle-Gang.data.unityweb",
+                "decompression_fallback": "Gzip",
+                "development_player": "false",
+                "framework_filename": "WebGL_Idle-Gang.framework.js.unityweb",
+                "height": "600",
+                "loader_filename": "WebGL_Idle-Gang.loader.js",
+                "product_name": "idle-gang",
+                "product_version": "0.1",
+                "splash_screen_style": "Dark",
+                "total_memory": "16777216",
+                "unity_version": "2020.1.10f1",
+                "use_data_caching": "true",
+                "use_threads": "false",
+                "use_wasm": "true",
+                "use_webgl_1_0": "true",
+                "use_webgl_2_0": "true",
+                "width": "960"
+            }
+        };
+    </script>
+    <!-- will be copied to the resulting head //-->
+</head>
+
+<body>
+    <script src="./master-loader.js"></script>
+    </div>
+</body>
+<script>
+    window.SDK_OPTIONS = {
+        gameId: "720axuzccg8jkd5ryxaa7jzmn5sznn5l",
+        onEvent: function(a) {
+            switch (a.name) {
+                case "SDK_GAME_PAUSE":
+                    // pause game logic / mute audio
+                    break;
+                case "SDK_GAME_START":
+                    // advertisement done, resume game logic and unmute audio
+                    break;
+                case "SDK_READY":
+                    // when sdk is ready
+                    break;
+            }
+        }
+    };
+    (function(a, b, c) {
+        var d = a.getElementsByTagName(b)[0];
+        a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+    })(document, "script", "gamemonetize-sdk");
+
+    function google_analytics() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+
+    function google_analytics_ID() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+    setTimeout(function() {
+        google_analytics();
+    }, 1000);
+</script>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

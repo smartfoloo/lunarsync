@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JustFall.LOL - Ultimate Multiplayer Knockout Guys Game</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHRWF5S3EP%22%3E"></script>
+	<script src="googleanalytics.js"></script>
+	<script src="mobileRedirect.js"></script>
+    <link rel='shortcut icon' type="image/png" href="favicon.png" />
+	<meta name="description" content="Play the fun Fall Ultimate Knockout Guys game directly from your PC without download, just in your browser! Try out the penguin hexagon Fall Multiplayer Game from the Guys of JustFall.LOL">
+	<link rel="canonical" href="https://justfall.lol/"/>
+	<meta property="og:title" content="JustFall.LOL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://justfall.lol/" />
+	<meta property="og:image" content="https://justfall.lol/splash.jpg" />
+	<meta property="og:description" content="Play the fun Fall Ultimate Knockout Guys game directly from your PC without download, just in your browser! Try out the penguin hexagon Fall Multiplayer Game from the Guys of JustFall.LOL">
+	<meta name="google-site-verification" content="RifuMznLHeHFAqW88OvLrXFbF2bCILkz8aqNd6KEM0E" />
+	<link rel="stylesheet" href="style.css">
+	
+	
+	<!-- MIDROLL/INTERSTITIAL VIDEO API - this is not implemented for now -->
+	  <script>
+		  function requestNewAd() {
+			  unityAdFinishedCallback();
+		  }
+
+		  // This function calls Unity to tell the ad finished
+		  function unityAdFinishedCallback() {
+			  try {
+				  if (gameInstance)
+					  gameInstance.SendMessage('AdsManager', 'OnWebCallback', 1);
+			  }
+			  catch (error) {
+				  console.log(error);
+			  }
+		  }
+	  </script>
+	
+	<!-- OneTrust Cookies Consent Notice start for justfall.lol -->
+	<script type="text/javascript" src="https://cdn.cookielaw.org/consent/e7088ae2-2d9c-4a5b-a7c8-bb9426e581dc/OtAutoBlock.js" ></script>
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="e7088ae2-2d9c-4a5b-a7c8-bb9426e581dc" ></script>
+	<script type="text/javascript">
+	function OptanonWrapper() { }
+	</script>
+	<!-- OneTrust Cookies Consent Notice end for justfall.lol -->
+  </head>
+  <body>
+	<div class="ads">
+		<div class="ad-smallscreen">
+			<div class="ad ad-rectangle-bottom">
+			</div>
+		</div>
+		<div class="ad ad-rectangle-upper" id="adRectangleUpper">
+		</div>
+		<div class="ad-largescreen">
+			<div class="ad ad-leaderboard-bottom">
+			</div>
+		</div>
+	</div>
+	<div id="gameContainer"></div>
+	<div id="loader">
+		<div class="spinner"></div>
+		<div class="progress">
+			<div class="full"></div>
+		</div>
+	</div>
+	<script src="fullscreen.js"></script>
+	<script id="unity-loader" src="https://justbuild.nyc3.cdn.digitaloceanspaces.com/CI/JustFall/Prod/67/Build/UnityLoader.js"></script>
+    <script>
+		var gameJsonUrl = "https://justbuild.nyc3.cdn.digitaloceanspaces.com/CI/JustFall/Prod/67/Build/WebGL.json"; //%gameJsonUrl
+		var urlParams = new URLSearchParams(window.location.search);
+		if(urlParams.has('v')){
+			gameJsonUrl = gameJsonUrl.replace(/[0-9][0-9]+/i, urlParams.get('v'));
+		}
+		var gameInstance = UnityLoader.instantiate("gameContainer", gameJsonUrl, {onProgress: UnityProgress});
+		
+		function UnityProgress(gameInstance, progress) {
+			if (!gameInstance.Module) {
+				return;
+			}
+			const loader = document.querySelector("#loader");
+			if (!gameInstance.progress) {
+				const progress = document.querySelector("#loader .progress");
+				progress.style.display = "block";
+				gameInstance.progress = progress.querySelector(".full");
+				loader.querySelector(".spinner").style.display = "none";
+			}
+			gameInstance.progress.style.transform = `scaleX(${progress})`;
+			if (progress === 1 && !gameInstance.removeTimeout) {
+				loader.style.display = "none";
+				gameLoaded = true;
+			}
+		}
+		
+		initializeFullscreenEvents();
+		
+		injectAdByWindowSize();
+		
+		hideAds();
+		
+		document.addEventListener('visibilitychange',
+		function () {
+			if(!gameInstance)
+				return;
+			
+			if (document.visibilityState == "hidden") {
+				gameInstance.SendMessage('FocusManager', 'ApplicationFocusChangedWebCallback', 0);
+			} else {
+				gameInstance.SendMessage('FocusManager', 'ApplicationFocusChangedWebCallback', 1);
+			}
+		});
+		
+		window.addEventListener('resize', injectAdByWindowSize);
+		
+		function injectAdByWindowSize() {
+		}
+		
+		function showAds() {
+			console.log("show ads");
+			
+			document.getElementsByClassName("ad-rectangle-bottom")[0].style.display = "block";
+			document.getElementsByClassName("ad-leaderboard-bottom")[0].style.display = "block";
+			document.getElementById("adRectangleUpper").style.display = "block";
+
+			refresh();
+		}
+
+		function hideAds() {
+			console.log("hide ads");
+
+			document.getElementsByClassName("ad-rectangle-bottom")[0].style.display = "none";
+			document.getElementsByClassName("ad-leaderboard-bottom")[0].style.display = "none";
+			document.getElementById("adRectangleUpper").style.display = "none";
+		}
+
+		function refresh() {
+			console.log("refresh ads");
+		}
+
+		window.onfocus = function () {
+			console.log("onfocus");
+			refresh();
+		};
+    </script>
+    
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

@@ -1,0 +1,58 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Old Style Sink",
+        "Describe": "Easy to clog",
+        "updateCostCoin": 200,
+        "updateCostWater": 7,
+        "income": 6
+    },
+    "2": {
+        "id": 2,
+        "Name": "Curved Washbasin",
+        "Describe": "It causes waste of water",
+        "updateCostCoin": 400,
+        "updateCostWater": 7,
+        "income": 12
+    },
+    "3": {
+        "id": 3,
+        "Name": "Square Sink",
+        "Describe": "Effectively prevent water leakage",
+        "updateCostCoin": 1600,
+        "updateCostWater": 6,
+        "income": 20
+    },
+    "4": {
+        "id": 4,
+        "Name": "Bowl Type Sink",
+        "Describe": "Reduce Water Waste",
+        "updateCostCoin": 5200,
+        "updateCostWater": 6,
+        "income": 35
+    },
+    "5": {
+        "id": 5,
+        "Name": "High Class Sink",
+        "Describe": "The Most Important Thing Is To Save Water",
+        "updateCostCoin": 24000,
+        "updateCostWater": 6,
+        "income": 55
+    },
+    "6": {
+        "id": 6,
+        "Name": "Intelligent Sink",
+        "Describe": "Intelligent Water Outlet",
+        "updateCostCoin": 140000,
+        "updateCostWater": 6,
+        "income": 80
+    },
+    "7": {
+        "id": 7,
+        "Name": "Gold Sink",
+        "Describe": "Extreme Luxury, Extreme Experience!",
+        "updateCostCoin": 380000,
+        "updateCostWater": 6,
+        "income": 110
+    }
+}

@@ -1,0 +1,148 @@
+{"frames": {
+
+    "Skelz_001":
+    {
+        "frame": {"x":1793,"y":1735,"w":101,"h":42},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":891,"y":208,"w":101,"h":42},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_002":
+    {
+        "frame": {"x":897,"y":1842,"w":894,"h":88},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":98,"y":186,"w":894,"h":88},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_003":
+    {
+        "frame": {"x":897,"y":1932,"w":894,"h":88},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":98,"y":186,"w":894,"h":88},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_004":
+    {
+        "frame": {"x":897,"y":1735,"w":894,"h":105},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":98,"y":182,"w":894,"h":105},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_005":
+    {
+        "frame": {"x":1,"y":1735,"w":894,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":98,"y":0,"w":894,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_006":
+    {
+        "frame": {"x":1,"y":1,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_007":
+    {
+        "frame": {"x":995,"y":1,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_008":
+    {
+        "frame": {"x":1,"y":290,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_009":
+    {
+        "frame": {"x":995,"y":290,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_010":
+    {
+        "frame": {"x":1,"y":579,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_011":
+    {
+        "frame": {"x":995,"y":579,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_012":
+    {
+        "frame": {"x":1,"y":868,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_013":
+    {
+        "frame": {"x":995,"y":868,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_014":
+    {
+        "frame": {"x":1,"y":1157,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_015":
+    {
+        "frame": {"x":995,"y":1157,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_016":
+    {
+        "frame": {"x":1,"y":1446,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    },
+    "Skelz_017":
+    {
+        "frame": {"x":995,"y":1446,"w":992,"h":287},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":0,"w":992,"h":287},
+        "sourceSize": {"w":992,"h":288}
+    }},
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "Skelz1.png",
+        "format": "RGBA8888",
+        "size": {"w":1988,"h":2023},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:977605eb3f42a1840bd73a95394f6dc6:c60d2a80995ee412b28613b84cfac77c:e9d5588aa5e3f2528c2022879d5ceead$"
+    }
+    }

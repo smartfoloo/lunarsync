@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poor-Eddie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <meta name="generator" content="Scirra Construct">
+    <meta name="author" content="gametornado">
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+    <link rel="icon" type="image/png" href="icons/icon-128.png">
+    <meta name="theme-color" content="#cccccc">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="file.css">
+    <script type="text/javascript" src="Jump_Gamemonetize.js"></script>
+</head>
+
+<body>
+
+    <script>
+        if (location.protocol.substr(0, 4) === "file") {
+            alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+        }
+        JumpGame.startup("w6reafq5j9uxyi8hsza6fzc6a1eu8z1c");
+        var PokiSDK = {
+
+            setDebug: function(option) {
+
+            },
+            
+            gameLoadingStart: function() {
+
+            },
+            gameLoadingFinished: function() {
+                window.adsGameCon.recordOpen()
+            },
+            gameLoadingProgress: function(option) {
+
+            },
+            gameplayStart: function() {
+
+            },
+            gameplayStop: function() {
+
+            },
+            happyTime: function(option) {
+
+            },
+            happyTime: function(option) {
+
+            },
+            commercialBreak() {
+
+                return new Promise((resolve) => {
+                    JumpGame.showInterstitial({
+                        beforeShowAd: () => {
+
+                        },
+                        afterShowAd: () => {
+                            resolve()
+
+                        }
+                    })
+
+                });
+            },
+
+            rewardedBreak() {
+
+                return new Promise((resolve) => {
+                    JumpGame.showReward({
+                        beforeShowAd: () => {
+
+                        },
+                        afterShowAd: () => {
+                            resolve(true)
+                        }
+                    })
+
+                });
+            },
+            init() {
+
+                return new Promise((resolve) => {
+                    resolve()
+                });
+            },
+            isAdBlocked() {
+                return false;
+            },
+            captureError() {
+
+            },
+            shareableURL() {}
+
+
+        }
+    </script>
+    <script src="box2d.wasm.js"></script>
+
+    <noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+
+</body>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

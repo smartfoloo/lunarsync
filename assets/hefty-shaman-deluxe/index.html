@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Hefty Shaman Deluxe / Играть на igroutka.ru</title>
+
+    <meta id="viewport" name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+
+    <script src="./progress.js"></script>
+    <script src="poki-sdk.js"></script>
+
+    <script>
+        window.addEventListener("touchmove", function (event) {
+            event.preventDefault();
+        }, {capture: false, passive: false});
+        if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+            var meta = document.getElementById("viewport");
+            meta.setAttribute('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+        }
+
+        function loadScript(url, callback) {
+            // adding the script tag to the head as suggested before
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+
+            // then bind the event to the callback function
+            // there are several events for cross browser compatibility
+            script.onreadystatechange = callback;
+            script.onload = callback;
+
+            // fire the loading
+            head.appendChild(script);
+        }
+
+        function responsiveloaded() {
+            //alert("LOADED");
+        }
+
+        PokiSDK.init().then(
+            () => {
+                PokiSDK.gameLoadingStart();
+            }
+        ).catch(
+            () => {
+                PokiSDK.gameLoadingStart();
+
+            }
+        );
+    </script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #000000;
+        }
+
+        #openfl-content {
+            background: #000000;
+        }
+
+        #progress {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+        }
+
+    </style>
+
+<script type="text/javascript" src="//m.igroutka.ru/files/scripts/scr.js"></script></head>
+<body>
+<center>
+    <noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this
+        page.
+    </noscript>
+
+    <div id="openfl-content">
+        <progress id="progress" value="0" max="1"></progress>
+    </div>
+
+    <script>
+
+        var __filesToLoad = {
+            "./PokiHeftyShamanDeluxe.js": {total: 2378795}
+        }
+
+        var __progressBar;
+
+        var __progressListener = function __progressListener(progress) {
+            if (!__progressBar) __progressBar = document.getElementById("progress");
+            if (__progressBar) __progressBar.value = progress;
+        };
+
+        var __completionCallback = function __completionCallback() {
+            __progressBar.parentNode.removeChild(__progressBar);
+            lime.embed("PokiHeftyShamanDeluxe", "openfl-content", 853, 480, {parameters: {}});
+            loadScript("responsive.js", responsiveloaded);
+        };
+
+        __loadWithProgress(__filesToLoad, __progressListener, __completionCallback);
+
+    </script>
+    <center>
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

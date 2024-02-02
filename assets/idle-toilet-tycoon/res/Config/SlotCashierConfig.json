@@ -1,0 +1,30 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "The old cash register",
+        "Describe": "Just barely able to cope with the cashier",
+        "updataCostCoin": 0,
+        "income": 25
+    },
+    "2": {
+        "id": 2,
+        "Name": "Touch screen cashier",
+        "Describe": "The staff can do a better job",
+        "updataCostCoin": 10000,
+        "income": 40
+    },
+    "3": {
+        "id": 3,
+        "Name": "Multi-function cashier",
+        "Describe": "Can do some work outside the cash register",
+        "updataCostCoin": 250000,
+        "income": 60
+    },
+    "4": {
+        "id": 4,
+        "Name": "Smart cash registers",
+        "Describe": "Faster handling of cashiers and emergencies",
+        "updataCostCoin": 750000,
+        "income": 85
+    }
+}

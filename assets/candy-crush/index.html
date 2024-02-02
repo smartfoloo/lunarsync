@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name='description' content='Candy Crush is a popular mobile puzzle game where players match colorful candies to progress through levels and earn points.'>
+	<meta name="robots" content="noindex">
+	<title>Candy Crush</title>  	
+    <meta name="game-slug" content="Mayas-Match" />
+    <meta name="splashscreen-game-url" content="img/teaser.jpg" />
+    <meta name="splashscreen-big-game-url" content="img/teaser@2x.jpg" />
+<meta name="supports-ad-play-button" content="true" />
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+<script src="js/custom-phaser.min.js"></script>
+<script type="text/javascript">         
+		function scorepost(href, inputs) {    
+			
+	var gform = document.createElement('form');   
+	gform.method = 'post';    
+	gform.action = href;    
+	gform.target = '_parent';    
+	for (var k in inputs) {        
+		var input = document.createElement('input');        
+		input.setAttribute('name', k);        
+		input.setAttribute('value', inputs[k]);        
+		gform.appendChild(input);    
+	}    
+	document.body.appendChild(gform);    
+	gform.submit();    
+	document.body.removeChild(gform);
+	}
+</script>
+<script src="js/game.min.js"></script>
+  <style>
+    #focusHelper {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      display: none;
+      background-color: #000000;
+      opacity: 0;
+      top: 0px;
+      left: 0px;     }  
+  </style>
+</head>
+<body onLoad="initGame()">
+  <div id="gameFontPreload">
+  	<div style="font-family: ComicSansBold" class="fontPreload">.</div>
+  </div>
+  <div id="focusHelper"></div>
+  <script>
+  window.addEventListener("blur", function() {document.getElementById('focusHelper').style['display'] = "block"})
+  window.addEventListener("focus", function() {document.getElementById('focusHelper').style['display'] = "none"})
+</script>
+  
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

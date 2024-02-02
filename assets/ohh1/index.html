@@ -1,0 +1,161 @@
+<!--
+
+    0h h1! 
+
+    You're peeking at the source code of 0h h1. Feel free to poke around. Nothing is explicitly minified 
+    or uglified (other than the default result of me writing code). If you have any comments or questions, 
+    feel free to drop me a line at martin@q42.nl or @mrtnkl.
+
+    - Martin
+
+    (c) 2014 Q42
+    http://q42.com | @q42
+
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <title>0h h1</title>
+    <meta name="description" content="A little logic game by Q42." />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/png" href="img/icon-1024.png" />
+    <link rel="shortcut icon" href="img/icon-1024.png" />
+    <link rel="apple-touch-icon-precomposed" href="img/icon-1024.png"/>
+    
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+    <style>html,body{background:#222;}</style>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="fonts/fonts.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body bgcolor="#222222">
+    <div id="container">
+        <div id="title" class="screen show01 hide0 hide1 hidehs" data-action="close-titleScreen">
+            <div class="vertical">
+                <h1>Oh hi</h1>
+                <div id="titlegrid" class="board">
+                    <div id="digits">                    
+                        <span id="zero">0</span><span id="hs"> h h </span><span id="one">1</span>
+                    </div>
+<table data-grid="titlegrid" cellpadding="0" cellspacing="0"><tbody><tr><td class="odd"><div class="tile tile-2"><div class="inner"></div></div></td><td class="even"><div class="tile tile-1"><div class="inner"></div></td></tr></tbody></table>
+
+                </div>
+                <p>
+                    a little logic game<br>by Q42
+                </p>
+            </div>
+        </div>
+
+        <div id="menu" class="screen">
+            <div class="vertical">
+            <h2>Oh hi</h2>
+                <p data-action="tutorial">
+                How to play
+                </p>
+                <p data-action="play">
+                Play
+                </p>
+                <p data-action="about">
+                    About
+                </p>
+            </div>
+        </div>
+
+        <div id="about" class="screen text" data-action="show-menu">
+            <div class="vertical">
+            <h3>About</h3>
+            <p>
+            0h h1 is a little logic game<br>
+            by Q42.<br>
+            <br>
+            It was created by<br>
+            Martin Kool.<br>
+            <br>
+            The concept is also known<br>
+            as Takuzu or Binairo.<br>
+            <br>
+            (c) 2014<br>
+            www.q42.com
+            </p>
+            </div>
+        </div>
+
+        <div id="loading" class="screen">
+            <div class="vertical">
+                <h2>Loading</h2>
+                <p></p>
+                <div id="loadinggrid" class="board">
+<table data-grid="loadinggrid" cellpadding="0" cellspacing="0"><tbody><tr><td class="odd"><div class="tile tile-2 loading"><div class="inner"></div></div></td></tr></tbody></table>
+</div>
+            </div>
+        </div>
+
+        <div id="game" class="screen">
+            <p id="hintMsg" class="topMsg"></p>
+            <p id="chooseSize" class="topMsg">Select a size to play...</p>
+            <h2 id="boardsize"></h2>
+            <div id="board" class="vertical board"></div>
+
+
+            <div id="menugrid" class="vertical board hidden">
+<table data-grid="menugrid" cellpadding="0" cellspacing="0"><tbody>
+<tr><td class="odd"><div class="tile tile-2"><div data-action="startGame" data-size="1" class="inner"></div></div></td><td class="even"><div class="tile tile-1"><div data-action="startGame" data-size="2" class="inner"></div></div></td></tr>
+<tr><td class="even"><div class="tile tile-1"><div data-action="startGame" data-size="3" class="inner"></div></div></td><td class="odd"><div class="tile tile-2"><div data-action="startGame" data-size="4" class="inner"></div></div></td></tr>
+</tbody></table>
+            </div>
+
+            <div id="score">
+                <img id="trophy" src="img/trophy.png"><span id="scorenr">30744</span>
+            </div>
+            <div id="bar">
+                <div class="iconcon" data-action="undo"><div id="undo" class="icon"></div></div>
+                <div class="iconcon" data-action="back"><div id="back" class="icon"></div></div>
+                <a class="iconcon" id="tweeturl" target="_blank" href="about:blank" data-action="tweet"><span id="tweet" class="icon"></span></a>
+                <div class="iconcon" data-action="help"><div id="help" class="icon"></div></div>
+            </div>
+        </div>
+    </div>
+    <div id="feelsize"></div>
+    <script>
+        var WebFontConfig = {
+            custom: {
+                families: ['molle','Josefin Sans'],
+                urls: ['fonts/fonts.css']
+            },
+            active: function() {
+                //Game.start();
+                app.fontsLoaded();
+            }
+        };  
+    </script>  
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        var scripts = [
+            'js/jquery-2.1.0.min.js',
+            'js/utils.js',
+            'js/state.js',
+            'js/game.js',
+            'js/grid.js',
+            'js/tile.js',
+            'js/hint.js',
+            'js/tutorial.js',
+            'js/webfont.js',
+            'js/levels.js',
+            'js/backgroundservice.js'
+        ]
+        for (var i=0; i<scripts.length; i++) {
+            document.write('<scr'+'ipt src="' + scripts[i] + (Config.barph? ('?barph=' + (new Date() * 1)) : '') + '"></scr'+'ipt>');
+        }
+    </script>
+  </body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

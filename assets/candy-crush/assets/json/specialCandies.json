@@ -1,0 +1,217 @@
+{"candies": 
+	[	
+
+		{
+			"name": "spiral",
+			"specialInit" : false,
+			"activatedByMove": true,
+			"texture" : "candy_spiral",
+			"specialType" : "spiral",
+			"candyType" : "RANDOM",
+			"onMatchFx" : [],
+			"patterns": [
+					[0,0,-1,0,-2,0,1,0,2,0],
+					[0,0,0,-1,0,-2,0,1,0,2]
+				],
+			"exe": [
+					["matchType","LASTMOVEDWITH"]
+				]
+		},
+
+		{
+			"name": "cross",
+			"specialInit" : false,
+			"activatedByMove": false,
+			"texture" : "candy_%CANDYTYPE%_bonus_3",
+			"specialType" : "cross",
+			"candyType" : "",
+			"onMatchFx" : [["strokeH"],["strokeV"],["lightCircle"]],
+			"patterns": [
+					[0,0,-1,0,1,0,0,1,0,2],
+					[-0, 0, -0, -1, -0, 1, -1, 0, -2, 0],
+					[-0, -0, 1, -0, -1, -0, -0, -1, -0, -2],
+					[0, -0, 0, 1, 0, -1, 1, -0, 2, -0],
+					[0, 0, 1, 0, 2, 0, 0, 1, 0, 2],
+					[-0, 0, -0, 1, -0, 2, -1, 0, -2, 0],
+					[-0, -0, -1, -0, -2, -0, -0, -1, -0, -2],
+					[0, -0, 0, -1, 0, -2, 1, -0, 2, -0]
+				],
+			"exe": [
+					["loop",{"x":-1,"y":0}],
+					["loop",{"x":1,"y":0}],
+					["loop",{"x":0,"y":-1}],
+					["loop",{"x":0,"y":1}]
+				]
+		},
+
+		{
+			"name": "crossNoGraphics",
+			"specialInit" : false,
+			"activatedByMove": false,
+			"specialType" : "cross",
+			"candyType" : "",
+			"onMatchFx" : [["strokeH"],["strokeV"],["lightCircle"]],
+			"exe": [
+					["loop",{"x":-1,"y":0}],
+					["loop",{"x":1,"y":0}],
+					["loop",{"x":0,"y":-1}],
+					["loop",{"x":0,"y":1}]
+				]
+		},
+
+		
+		{
+			"name": "horizontal",
+			"specialInit" : false,
+			"activatedByMove": false,
+			"texture" : "candy_%CANDYTYPE%_bonus_1",
+			"specialType" : "horizontal",
+			"onMatchFx" : [["strokeH"],["lightCircle"]],
+			"candyType" : "",
+			"patterns": [
+					[0,0,-1,0,1,0,2,0]
+				],
+			"exe": [
+					["loop",{"x":1,"y":0}],
+					["loop",{"x":-1,"y":0}]
+				]
+		},
+
+		{
+			"name": "vertical",
+			"specialInit" : false,
+			"activatedByMove": false,
+			"texture" : "candy_%CANDYTYPE%_bonus_2",
+			"specialType" : "vertical",
+			"onMatchFx" : [["strokeV"],["lightCircle"]],
+			"candyType" : "",
+			"patterns": [
+					[0,0,0,-1,0,1,0,2]
+				],
+			"exe": [
+					["loop",{"x":0,"y":-1}],
+					["loop",{"x":0,"y":1}]
+				]
+		},
+
+
+		{
+			"name": "spiralWithSpecial",
+			"specialType" : "spiralSpecial",
+			"onMatchFx" : [],
+			"exe": [
+					["changeTypeInto","CANDYTYPE","SPECIALLASTMOVED"]
+				]
+		},
+
+		{
+			"name": "superSpiral",
+			"activatedByMove": true,
+			"texture" : "candy_spiral",
+			"specialType" : "superSpiral",
+			"candyType" : "superSpiral",
+			"onMatchFx" : [],
+			"exe": [
+					["superSpiral"]
+				]
+		},
+
+
+		{
+			"name": "dbl_cross",
+			"candyType" : "unmatch",
+			"onMatchFx" : [["strokeV"],["strokeH"],["strokeDR"],["strokeDF"],["lightCircle"]],
+			"exe": [
+				["loop",{"x":-1,"y":0}],
+				["loop",{"x":1,"y":0}],
+				["loop",{"x":0,"y":-1}],
+				["loop",{"x":0,"y":1}],
+				["loop",{"x":1,"y":1}],
+				["loop",{"x":-1,"y":-1}],
+				["loop",{"x":1,"y":-1}],
+				["loop",{"x":-1,"y":1}]
+			]
+		},
+
+		{
+			"name": "cross+downDiagonal",
+			"onMatchFx":[["strokeH"],["strokeV"],["strokeDF"],["lightCircle"]],
+			"candyType" : "unmatch",
+			"exe": [
+				["loop",{"x":-1,"y":0}],
+				["loop",{"x":1,"y":0}],
+				["loop",{"x":0,"y":-1}],
+				["loop",{"x":0,"y":1}],
+
+				["loop",{"x":-1,"y":-1}],
+				["loop",{"x":1,"y":1}]
+			]
+		},
+
+		{
+			"name": "cross+upDiagonal",
+			"onMatchFx":[["strokeH"],["strokeV"],["strokeDR"],["lightCircle"]],
+			"candyType" : "unmatch",
+			"exe": [
+				["loop",{"x":-1,"y":0}],
+				["loop",{"x":1,"y":0}],
+				["loop",{"x":0,"y":-1}],
+				["loop",{"x":0,"y":1}],
+
+				["loop",{"x":-1,"y":1}],
+				["loop",{"x":1,"y":-1}]
+			]
+		},
+
+		{
+			"name": "horizontalMove",
+			"specialInit" : false,
+			"activatedByMove": true,
+			"texture" : "candy_horizontal",
+			"specialType" : "horizontal",
+			"onMatchFx" : [["strokeH"],["lightCircle"]],
+			"candyType" : "RANDOM",
+			"exe": [
+					["loop",{"x":1,"y":0}],
+					["loop",{"x":-1,"y":0}]
+				]
+		},
+
+		{
+			"name": "verticalMove",
+			"specialInit" : false,
+			"activatedByMove": true,
+			"texture" : "candy_vertical",
+			"specialType" : "vertical",
+			"onMatchFx" : [["strokeV"],["lightCircle"]],
+			"candyType" : "RANDOM",
+			"exe": [
+					["loop",{"x":0,"y":-1}],
+					["loop",{"x":0,"y":1}]
+				]
+		}
+
+	],
+
+"combos": [
+ 
+		["vertical","verticalMove","crossNoGraphics",90],
+		["vertical","vertical","crossNoGraphics",90],
+		["horizontal","horizontal","crossNoGraphics",90],
+		["horizontal","horizontalMove","crossNoGraphics",90],
+		["vertical","horizontal","crossNoGraphics"],
+		["verticalMove","horizontalMove","crossNoGraphics"],
+		["verticalMove","horizontal","crossNoGraphics"],
+		["vertical","horizontalMove","crossNoGraphics"],
+		["vertical","cross","cross+upDiagonal",45],
+		["verticalMove","cross","cross+upDiagonal",45],
+		["horizontal","cross","cross+downDiagonal",45],
+		["horizontalMove","cross","cross+downDiagonal",45],
+		["cross","cross","dbl_cross",45]
+	],
+
+	"goalCandies": [
+		"goalCandy"
+	]
+
+}

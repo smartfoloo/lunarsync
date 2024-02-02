@@ -1,0 +1,10 @@
+{
+	"name": "TAG",
+	"short_name": "TAG",
+	"description": "TAG",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": []
+}

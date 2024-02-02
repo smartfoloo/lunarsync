@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Pot Plant",
+        "Describe": "It Has Just Been Planted And Has Not Yet Bloomed",
+        "updateCostCoin": 300,
+        "income": 10
+    },
+    "2": {
+        "id": 2,
+        "Name": "Cactus",
+        "Describe": "Easy To Care, No Need To Water",
+        "updateCostCoin": 1100,
+        "income": 22
+    },
+    "3": {
+        "id": 3,
+        "Name": "Bamboo",
+        "Describe": "It Is Beautiful And Easy To Maintain",
+        "updateCostCoin": 21000,
+        "income": 36
+    },
+    "4": {
+        "id": 4,
+        "Name": "Anthurium",
+        "Describe": "Be Enthusiastic When You Go To The Toilet",
+        "updateCostCoin": 70000,
+        "income": 53
+    },
+    "5": {
+        "id": 5,
+        "Name": "Tulip",
+        "Describe": "Never Forget The Value Of Friendship",
+        "updateCostCoin": 160000,
+        "income": 75
+    }
+}

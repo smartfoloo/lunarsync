@@ -1,0 +1,36 @@
+{"frames": {
+
+    "MHarleTors_174":
+    {
+        "frame": {"x":1,"y":1,"w":310,"h":341},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":245,"y":0,"w":310,"h":341},
+        "sourceSize": {"w":576,"h":356}
+    },
+    "MHarleTors_175":
+    {
+        "frame": {"x":313,"y":1,"w":308,"h":341},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":242,"y":0,"w":308,"h":341},
+        "sourceSize": {"w":576,"h":356}
+    },
+    "MHarleTors_176":
+    {
+        "frame": {"x":623,"y":1,"w":306,"h":341},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":239,"y":0,"w":306,"h":341},
+        "sourceSize": {"w":576,"h":356}
+    }},
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "MHarleTors2.png",
+        "format": "RGBA8888",
+        "size": {"w":930,"h":343},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:31026693b6df147efd4f450e6d992a50:be25b6126eca6ae76260cf7e41724e9c:a6414f1728ee0ba83976edf1739d7638$"
+    }
+    }

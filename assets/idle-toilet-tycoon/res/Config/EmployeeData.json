@@ -1,0 +1,663 @@
+[
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Sythe",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Grave",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Trip",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Gunner",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Trooper",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Hash",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Tweek",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Hashtag",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Vein",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Indominus",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Void",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Ironclad",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Wardon",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Killer",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Wraith",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Knuckles",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Zero",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.5,
+        "Level": 2,
+        "Skill": [],
+        "Name": "Steel",
+        "Price": 5000,
+        "Weight": 0.5
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            }
+        ],
+        "Name": "Lightning",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            }
+        ],
+        "Name": "Tito",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            }
+        ],
+        "Name": "Bullet-Proof",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Titanium",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Hurricane",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Ironsides",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Tempest",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Iron Heart",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Steel Forge",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Be Nice",
+                "Desc": "Earn Tips When You Complete Your Work",
+                "Type": 3,
+                "parameter": [
+                    1200
+                ]
+            }
+        ],
+        "Name": "Lightning",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Be Nice",
+                "Desc": "Earn Tips When You Complete Your Work",
+                "Type": 3,
+                "parameter": [
+                    1200
+                ]
+            }
+        ],
+        "Name": "Sick Names",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Luck",
+                "Desc": "Get A Small Amount Of Diamonds After \n The Job Is Done",
+                "Type": 4,
+                "parameter": [
+                    5
+                ]
+            }
+        ],
+        "Name": "Uprising",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.6,
+        "Level": 3,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Luck",
+                "Desc": "Get A Small Amount Of Diamonds After \n The Job Is Done",
+                "Type": 4,
+                "parameter": [
+                    5
+                ]
+            }
+        ],
+        "Name": "Overthrow",
+        "Price": 20000,
+        "Weight": 0.3
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Breaker",
+        "Price": 100000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Sabotage",
+        "Price": 100000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Be Nice",
+                "Desc": "Earn Tips When You Complete Your Work",
+                "Type": 3,
+                "parameter": [
+                    1500
+                ]
+            }
+        ],
+        "Name": "Dissent",
+        "Price": 10000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Kevlar",
+                "Desc": "Movement Speed +50%",
+                "Type": 2,
+                "parameter": [
+                    0.5
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Luck",
+                "Desc": "Get A Small Amount Of Diamonds After \n The Job Is Done",
+                "Type": 4,
+                "parameter": [
+                    5
+                ]
+            }
+        ],
+        "Name": "Subversion",
+        "Price": 100000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            }
+        ],
+        "Name": "Rebellion",
+        "Price": 100000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Be Nice",
+                "Desc": "Earn Tips When You Complete Your Work",
+                "Type": 3,
+                "parameter": [
+                    1500
+                ]
+            }
+        ],
+        "Name": "Insurgent",
+        "Price": 10000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "The Cleaner",
+                "Desc": "Cleaning Speed +20%",
+                "Type": 0,
+                "parameter": [
+                    0.2
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Luck",
+                "Desc": "Get A Small Amount Of Diamonds After \n The Job Is Done",
+                "Type": 4,
+                "parameter": [
+                    5
+                ]
+            }
+        ],
+        "Name": "Genius",
+        "Price": 10000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Be Nice",
+                "Desc": "Earn Tips When You Complete Your Work",
+                "Type": 3,
+                "parameter": [
+                    1500
+                ]
+            }
+        ],
+        "Name": "Accidental",
+        "Price": 100000,
+        "Weight": 0.2
+    },
+    {
+        "Gender": 0,
+        "MoveSpeed": 1.7,
+        "Level": 4,
+        "Skill": [
+            {
+                "Icon": "kongbai.png",
+                "Title": "Repairman",
+                "Desc": "Repair Speed +20%",
+                "Type": 1,
+                "parameter": [
+                    0.2
+                ]
+            },
+            {
+                "Icon": "kongbai.png",
+                "Title": "Luck",
+                "Desc": "Get A Small Amount Of Diamonds After \n The Job Is Done",
+                "Type": 4,
+                "parameter": [
+                    5
+                ]
+            }
+        ],
+        "Name": "Acid Gosling",
+        "Price": 100000,
+        "Weight": 0.2
+    }
+]

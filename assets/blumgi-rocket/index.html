@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        canvas {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            outline: 0;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+        }
+
+        body {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            outline: 0
+        }
+
+        .floating {
+            position: absolute;
+            animation-name: floating;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes floating {
+            from {
+                transform: translate(0, 0px);
+                
+            }
+            65% {
+                transform: translate(0, 15px);
+            }
+            to {
+                transform: translate(0, -0px);
+            }
+        }
+    </style>
+
+
+    <meta charset="UTF-8">
+    <title>Blumgi Rocket</title>
+		<script id='LeChuckAPIjs' src="https://ssl.minijuegosgratis.com/lechuck/js/lasite-lock.js"></script>
+		<script type='text/javascript'>
+		lechuck = new LeChuckAPI({});
+		</script>
+		<script>
+        var mpConfig = {
+            "game": "blumgi-rocket",
+            "partner": "miniplay"
+        };
+		setTimeout(function(){
+			lechuck instanceof Object&&lechuck.events.onApiReady(function(){lechuck.environment.isExternal()&&(document.getElementById("mjLink").style.display="flex")});
+		}, 2000);//wait 2 seconds
+    </script>
+    <script src="https://ext.minijuegosgratis.com/external-host/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <div id="fb-root"></div>
+    <script src="box2d.wasm.js"></script>
+    <noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+  
+</body>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

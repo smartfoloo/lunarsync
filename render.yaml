@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: Platformer.io
+    env: static
+    staticPublishPath: .

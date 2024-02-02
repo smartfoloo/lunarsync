@@ -1,0 +1,30 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "A regular desk",
+        "Describe": "A chair of pure wood",
+        "updateCostCoin": 0,
+        "income": 80
+    },
+    "2": {
+        "id": 2,
+        "Name": "High class desk",
+        "Describe": "Basically can meet the use",
+        "updateCostCoin": 66000,
+        "income": 120
+    },
+    "3": {
+        "id": 3,
+        "Name": "Imported desk",
+        "Describe": "Very comfortable",
+        "updateCostCoin": 380000,
+        "income": 175
+    },
+    "4": {
+        "id": 4,
+        "Name": "U-shaped desk",
+        "Describe": "Very interesting design",
+        "updateCostCoin": 1120000,
+        "income": 250
+    }
+}

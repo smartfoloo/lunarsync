@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Soccer Skills World Cup</title>
+<link rel="icon" type="image/png" href="icon.png">
+<script src="/iframes/sitelock.js"></script>
+
+
+<style>
+body { margin: 0px; padding: 0px; overflow: hidden; }
+@font-face
+{
+font-family: TekoSkills;
+src: url(data/Teko-Medium.ttf);
+}
+* { font-family: TekoSkills; }
+
+canvas {
+-webkit-tap-highlight-color: transparent;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+
+user-select: none;
+}
+</style>
+
+<script>
+var isphone=false;
+if (navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/BlackBerry/i)||navigator.userAgent.match(/iPhone|iPad|iPod/i)||navigator.userAgent.match(/Opera Mini/i)||navigator.userAgent.match(/IEMobile/i)) { isphone=true; }
+var isios=false;
+if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) { isios=true; }
+
+var checkrotate=true;
+var rosize=new Image();
+if (!isphone) { rosize.src="data/resize.gif"; } else { rosize.src="data/rotate.gif"; }
+</script>
+
+<script src="soccerskills.js"></script>
+<script src="patch/js/poki-sdk-v2.js"></script>
+</head>
+
+<body onload=init() bgcolor=#000000 link=#D3F2FF alink=#D3F2FF vlink=#D3F2FF leftmargin=0 topmargin=0 margin=0 marginheight=0 marginwidth=0>
+<canvas id="gamecanvas" onclick="canvasclick()" style="padding-left: 0; padding-right: 0;  margin-right: auto; margin-left: auto; display: block; width: 1280px; height: 720px;" width=1280 height=720></canvas>
+
+<script>
+var canvasElement=document.getElementById('gamecanvas');
+canvasElement.addEventListener("mousedown",msdown,false);
+canvasElement.addEventListener('mousemove',msmove,false);
+canvasElement.addEventListener("mouseup",msup,false);
+canvasElement.addEventListener('mouseout',msup,false);
+
+canvasElement.addEventListener('touchmove',frmove,false);
+canvasElement.addEventListener('touchstart',frdown,false);
+canvasElement.addEventListener('touchend',frup,false);
+
+var rd=canvasElement.getContext('2d');
+var xm=0,ym=0;
+var mdown=false;
+
+function msmove(evt)
+{
+var rect=canvasElement.getBoundingClientRect();
+xm=(evt.clientX-rect.left); 
+ym=(evt.clientY-rect.top);
+}
+
+function msdown(evt)
+{
+var rect=canvasElement.getBoundingClientRect();
+xm=(evt.clientX-rect.left); 
+ym=(evt.clientY-rect.top);
+mdown=true;
+}
+
+function msup(evt) { mdown=false; }
+
+
+function frmove(evt)
+{
+var cxm=0,cym=0;
+for (var i=0;i<evt.touches.length;i++)
+{
+cxm+=evt.touches[i].clientX;
+cym+=evt.touches[i].clientY;
+}
+var rect=canvasElement.getBoundingClientRect();
+xm=((cxm/evt.touches.length)-rect.left);
+ym=((cym/evt.touches.length)-rect.top);
+
+evt.preventDefault();
+}
+
+
+function frdown(evt)
+{
+var cxm=0,cym=0;
+for (var i=0;i<evt.touches.length;i++)
+{
+cxm+=evt.touches[i].clientX;
+cym+=evt.touches[i].clientY;
+}
+var rect=canvasElement.getBoundingClientRect();
+xm=((cxm/evt.touches.length)-rect.left);
+ym=((cym/evt.touches.length)-rect.top);
+mdown=true;
+}
+
+function frup(evt) { mdown=false; }
+
+
+function init() { PokiSDK.init().then(startLoading).catch(() => { startLoading(); }); }
+
+function startLoading() { gamerun(); PokiSDK.gameLoadingStart(); }
+
+function loadingComplete() { PokiSDK.gameLoadingFinished(); }
+
+function gameplayStart() { PokiSDK.gameplayStart(); }
+
+function gameplayStop() { PokiSDK.gameplayStop(); }
+
+function showHalftimeAd() { PokiSDK.gameplayStop(); adpause=true; PokiSDK.commercialBreak().then(() => { PokiSDK.gameplayStart(); adpause=false; }); }
+
+function showLoadingAd() { adpause=true; PokiSDK.commercialBreak().then(() => { adpause=false; }); }
+
+function showRewardAd() { adpause=true; PokiSDK.rewardedBreak().then((success) => { if(success) { cntimeout=3; } else { cntimeout=2; } pointcnt=0; adpause=false; }); }
+
+
+</script>
+
+
+
+</body>
+
+
+<script src="/js/site-lock.js"></script>
+</html>

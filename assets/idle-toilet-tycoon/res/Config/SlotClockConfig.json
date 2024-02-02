@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "The clock",
+        "Describe": "Don't miss your plane!",
+        "updataCostDiamond": 300,
+        "Buff": -3
+    }
+}

@@ -1,0 +1,45 @@
+body {
+  color: #fff;
+}
+
+a {
+  transition: 300ms;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 2;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.main-content {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.box {
+  background: transparent;
+  border-radius: 15px;
+  margin: 10px 200px;
+  padding: 10px 47px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  outline: 1px solid #495057;
+}

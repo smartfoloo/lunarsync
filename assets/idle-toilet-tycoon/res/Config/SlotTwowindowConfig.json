@@ -1,0 +1,30 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Continuous row window",
+        "Describe": "A simple window",
+        "updateCostCoin": 0,
+        "income": 24
+    },
+    "2": {
+        "id": 2,
+        "Name": "A row window with curtains",
+        "Describe": "An ornament with curtains",
+        "updateCostCoin": 27000,
+        "income": 40
+    },
+    "3": {
+        "id": 3,
+        "Name": "A row window with blinds",
+        "Describe": "Excellent in every way",
+        "updateCostCoin": 50000,
+        "income": 58
+    },
+    "4": {
+        "id": 4,
+        "Name": "Row Windows with electric blinds",
+        "Describe": "Electrically controlled blinds",
+        "updateCostCoin": 10000,
+        "income": 78
+    }
+}

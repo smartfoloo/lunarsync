@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+   <meta name="description" content="170+ Free Games">
+   <meta name="keywords" content="unblocked, games, unblocked games, school, work">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Platformer.io</title>
+  <link rel="icon" href="/favicon.png" type="image/xcon" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/css/navbar.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/toggle.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y2W1BSNMG9');
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <script src="/js/navbar.js" defer></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="right">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="/index.html" class="logo">
+        <img src="/favicon.png" class="logo-image">
+        Platformer.io
+      </a>
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="/index.html"><i class="fa-solid fa-house" style="margin-right: 5px;"></i>Home</a></li>
+        <li><a href="/games"><i class="fa-solid fa-gamepad" style="margin-right: 5px;"></i>Games</a></li>
+       <!--<li><a href="/music.html"><i class="fa-solid fa-music" style="margin-right: 5px;"></i>Music</a></li>-->
+        <li><a href="/extras"><i class="fa-solid fa-circle-plus" style="margin-right: 5px;"></i>Extras</a></li>
+      </ul>
+    </div>
+    <div class="left">
+      <a href="https://docs.google.com/document/d/1g78UIcjb2sj9QGRZOiDTrQIQHl8ekJauAOb_zR24sNI/edit?usp=sharing"><button class="nav-big-btn"><i class="fa-solid fa-link"></i></button></a>
+      <a href="/settings.html"><button class="nav-big-btn"><i class="fa-solid fa-gear"></i></button></a>
+        <a href="/profile.html"><button class="nav-big-btn"><i class="fa-solid fa-user"></i></button></a>
+    </div>
+  </nav>
+  <div class="main-content">
+    <div class="box">
+      <h3 style="margin-bottom: 10px;">Tab Cloak</h3>
+      <div class="buttons">
+        <input id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)" />
+        <input id="icon" class="input" placeholder="Favicon" onkeyup="setFavicon(this.value.trim())" />
+      </div>
+      <h4>This will automatically be saved across our site!</h4>
+      <h4>Note: Enter the Image URL for the favicon.</h4>
+    </div>
+    <div class="box">
+      <h3 style="margin-bottom: 10px;">Panic Key</h3>
+      <!--<button class="url-button" data-url="https://www.instructure.com/canvas?domain=canvas">Canvas</button>
+      <button class="url-button" data-url="https://classroom.google.com/">Google Classroom</button>
+      <button class="url-button" data-url="https://drive.google.com/drive/my-drive">Google Drive</button>
+      <button class="url-button" data-url="https://www.khanacademy.org/">Khan Academy</button>-->
+      <div class="custom-url">
+        <input type="text" id="customUrlInput" placeholder="Enter Custom Educational Site">
+        <br>
+        <button id="setCustomUrlButton"  style="margin-bottom: 40px;">Set Custom URL</button>
+      </div>
+      <div class="record-key">
+        <span id="selectedKeyDisplay"><span id="selectedKey">Press a key</span></span>
+        <br>
+        <button id="recordKeyButton"><i class="fa-solid fa-microphone"></i> Record Key</button>
+      </div>
+      <h4>Press this key to get back to work!</h4>
+    </div>
+
+    <div class="box">
+      <h3 style="margin-bottom: 10px;">about:blank Cloak</h3>
+      <label class="switch">
+        <input type="checkbox">
+        <span onclick="openblankpage()" class="slider round"></span>
+      </label>
+      <script>
+        function openblankpage() {
+          var win = window.open()
+          var url = window.location.href
+          var iframe = win.document.createElement('iframe')
+          iframe.style.position = "fixed"
+          iframe.style.width = "100%"
+          iframe.style.height = "100%"
+          iframe.style.border = "none"
+          iframe.style.top = "0"
+          iframe.style.bottom = "0"
+          iframe.style.left = "0"
+          iframe.style.right = "0"
+          iframe.style.margin = "0"
+          iframe.style.padding = "0"
+          iframe.style.overflow = "hidden"
+          iframe.src = url
+          win.document.body.appendChild(iframe)
+        }
+      </script>
+    </div>
+    <div class="box">
+      <h3 style="margin-bottom: 10px;">Translate Site</h3>
+      <h4>This feature is available in the bottom of the home page.</h4>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p>Copyright Platformer.io 2023</p>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, "google_translate_element");
+      }
+    </script>
+    <script type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </footer>
+</body>
+
+<script src="/js/settings.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/togglespec.js"></script>
+
+
+<script src="/js/sw.js"></script>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stickman Fighter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <meta name="generator" content="Scirra Construct">
+    <meta name="author" content="ARF Games">
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="icon" type="image/png" href="icons/icon-32.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <script>
+        if (location.protocol.substr(0, 4) === "file") {
+            alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+        }
+    </script>
+    <script src="gameanalytics.js"></script>
+
+    <script src="bundle.js"></script>
+    <noscript>
+		<div id="notSupportedWrap">
+            
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+
+  
+</body>
+<script>
+    window.SDK_OPTIONS = {
+        gameId: "35vohyrh9uqn09vtuneui4q71htmc8p2",
+        onEvent: function(a) {
+            switch (a.name) {
+                case "SDK_GAME_PAUSE":
+                    // pause game logic / mute audio
+                    break;
+                case "SDK_GAME_START":
+                    // advertisement done, resume game logic and unmute audio
+                    break;
+                case "SDK_READY":
+                    // when sdk is ready
+                    break;
+            }
+        }
+    };
+    (function(a, b, c) {
+        var d = a.getElementsByTagName(b)[0];
+        a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+    })(document, "script", "gamemonetize-sdk");
+
+    function google_analytics() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+
+
+    setTimeout(function() {
+        google_analytics();
+    }, 1000);
+</script>
+  
+<style>
+    html,
+    body {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        touch-action: pan-x pan-y;
+    }
+
+    /* @media only screen and (orientation:landscape) {
+			body {
+				transform: rotate(90deg);
+			}
+		} */
+
+    .floating {
+        position: absolute;
+        animation-name: floating;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes floating {
+        from {
+            transform: translate(0, 0px);
+        }
+        65% {
+            transform: translate(0, 15px);
+        }
+        to {
+            transform: translate(0, -0px);
+        }
+    }
+</style>
+
+
+
+<script src="/js/site-lock.js"></script>
+</html>

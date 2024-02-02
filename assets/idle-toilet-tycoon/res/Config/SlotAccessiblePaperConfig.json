@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Roll Paper",
+        "Describe": "It's A Little Unsanitary",
+        "updateCostCoin": 0,
+        "income": 4
+    },
+    "2": {
+        "id": 2,
+        "Name": "Toilet Paper",
+        "Describe": "Hygiene Is Guaranteed",
+        "updateCostCoin": 150,
+        "income": 9
+    },
+    "3": {
+        "id": 3,
+        "Name": "Paper Draw",
+        "Describe": "Standard Paper Draw, Barely Working",
+        "updateCostCoin": 1500,
+        "income": 15
+    },
+    "4": {
+        "id": 4,
+        "Name": "Advanced Paper Pump",
+        "Describe": "Soft Paper, Plus Inexhaustible Capacity",
+        "updateCostCoin": 29000,
+        "income": 27
+    },
+    "5": {
+        "id": 5,
+        "Name": "Smart Paper Pump",
+        "Describe": "Voice Control, More Convenient And Free",
+        "updateCostCoin": 130000,
+        "income": 52
+    }
+}
