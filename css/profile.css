@@ -69,7 +69,7 @@ h5 {
 }
 
 ::placeholder {
-  color: #fff;
+  color: #757575;
   font-size: 16px;
 }
 
@@ -87,7 +87,7 @@ h5 {
   text-decoration-style: solid;
   text-decoration-color: #fff;
   transition: 300ms;
-  outline: 1px solid #495057;
+  outline: 1px solid #757575;
   align-self: center !important;
 }
 
@@ -144,7 +144,7 @@ h5 {
   transition: all 300ms;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  outline: 1px solid #495057;
+  outline: 1px solid #757575;
   margin: 0px;
 }
 
@@ -163,7 +163,7 @@ h5 {
 
 .stat-card {
   width: 30%;
-  outline: 1px solid #495057;
+  outline: 1px solid #757575;
   margin-top: 20px;
   text-align: center;
   border-radius: 15px;

@@ -43,8 +43,8 @@ input {
   color: #fff;
   text-align: center;
   margin: 10px;
-  border-radius: 15px;
-  -webkit-border-radius:15px;
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
   text-decoration-style: solid;
   text-decoration-color: #fff;
   transition: 500ms;
@@ -150,7 +150,7 @@ input:hover {
 kbd {
   font-family: Arial, sans-serif;
   background-color: #1b1b1b;
-  border: 1px solid #495057;
+  border: 1px solid #757575;
   padding: 5px 10px;
   border-radius: 3px;
 }
