@@ -7,9 +7,9 @@
 }
 
 body {
-  background: #000;
+  background: var(--text-secondary);
   font-family: 'Inter';
-  color: #fff;
+  color: var(--text);
 }
 
 h1 {
@@ -36,17 +36,17 @@ input.searchbar{
     text-align:center;
     outline:none;
     background:#222222;
-    color:#FFFFFF;
+    color:var(--text)var(--text);
     border-radius:20px;
     border-style:solid;
     border-color:#222222;
 }
 input.searchbar:hover{
-    border-color:#1cd96a;
+    border-color:var(--theme);
 }
 
 .music-container {
-  background: #000;
+  background: var(--text-secondary);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,7 +78,7 @@ input.searchbar:hover{
 .action-btn {
   background: transparent;
   border: 0;
-  color: #fff;
+  color: var(--text);
   font-size: 20px;
   cursor: pointer;
   padding: 5px;
@@ -95,14 +95,14 @@ input.searchbar:hover{
 
 .action-btn-big {
   padding: 10px;
-  color: #000;
-  background: #fff;
+  color: var(--text-secondary);
+  background: var(--text);
   border-radius: 20px;
 }
 
 .action-btn-big:hover {
   transform: scale(1.1);
-  color: #000;
+  color: var(--text-secondary);
 }
 
 .music-info {
@@ -129,7 +129,7 @@ input.searchbar:hover{
 }
 
 .progress {
-  background: #1cd96a;
+  background: var(--theme);
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -137,7 +137,7 @@ input.searchbar:hover{
 }
 
 .progress:hover {
-  background: #1cd96a;
+  background: var(--theme);
 }
 
 @media screen and (max-width: 800px) {
@@ -154,7 +154,7 @@ input.searchbar:hover{
 }
 
 .playlist-card {
-  background-color: #1b1b1b;
+  background-color: var(--background3);
   padding: 15px;
   border-radius: 15px;
   display: inline-block;
@@ -285,15 +285,15 @@ input.searchbar:hover{
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: var(--text-secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1cd96a;
+  background: var(--theme);
   border-radius: 8px;
 }
 body {
-    background: #000;
+    background: var(--text-secondary);
   }
   .lightrope {
     text-align: center;

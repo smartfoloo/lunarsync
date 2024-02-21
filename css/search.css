@@ -14,8 +14,8 @@ h4 {
 }
 
 .main-content {
-  color: #fff;
-  margin-top: 90px;
+  color: var(--text);
+  margin-top: 100px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -28,24 +28,24 @@ h4 {
 }
 
 input {
-  background: #1b1b1b;
+  background: var(--background3);
   border: none;
   padding: 15px 20px;
   font-size: 16px;
   width: 50vw;
-  color: #fff;
+  color: var(--text);
   text-align: center;
   margin: 10px;
   border-radius: 23px;
   -webkit-border-radius: 23px;
   text-decoration-style: solid;
-  text-decoration-color: #fff;
+  text-decoration-color: var(--text);
   transition: 500ms;
   outline: none;
 }
 
 input:hover {
-  background: #252525;
+  background: var(--background3);
 }
 
 ::placeholder {

@@ -89,20 +89,16 @@ function resetTab() {
 
 document.addEventListener('DOMContentLoaded', function () {
   const urlButtons = document.querySelectorAll('.url-button');
-  const customUrlInput = document.getElementById('customUrlInput');
-  /*const setCustomUrlButton = document.getElementById('setCustomUrlButton');*/
   const recordKeyButton = document.getElementById('recordKeyButton');
   const selectedKeyDisplay = document.getElementById('selectedKey');
   const selectedKey = localStorage.getItem('selectedKey');
-  /*const selectedUrlButton = document.querySelector(`[data-url="${localStorage.getItem('selectedUrl')}"]`);*/
+  const selectedUrlButton = document.querySelector(`[data-url="${localStorage.getItem('selectedUrl')}"]`);
 
   if (selectedKey) {
     selectedKeyDisplay.innerHTML = `<kbd>${selectedKey}</kbd>`;
   }
-
-
   
-  /*if (selectedUrlButton) {
+  if (selectedUrlButton) {
     selectedUrlButton.classList.add('selected-url');
   }
 
@@ -118,12 +114,6 @@ document.addEventListener('DOMContentLoaded', function () {
       localStorage.setItem('selectedUrl', selectedUrl);
     });
   });
-  */
-
-  setCustomUrlButton.addEventListener('click', function () {
-    const customUrl = customUrlInput.value;
-    localStorage.setItem('selectedUrl', customUrl);
-  });
 
   recordKeyButton.addEventListener('click', function () {
     selectedKeyDisplay.innerHTML = '<kbd>Press a key</kbd>';
@@ -136,4 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
+function setTheme(theme) {
+  document.body.setAttribute('theme', theme);
+  localStorage.setItem('theme', theme);
+}

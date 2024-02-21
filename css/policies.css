@@ -1,5 +1,5 @@
 body {
-  color: #fff;
+  color: var(--text);
 }
 
 a {
@@ -30,7 +30,7 @@ h4 {
 }
 
 .main-content {
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
 }
 

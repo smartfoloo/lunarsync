@@ -1,0 +1,59 @@
+body[theme="default"] {
+  --background: #121212;
+  --background2: #161616;
+  --background3: #1f1f1f;
+  --theme: #1cd96a;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #2b2b2b;
+}
+
+body[theme="light"] {
+  --background: #fff;
+  --background2: #e0e0e0;
+  --background3: #9e9e9e;
+  --theme: #1cd96a;
+  --text: #000;
+  --text-secondary: #fff;
+  --nav-btn: #cfcfcf;
+}
+
+body[theme="abyss"] {
+  --background: #000c18;
+  --background2: #1a242d;
+  --background3: #262641;
+  --theme: #4958e4;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #10192c;
+}
+
+body[theme="magma"] {
+  --background: #310000;
+  --background2: #5a0000;
+  --background3: #b10000;
+  --theme: #ff0000;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #850000;
+}
+
+body[theme="mint-apple"] {
+  --background: #132421;
+  --background2: #181e10;
+  --background3: #1b3730;
+  --theme: #578464;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #578464;
+}
+
+body[theme="sunset"] {
+  --background: #132421;
+  --background2: #b85b43;
+  --background3: #7c2b8e;
+  --theme: #d37015;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #d37015;
+}

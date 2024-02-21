@@ -1,18 +1,8 @@
 const texts = [
-  "dm me to host this site",
-  "derek is cool",
-  "join the discord!",
-  "its christmas timeeeeeeee",
-  "🎄🎄🎄🎄",
-  "rooftop snipers 2 is peak gaming",
-  "you can flex your time in profile ",
-  "get back to work, blud",
-  "https://youtu.be/dQw4w9WgXcQ DONT CLICK!!!",
-  "make ur own platformer link in out github repo",
-  "theres an emulator in extras 🤯",
-  "change your nickname in profile",
-  "nobody ever reads these :sigh:",
-  "hello from dill ehehehhe",
+  "check out settings for custom themes",
+  "who got the apple vision pro?",
+  "you got homework to do!",
+  "this is v4 beta"
 ];
 
 function getRandomText() {

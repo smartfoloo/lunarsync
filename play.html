@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="/css/gameframe.css">
   <link rel="stylesheet" href="/css/toggle.css">
   <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/themes.css">
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -31,19 +32,17 @@
         <img src="/favicon.png" class="logo-image">
         Platformer.io
       </a>
-      <ul class="nav-links">
-        <i class="uil uil-times navCloseBtn"></i>
-        <li><a href="/index.html"><i class="fa-solid fa-house" style="margin-right: 5px;"></i>Home</a></li>
-        <li><a href="/games"><i class="fa-solid fa-gamepad" style="margin-right: 5px;"></i>Games</a></li>
-       <!--<li><a href="/music.html"><i class="fa-solid fa-music" style="margin-right: 5px;"></i>Music</a></li>-->
-        <li><a href="/extras"><i class="fa-solid fa-circle-plus" style="margin-right: 5px;"></i>Extras</a></li>
-       
-      </ul>
     </div>
     <div class="left">
-      <a href="https://docs.google.com/document/d/1g78UIcjb2sj9QGRZOiDTrQIQHl8ekJauAOb_zR24sNI/edit?usp=sharing"><button class="nav-big-btn"><i class="fa-solid fa-link"></i></button></a>
-      <a href="/settings.html"><button class="nav-big-btn"><i class="fa-solid fa-gear"></i></button></a>
-        <a href="/profile.html"><button class="nav-big-btn"><i class="fa-solid fa-user"></i></button></a>
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <a href="/"><button class="nav-btn"><i class="fa-solid fa-home"></i></button></a>
+        <a href="/games"><button class="nav-btn"><i class="fa-solid fa-gamepad"></i></button></a>
+        <a href="/extras"><button class="nav-btn"><i class="fa-solid fa-circle-plus"></i></button></a>
+        <a href="https://docs.google.com/document/d/1g78UIcjb2sj9QGRZOiDTrQIQHl8ekJauAOb_zR24sNI/edit?usp=sharing"><button class="nav-btn"><i class="fa-solid fa-link"></i></button></a>
+        <a href="/settings.html"><button class="nav-btn"><i class="fa-solid fa-gear"></i></button></a>
+        <a href="/profile.html"><button class="nav-btn"><i class="fa-solid fa-user"></i></button></a>
+      </ul>
     </div>
   </nav>
   <div class="main-content">
@@ -58,17 +57,41 @@
         <div class="right">
           <button class="star" id="likeButton" onclick="toggleLike()">
             <p class="star-logo">
-              <i class="fa-regular fa-star" style="color: #fff;"></i>
+              <i class="fa-regular fa-star" style="color: var(--text);"></i>
             </p>
           </button>
           <button class="expand" onclick="fullscreen()">
             <p class="expand-logo">
-              <i class="fa-solid fa-expand" style="color: #fff;"></i>
+              <i class="fa-solid fa-expand" style="color: var(--text);"></i>
             </p>
           </button>
         </div>
       </div>
     </div>
+    <button class="openaboutblankbutton" onclick="openblankpage()">
+      <i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 4px;"></i>
+      Open in about:blank
+    </button>
+    <script>
+      function openblankpage() {
+        var win = window.open()
+        var url = window.location.href
+        var iframe = win.document.createElement('iframe')
+        iframe.style.position = "fixed"
+        iframe.style.width = "100%"
+        iframe.style.height = "100%"
+        iframe.style.border = "none"
+        iframe.style.top = "0"
+        iframe.style.bottom = "0"
+        iframe.style.left = "0"
+        iframe.style.right = "0"
+        iframe.style.margin = "0"
+        iframe.style.padding = "0"
+        iframe.style.overflow = "hidden"
+        iframe.src = url
+        win.document.body.appendChild(iframe)
+      }
+    </script>
   </div>
   <footer class="footer">
     <p>Copyright Platformer.io 2023</p>

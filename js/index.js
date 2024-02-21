@@ -17,6 +17,11 @@ if (tabData.icon) {
   document.querySelector('link[rel="icon"]').href = tabData.icon;
 }
 
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  document.body.setAttribute('theme', savedTheme);
+}
+
 function startTrackingTime() {
   var startTime = new Date().getTime();
   localStorage.setItem("startTime", startTime.toString());

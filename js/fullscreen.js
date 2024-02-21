@@ -47,9 +47,9 @@ function toggleLike(isLiked) {
   var starLogo = starButton.querySelector('.star-logo');
 
   if (isLiked) {
-    starLogo.innerHTML = '<i class="fa-solid fa-star" style="color: #fff;"></i>';
+    starLogo.innerHTML = '<i class="fa-solid fa-star" style="color: var(--text);"></i>';
   } else {
-    starLogo.innerHTML = '<i class="fa-regular fa-star" style="color: #fff;"></i>';
+    starLogo.innerHTML = '<i class="fa-regular fa-star" style="color: var(--text);"></i>';
   }
 }
 

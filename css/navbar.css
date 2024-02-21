@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
 :root {
-  --default: #1cd96a;
-  --halloween: #eaa133;
+  --background: #121212;
+  --background2: #161616;
+  --background3: #1f1f1f;
+  --theme: #1cd96a;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #2b2b2b;
 }
 
 * {
@@ -13,7 +18,7 @@
   letter-spacing: 0 !important;
 }
 body {
-  background: #121212;
+  background: var(--background);
   font-weight: 400;
 }
 
@@ -21,23 +26,22 @@ body {
   top: 0px;
   position: fixed;
   z-index: 999999;
-  width: 100%;
-  padding: 15px 50px;
-  background: #121212;
+  margin: 15px 10%;
+  background: var(--background3);
   justify-content: space-between;
   height: 70px;
+  border-radius: 20px;
+  width: 80%;
 }
 .nav,
 .nav .nav-links {
   display: flex;
   align-items: center;
 }
+
 a {
-  color: #fff;
+  color: var(--text);
   text-decoration: none;
-}
-.nav-links a:hover {
-  color: var(--default);
 }
 .nav .logo .logo-image {
   height: 26px;
@@ -65,20 +69,21 @@ a {
   gap: 15px;
 }
 
-.nav .nav-big-btn {
+.nav .nav-btn {
   height: 48px;
   width: 48px;
   border: none;
-  background: #1b1b1b;
+  background: var(--nav-btn);
   font-size: 18px;
   border-radius: 15px;
   cursor: pointer;
   transition: 300ms;
-  color: #fff;
+  color: var(--text);
 }
 
-.nav .nav-big-btn:hover {
-  background: #252525;
+.nav .nav-btn:hover {
+  background: var(--theme);
+  color: var(--text-secondary);
 }
 
 .nav .navOpenBtn,
@@ -118,7 +123,7 @@ a {
     padding-top: 100px;
     row-gap: 30px;
     flex-direction: column;
-    background-color: #121212;
+    background-color: var(--background);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     z-index: 100;
@@ -127,7 +132,7 @@ a {
     left: 0;
   }
   .nav .navOpenBtn {
-    color: #fff;
+    color: var(--text);
     font-size: 20px;
     cursor: pointer;
   }
@@ -135,7 +140,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #fff;
+    color: var(--text);
     font-size: 20px;
     cursor: pointer;
   }
@@ -148,7 +153,7 @@ a {
 select {
   background: transparent;
   font-family: 'Inter';
-  color: #fff;
+  color: var(--text);
   border-radius: 5px;
   padding: 5px;
   outline: none;
@@ -161,25 +166,27 @@ label {
 
 option {
   font-family: 'Inter';
-  color: #fff;
+  color: var(--text);
   padding: 5px;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 16px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #121212;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--default);
+  background: var(--theme);
   border-radius: 8px;
+  background-clip: content-box;
+  border: 4px solid transparent;
 }
 
 #clock {
-  color: #fff;
+  color: var(--text);
   margin: none;
 }
 
