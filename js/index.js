@@ -22,6 +22,28 @@ if (savedTheme) {
   document.body.setAttribute('theme', savedTheme);
 }
 
+const isLazyLoadingEnabled = localStorage.getItem('lazyLoadEnabled') === 'true';
+
+if (isLazyLoadingEnabled) {
+  applyLazyLoading();
+} else {
+  removeLazyLoading();
+}
+
+function applyLazyLoading() {
+  const gameCards = document.querySelectorAll('.game-card');
+  gameCards.forEach(card => {
+    card.setAttribute('loading', 'lazy');
+  });
+}
+
+function removeLazyLoading() {
+  const gameCards = document.querySelectorAll('.game-card');
+  gameCards.forEach(card => {
+    card.removeAttribute('loading');
+  });
+}
+
 function startTrackingTime() {
   var startTime = new Date().getTime();
   localStorage.setItem("startTime", startTime.toString());

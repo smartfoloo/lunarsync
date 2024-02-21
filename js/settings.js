@@ -130,3 +130,16 @@ function setTheme(theme) {
   document.body.setAttribute('theme', theme);
   localStorage.setItem('theme', theme);
 }
+
+const enableLazyLoadButton = document.getElementById('enable-lazy-load');
+const disableLazyLoadButton = document.getElementById('disable-lazy-load');
+
+enableLazyLoadButton.addEventListener('click', function () {
+  localStorage.setItem('lazyLoadEnabled', 'true');
+  applyLazyLoading();
+});
+
+disableLazyLoadButton.addEventListener('click', function () {
+  localStorage.setItem('lazyLoadEnabled', 'false');
+  removeLazyLoading();
+});
