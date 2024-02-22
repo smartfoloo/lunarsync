@@ -131,6 +131,22 @@ function setTheme(theme) {
   localStorage.setItem('theme', theme);
 }
 
+if (localStorage.getItem('aboutblankEnabled') === null) {
+  localStorage.setItem('aboutblankEnabled', 'false');
+}
+
+function enableAboutBlank() {
+  localStorage.setItem('aboutblankEnabled', 'true');
+  document.getElementById('enableAboutBlank').classList.add('selected-aboutblank-button');
+  document.getElementById('disableAboutBlank').classList.remove('selected-aboutblank-button');
+}
+
+function disableAboutBlank() {
+  localStorage.setItem('aboutblankEnabled', 'false');
+  document.getElementById('disableAboutBlank').classList.add('selected-aboutblank-button');
+  document.getElementById('enableAboutBlank').classList.remove('selected-aboutblank-button');
+}
+
 const enableLazyLoadButton = document.getElementById('enable-lazy-load');
 const disableLazyLoadButton = document.getElementById('disable-lazy-load');
 

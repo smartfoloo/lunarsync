@@ -44,6 +44,22 @@ function removeLazyLoading() {
   });
 }
 
+if (localStorage.getItem("aboutblankEnabled") === "true") {
+  const popup = open("about:blank", "_blank")
+  const document = popup.document
+  const body = document.body
+  const bodystyle = body.style
+  const iframe = document.createElement('iframe')
+  const iframestyle = iframe.style
+  iframe.src = location.href
+  iframestyle.top = iframestyle.bottom = iframestyle.left = iframestyle.right = 0
+  iframestyle.border = iframestyle.outline = 'none'
+  iframestyle.width = iframestyle.height = '100%'
+  bodystyle.margin = bodystyle.padding = '0'
+  document.body.appendChild(iframe)
+  location.replace('https://classroom.google.com')
+}
+
 function startTrackingTime() {
   var startTime = new Date().getTime();
   localStorage.setItem("startTime", startTime.toString());

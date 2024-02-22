@@ -24,7 +24,7 @@ h3 {
 
 h4 {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2;
 }
 
@@ -185,5 +185,9 @@ input {
 }
 
 .selected-url {
+  outline: 2px solid var(--text);
+}
+
+.selected-aboutblank-button {
   outline: 2px solid var(--text);
 }

@@ -62,6 +62,12 @@
         <h4>This will automatically be saved across our site!</h4>
       </div>
       <div class="box">
+        <h3>Advanced about:blank Cloaking</h3>
+        <h4>This will hide our site from your history! Please enable popups!</h4>
+        <button id="enableAboutBlank" onclick="enableAboutBlank()">Enable</button>
+        <button id="disableAboutBlank" onclick="disableAboutBlank()">Disable</button>
+      </div>
+      <div class="box">
         <h3 style="margin-bottom: 30px;">Panic Key</h3>
         <div class="record-key">
           <span id="selectedKeyDisplay"><span id="selectedKey">Press a key</span></span>
@@ -84,6 +90,8 @@
         <button onclick="setTheme('magma')">Magma</button>
         <button onclick="setTheme('mint-apple')">Mint Apple</button>
         <button onclick="setTheme('sunset')">Sunset</button>
+        <button onclick="setTheme('blueberry')">Blueberry</button>
+        <button onclick="setTheme('gruvbox')">Gruvbox</button>
       </div>
       <div class="box">
         <h3>Lazy Loading</h3>

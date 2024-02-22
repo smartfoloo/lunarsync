@@ -40,8 +40,8 @@ body[theme="magma"] {
 
 body[theme="mint-apple"] {
   --background: #132421;
-  --background2: #181e10;
-  --background3: #1b3730;
+  --background2: #1c3729;
+  --background3: #2c5b50;
   --theme: #578464;
   --text: #fff;
   --text-secondary: #000;
@@ -56,4 +56,23 @@ body[theme="sunset"] {
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #d37015;
+}
+
+body[theme="blueberry"] {
+  --background: #578deb;
+  --background2: #005dfc;
+  --background3: #0040ad;
+  --theme: #00328a;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #323945;
+}
+body[theme="gruvbox"] {
+  --background: #282828;
+  --background2: #504945;
+  --background3: #7c6f64;
+  --theme: #98971a;
+  --text: #fbf1c7;
+  --text-secondary: #000;
+  --nav-btn: #665c54;
 }
