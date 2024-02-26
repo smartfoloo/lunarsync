@@ -192,6 +192,11 @@ input {
   outline: 2px solid var(--text);
 }
 
+.main-content .monochrome-button {
+  background: #1f1f1f;
+  color: #fff;
+}
+
 .main-content .light-button {
   background: #fff;
   color: #000;
