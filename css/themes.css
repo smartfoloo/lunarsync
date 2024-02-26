@@ -18,6 +18,16 @@ body[theme="light"] {
   --nav-btn: #cfcfcf;
 }
 
+body[theme="monochrome"] {
+  --background: #121212;
+  --background2: #161616;
+  --background3: #1f1f1f;
+  --theme: #fff;
+  --text: #fff;
+  --text-secondary: #000;
+  --nav-btn: #2b2b2b;
+}
+
 body[theme="abyss"] {
   --background: #000c18;
   --background2: #1a242d;
