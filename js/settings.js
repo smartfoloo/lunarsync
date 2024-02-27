@@ -137,25 +137,20 @@ if (localStorage.getItem('aboutblankEnabled') === null) {
 
 function enableAboutBlank() {
   localStorage.setItem('aboutblankEnabled', 'true');
-  document.getElementById('enableAboutBlank').classList.add('selected-aboutblank-button');
-  document.getElementById('disableAboutBlank').classList.remove('selected-aboutblank-button');
+  location.reload();
 }
 
 function disableAboutBlank() {
   localStorage.setItem('aboutblankEnabled', 'false');
-  document.getElementById('disableAboutBlank').classList.add('selected-aboutblank-button');
-  document.getElementById('enableAboutBlank').classList.remove('selected-aboutblank-button');
+  location.reload();
 }
 
-const enableLazyLoadButton = document.getElementById('enable-lazy-load');
-const disableLazyLoadButton = document.getElementById('disable-lazy-load');
+const aboutblankEnabled = localStorage.getItem('aboutblankEnabled');
 
-enableLazyLoadButton.addEventListener('click', function () {
-  localStorage.setItem('lazyLoadEnabled', 'true');
-  applyLazyLoading();
-});
-
-disableLazyLoadButton.addEventListener('click', function () {
-  localStorage.setItem('lazyLoadEnabled', 'false');
-  removeLazyLoading();
-});
+if (aboutblankEnabled === 'true' || aboutblankEnabled === '' || aboutblankEnabled === null) {
+  document.getElementById('enableAboutBlank').disabled = true;
+  document.getElementById('disableAboutBlank').disabled = false;
+} else {
+  document.getElementById('enableAboutBlank').disabled = false;
+  document.getElementById('disableAboutBlank').disabled = true;
+}

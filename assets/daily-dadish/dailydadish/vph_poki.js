@@ -19,20 +19,20 @@ function poki_is_blocked() {
 }
 
 function poki_gameplay_start() {
-    if (PokiSDK) PokiSDK.gameplayStart();
+    if (!PokiSDK) PokiSDK.gameplayStart();
 }
 
 function poki_gameplay_stop() {
-    if (PokiSDK) PokiSDK.gameplayStop();
+    if (!PokiSDK) PokiSDK.gameplayStop();
 }
 
 function poki_happy_time(magnitude) {
-    if (PokiSDK) PokiSDK.happyTime(magnitude);
+    if (!PokiSDK) PokiSDK.happyTime(magnitude);
 }
 
 ///~
 function poki_commercial_break_raw(fn) {
-    if (PokiSDK) {
+    if (!PokiSDK) {
         PokiSDK.commercialBreak().then(function() { fn(true); });
     } else setTimeout(function() { fn(false); }, 0);
 }
@@ -95,8 +95,8 @@ function poki_loadbar(ctx, width, height, total, current, image) {
     var barBorderWidth = getf("bar_border_width", 2);
     var barOffset = getf("bar_offset", 10);
     // background:
-    ctx.fillStyle = backgroundColor;
-    ctx.fillRect(0, 0, width, height);
+    // ctx.fillStyle = backgroundColor;
+    // ctx.fillRect(0, 0, width, height);
     // image:
     var totalHeight, barTop;
     if (image != null) {

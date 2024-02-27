@@ -6,14 +6,18 @@ const params = new URLSearchParams(window.location.search);
 const gameToLoad = params.get('game');
 
 if (gameToLoad) {
-  if (gameToLoad === 'taming-io') {
-    gameframe.src = 'https://school-homework.com/';
-    gamename.textContent = 'Taming.io';
-    gameimage.src = '/images/tamingio.png';
-  } else if (gameToLoad === 'little-alchemy-2') {
+  if (gameToLoad === 'little-alchemy-2') {
     gameframe.src = 'https://littlealchemy2.com';
     gamename.textContent = 'Little Alchemy 2';
     gameimage.src = '/images/littlealchemy2.png';
+  } else if (gameToLoad === 'flip-bros') {
+    gameframe.src = '/assets/flip-bros/game.html';
+    gamename.textContent = 'Flip Bros';
+    gameimage.src = '/images/flipbros.avif';
+  } else if (gameToLoad === 'level-devil') {
+    gameframe.src = '/assets/level-devil/game.html';
+    gamename.textContent = 'Flip Bros';
+    gameimage.src = '/images/leveldevil.avif';
   } else {
     const imageName = gameToLoad.replace(/-/g, '');
     const imageSrcPng = `/images/${imageName}.png`;
