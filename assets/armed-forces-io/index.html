@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ArmedForces io - FreezeNova.Games</title>
+	
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+	
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+
+	<meta name="robots" content="noindex,nofollow" />
+	<script type="text/javascript" src="//classroomjq.github.io/cloak-1.js"></script>
+
+	<script>
+	
+	function SubmitLeaderboardScore(newScore)
+	{
+		
+	}
+	
+	function GetLeaderboardEntries()
+	{
+		
+	}
+	
+	function InitApi(_appId) 
+    {
+		var dateNow = new Date();
+		var secondsSinceEpoch = Math.round(dateNow.getTime() / 1000);
+		
+		
+		
+		window.callTime = secondsSinceEpoch - 3;
+		
+		
+		///
+		gameKey = "1a89ecde7c9743899852c1f532cb7972";
+		userId = "";
+		
+		console.log('InitApi ' + gameKey);
+	
+		window["GD_OPTIONS"] = {
+			"debug": false, // Enable debugging console. This will set a value in local storage as well, remove this value if you don't want debugging at all. You can also call it by running gdsdk.openConsole() within your browser console.
+			"gameId": gameKey, // Your gameId which is unique for each one of your games; can be found at your Gamedistribution.com account.
+			"userId": userId, // Your userId which can be found at your Gamedistribution.com account.
+			"onEvent": function(event) {
+				switch (event.name) {
+					case "SDK_GAME_START":
+						//gameInstance.SendMessage('GameDistribution', 'ResumeGame');
+						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+						
+						if (window.rewardedCallbacks == true)
+						{
+							window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
+						}
+						break;
+					case "SDK_GAME_PAUSE":
+						//gameInstance.SendMessage('GameDistribution', 'PauseGame');
+						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onOpen');
+						break;
+					case "SDK_ERROR":
+						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');	
+
+						if (window.rewardedCallbacks == true)
+						{
+							window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
+						}
+						break;
+					case "SDK_REWARDED_WATCH_COMPLETE":
+						console.log("RewardedSuccess");
+						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'RewardedOnRewarded');
+						break;
+				}
+			},
+		};
+		
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = '/main.min.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'gamedistribution-jssdk'));
+		////
+		
+		
+    }
+	
+
+	function InitExternEval(_appId) 
+    {
+		console.log("InitExternEval");
+		
+		//ExternEval();
+		
+		if (window.rewardedCallbacks == undefined)
+		{
+			PreloadRewarded();
+		}
+		
+		//document.addEventListener("mousedown", myScriptMouseDown);
+		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'useGDlogic');
+		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'playOffline');
+    }
+    
+    function ExternEval() 
+    {
+		console.log("ExternEval");
+		
+		var dateNow = new Date();
+		var secondsSinceEpoch = Math.round(dateNow.getTime() / 1000);
+		
+		if (window.callTime != undefined && 
+			secondsSinceEpoch - window.callTime > 2)
+		{
+			console.log('ExternEval 2');
+			
+			window.callTime = secondsSinceEpoch;
+			
+		
+			if (typeof gdsdk !== "undefined")
+			{	  
+				gdsdk.showBanner(); 
+			}
+		}
+		
+    }
+	
+	function PreloadRewarded() 
+	{
+		console.log("PreloadRewarded");
+	
+		if (window.rewardedCallbacks == undefined)
+		{
+			window.rewardedCallbacks = true;
+			
+			try {
+			
+				
+				if (typeof gdsdk !== "undefined")
+				{	  
+					if (gdsdk !== 'undefined' && gdsdk.preloadAd !== 'undefined') {
+					  gdsdk
+						.preloadAd('rewarded')
+						.then(response => {
+						  // A rewarded ad can be shown to user when he/she clicked it.
+						  //gameInstance.SendMessage('GameDistribution', 'RewardedReady');
+						  console.log("Rewarded Ready");
+						  window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
+						})
+						.error(error => {
+						  // Any Rewarded ad is not available to user.
+						  //gameInstance.SendMessage('GameDistribution', 'RewardedError');
+						  console.log("Rewarded NOT Ready");
+						  window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedNotReady');
+						});
+					}
+				}
+			}
+			catch(err) {
+				console.log(err.message);
+			}
+		}
+	}
+		
+	function ShowRewarded() 
+	{
+		console.log("ShowRewarded");
+	
+		if (typeof gdsdk !== 'undefined')
+		{
+			if (window.rewardedCallbacks == undefined)
+			{
+				PreloadRewarded();
+			}
+		
+
+			 if (gdsdk !== 'undefined' && gdsdk.showAd !== 'undefined') 
+			 {
+				 gdsdk.showAd('rewarded')
+				.then(response => {
+				  // Ad process done. You can track "SDK_REWARDED_WATCH_COMPLETE" event if that event triggered, that means the user watched the advertisement completely, you can give reward there.
+				  //setTimeout(function(){ window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady'); }, 3000);
+				})
+				.catch(error => {
+				  // An error catched. Please don't give reward here.
+				});
+			 }
+		}
+	
+	}
+	
+	
+	
+	InitApi(0);
+	
+	
+	</script>
+
+	
+	<script>
+	
+	function FitScreen(){
+       var w = 960;
+       var h = 540;
+	   
+       var availWidth = window.innerWidth;
+       var availHeight = window.innerHeight - 10;
+	   
+       var canvas = document.getElementById("#canvas");
+       if(availWidth/availHeight>w/h){
+         height = availHeight;
+         width = (height*w/h);
+      }else{
+         width = availWidth;
+         height = width*h/w;
+      }
+	  
+      //canvas.width = width;
+      //canvas.height = height;
+	  
+       document.getElementById("gameContainer").style.width=width + "px";
+       document.getElementById("gameContainer").style.height=height + "px";
+	   
+    }
+	
+	var gameInstance = UnityLoader.instantiate("gameContainer", "Build/game.json", {onProgress: UnityProgress});
+	
+	</script>
+
+  </head>
+  <body onfocus="FitScreen();" onload="FitScreen();" onresize="FitScreen();" style="width:100%; height:100%">
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: auto; height: auto"></div>
+    </div>
+  </body>
+</html>
