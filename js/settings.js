@@ -87,6 +87,12 @@ function resetTab() {
   localStorage.setItem("tab", JSON.stringify({}));
 }
 
+if (localStorage.getItem("theme")) {
+  document.getElementById("themes").value = localStorage.getItem("theme");
+} else {
+  document.getElementById("themes").value = "default";
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   const urlButtons = document.querySelectorAll('.url-button');
   const recordKeyButton = document.getElementById('recordKeyButton');

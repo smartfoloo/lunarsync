@@ -38,6 +38,16 @@ body[theme="abyss"] {
   --nav-btn: #10192c;
 }
 
+body[theme="ocean"] {
+  --background: #05668D;
+  --background2: #679436;
+  --background3: #427AA1;
+  --theme: #A5BE00;
+  --text: #EBF2FA;
+  --text-secondary: #000;
+  --nav-btn: #679436;
+}
+
 body[theme="magma"] {
   --background: #310000;
   --background2: #5a0000;

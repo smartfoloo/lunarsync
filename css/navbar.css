@@ -160,16 +160,6 @@ select {
   transition: 300ms;
 }
 
-label {
-  font-family: 'Inter';
-}
-
-option {
-  font-family: 'Inter';
-  color: var(--text);
-  padding: 5px;
-}
-
 ::-webkit-scrollbar {
   width: 16px;
 }

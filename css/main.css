@@ -189,51 +189,15 @@ input {
   margin: 30px 0px;
 }
 
-.half {
-  width: 50%;
-  text-align: center;
-}
-
 .selected-url {
   outline: 2px solid var(--text);
 }
 
-.main-content .monochrome-button {
-  background: #1f1f1f;
-  color: #fff;
-}
-
-.main-content .light-button {
-  background: #fff;
-  color: #000;
-}
-
-.main-content .abyss-button {
-  background: #000c18;
-  color: #fff;
-}
-
-.main-content .magma-button {
-  background: #b10000;
-  color: #fff;
-}
-
-.main-content .mint-apple-button {
-  background: #578464;
-  color: #fff;
-}
-
-.main-content .sunset-button {
-  background: #b85b43;
-  color: #fff;
-}
-
-.main-content .blueberry-button {
-  background: #578deb;
-  color: #fff;
-}
-
-.main-content .gruvbox-button {
-  background: #282828;
-  color: #fbf1c7;
+#themes {
+  padding: 10px;
+  background: var(--background3);
+  border: none;
+  font-size: 16px;
+  margin: 10px 0px;
+  border-radius: 8px;
 }

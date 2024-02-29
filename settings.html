@@ -83,16 +83,19 @@
         <h4>Press this key to get back to work!</h4>
       </div>
       <div class="box">
-        <h3>Themes</h3>
-        <button class="default-button" onclick="setTheme('default')">Default</button>
-        <button class="light-button" onclick="setTheme('light')">Light</button>
-        <button class="monochrome-button" onclick="setTheme('monochrome')">Monochrome</button>
-        <button class="abyss-button" onclick="setTheme('abyss')">Abyss</button>
-        <button class="magma-button" onclick="setTheme('magma')">Magma</button>
-        <button class="mint-apple-button" onclick="setTheme('mint-apple')">Mint Apple</button>
-        <button class="sunset-button" onclick="setTheme('sunset')">Sunset</button>
-        <button class="blueberry-button" onclick="setTheme('blueberry')">Blueberry</button>
-        <button class="gruvbox-button" onclick="setTheme('gruvbox')">Gruvbox</button>
+        <h3>Theme</h3>
+        <select name="themes" id="themes" title="themes" onchange="setTheme(this.value)">
+          <option value="default">Default</option>
+          <option value="light">Light</option>
+          <option value="monochrome">Monochrome</option>
+          <option value="abyss">Abyss</option>
+          <option value="ocean">Ocean</option>
+          <option value="magma">Magma</option>
+          <option value="mint-apple">Mint Apple</option>
+          <option value="sunset">Sunset</option>
+          <option value="blueberry">Blueberry</option>
+          <option value="gruvbox">Gruvbox</option>
+        </select>
       </div>
     </div>
   </div>
