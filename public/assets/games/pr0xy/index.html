@@ -1,0 +1,66 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    font-family: 'Inter';
+    background-color: #03131a;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    padding: 15px 20px;
+    outline: none;
+    background: #27292e;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    margin: 10px;
+    color: #fff;
+    font-size: 16px;
+    outline: 1px solid #495057;
+  }
+
+  input[type="submit"] {
+    padding: 15px 20px;
+    outline: none;
+    background: #27292e;
+
+    
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+    font-size: 16px;
+    outline: 1px solid #495057;
+  }
+
+  input[type="submit"]:hover {
+    transform: scale(0.95)
+  }
+
+</style>
+  
+<form onsubmit="unblock()">
+  <h1>Pr0xy</h1>
+  <input id="input" type="text">
+  <input type="submit" value="Unblock"></input>
+  <h4>Make sure to include https:// in your URL!</h4>
+  </input>
+</form>
+
+<script defer>
+  function unblock(){
+  let url = document.getElementById("input").value
+    console.log(url)
+  var win = window.open("https://translate.google.com/translate?sl=auto&tl=en&u=" + url, '_parent');
+  win.focus();
+  console.log(window.location)
+  }
+</script>

@@ -1,0 +1,44 @@
+{
+    "buildings": [
+        {
+            "name": "Level One",
+            "price": 300
+        },
+        {
+            "name": "Level Two",
+            "price": 500
+        },
+        {
+            "name": "Level Three",
+            "price": 1250
+        },
+        {
+            "name": "Level Four",
+            "price": 3125
+        },
+        {
+            "name": "Level Five",
+            "price": 7815
+        },
+        {
+            "name": "Level Six",
+            "price": 19530
+        },
+        {
+            "name": "Level Seven",
+            "price": 48825
+        },
+        {
+            "name": "Level Eight",
+            "price": 122050
+        },
+        {
+            "name": "Level Nine",
+            "price": 305175
+        },
+        {
+            "name": "Level Ten",
+            "price": 762950
+        }
+    ]
+}

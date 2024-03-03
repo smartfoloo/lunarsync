@@ -1,0 +1,41 @@
+
+plan(4,3,3)
+planpos(120)
+
+shirt(148,9,15)
+short(148,8,2)
+socks(148,2,20)
+
+clash-shirt(143,9,6)
+clash-short(149,7,3)
+clash-socks(149,7,3)
+
+keeper-shirt(49,9,12)
+keeper-gloves(15,9,10)
+keeper-socks(49,9,12)
+
+
+// syntax = newplayer(num,skintone,hairtype,haircolor,hairtone)
+// skintone from 2 to 10 | hairtype 0,1,2 | haircolor from 27 to 32 brown to yellow | hairtone 2 to 10
+// or playercopy(num,copynum);
+
+
+newplayer(9,9,0,27,3)
+playercopy(8,9)
+newplayer(7,7,0,27,2)
+
+newplayer(6,9,1,28,6)
+playercopy(5,6)
+playercopy(4,9)
+
+newplayer(3,9,0,27,2)
+playercopy(2,6)
+playercopy(1,3)
+playercopy(0,3)
+
+
+//keeper(skintone,hairtype,haircolor,hairtone)
+keeper(8,1,27,2)
+
+
+
