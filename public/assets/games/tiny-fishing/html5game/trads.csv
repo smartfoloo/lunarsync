@@ -1,0 +1,61 @@
+Language_short_name;EN;RU
+Language_name;English;Ð ÑƒÑÑÐºÐ¸Ð¹
+Welcome_back;WELCOME BACK!;Ð¡ Ð’ÐžÐ—Ð’Ð ÐÐ©Ð•ÐÐ˜Ð•Ðœ!
+Earned_offline; EARNED OFFLINE; Ð—ÐÐ ÐÐ‘ÐžÐ¢ÐÐÐž ÐžÐ¤Ð¤Ð›ÐÐ™Ð
+Hooks;HOOKS;ÐšÐ Ð®Ð§ÐšÐ˜
+Play;PLAY;Ð˜Ð“Ð ÐÐ¢Ð¬
+Earnings;EARNINGS;Ð—ÐÐ ÐÐ‘ÐžÐ¢ÐžÐš
+Tap_to_start_playing;TAP TO START PLAYING;ÐÐÐ–ÐœÐ˜Ð¢Ð• Ð§Ð¢ÐžÐ‘Ð« ÐÐÐ§ÐÐ¢Ð¬ Ð˜Ð“Ð ÐÐ¢Ð¬
+Fish_upgrade_title;MAX FISHES;ÐœÐÐšÐ¡Ð˜ÐœÐ£Ðœ#Ð Ð«Ð‘ÐžÐš
+Fish_upgrade_fishes;FISH;Ð Ð«Ð‘
+Depth_upgrade_title;MAX DEPTH;Ð“Ð›Ð£Ð‘Ð˜ÐÐ
+Depth_upgrade_meters;M;Ðœ
+Depth_upgrade_meters_small;m;m
+Offline_earnings_upgrade_title;OFFLINE EARNINGS;Ð—ÐÐ ÐÐ‘ÐžÐ¢ÐžÐš#ÐžÐ¤Ð¤Ð›ÐÐ™Ð
+Offline_earnings_money_per_min;$/MIN;$/ÐœÐ˜Ð
+Energy_warning;NOT ENOUGH ENERGY!;ÐÐ• Ð¥Ð’ÐÐ¢ÐÐ•Ð¢ Ð­ÐÐ•Ð Ð“Ð˜Ð˜
+Buy_energy_potion_to_restore;BUY ENERGY POTION#TO RESTORE ENERGY;ÐšÐ£ÐŸÐ˜ Ð—Ð•Ð›Ð¬Ð• Ð‘ÐžÐ”Ð ÐžÐ¡Ð¢Ð˜#Ð§Ð¢ÐžÐ‘Ð« Ð’ÐžÐ¡Ð¡Ð¢ÐÐÐžÐ’Ð˜Ð¢Ð¬ Ð­ÐÐ•Ð Ð“Ð˜Ð®
+No_thanks;NO, THANKS;ÐÐ•Ð¢ Ð¡ÐŸÐÐ¡Ð˜Ð‘Ðž
+Buy;BUY;ÐšÐ£ÐŸÐ˜Ð¢Ð¬
+Best_result;BEST;Ð Ð•ÐšÐžÐ Ð”
+Aquarium;AQUARIUM;ÐÐšÐ’ÐÐ Ð˜Ð£Ðœ
+Prizes_tap_to_open_hint;TAP TO OPEN;ÐÐÐ–ÐœÐ˜ Ð§Ð¢ÐžÐ‘Ð« ÐžÐ¢ÐšÐ Ð«Ð¢Ð¬
+Best_prize;BEST PRIZE;Ð›Ð£Ð§Ð¨Ð˜Ð™ ÐŸÐ Ð˜Ð—
+Fish_rare;RARE!;Ð Ð•Ð”ÐšÐÐ¯!
+Fish_legendary;LEGENDARY!;Ð—ÐžÐ›ÐžÐ¢ÐÐ¯!
+Claim;CLAIM;Ð—ÐÐ‘Ð ÐÐ¢Ð¬
+Bonus;BONUS;Ð‘ÐžÐÐ£Ð¡
+Score_title;YOUR SCORE;Ð’ÐÐ¨ Ð¡Ð§Ð•Ð¢
+New_record; NEW RECORD!; ÐÐžÐ’Ð«Ð™ Ð Ð•ÐšÐžÐ Ð”!
+Unlock_hook;UNLOCK#RANDOM;ÐžÐ¢ÐšÐ Ð«Ð¢Ð¬#ÐÐžÐ’Ð«Ð™
+More_hooks_coming;MORE HOOKS COMING SOON!;Ð‘ÐžÐ›Ð¬Ð¨Ð• ÐšÐ Ð®Ð§ÐšÐžÐ’ Ð¡ÐžÐ’Ð¡Ð•Ðœ Ð¡ÐšÐžÐ Ðž!
+Settings;SETTINGS;ÐÐÐ¡Ð¢Ð ÐžÐ™ÐšÐ˜
+Sounds;SOUNDS;Ð—Ð’Ð£ÐšÐ˜
+Sound;SOUND;Ð—Ð’Ð£Ðš
+Music;MUSIC;ÐœÐ£Ð—Ð«ÐšÐ
+Language;LANGUAGE;Ð¯Ð—Ð«Ðš
+Ok;OK;ÐžÐš
+Treasure_open;OPEN;ÐžÐ¢ÐšÐ Ð«Ð¢Ð¬
+Do_smth_for_energy;ENERGY;Ð—Ð Ð­ÐÐ•Ð Ð“Ð˜Ð®
+Do_smth_for_reward_ad;WATCH AD;Ð—Ð Ð Ð•ÐšÐ›ÐÐœÐ£
+Your_score;SCORE;Ð¡Ð§ÐÐ¢
+Win_a_prize;WIN A PRIZE!;Ð’Ð«Ð™Ð“Ð ÐÐ™ ÐŸÐ Ð˜Ð—!
+Make_first_upgrade_text; MAKE YOUR#FIRST UPGRADE; Ð¡Ð”Ð•Ð›ÐÐ™Ð¢Ð• Ð¡Ð’ÐžÐ™#ÐŸÐ•Ð Ð’Ð«Ð™ ÐÐŸÐ“Ð Ð•Ð™Ð”
+Perfect_start; PERFECT START!; Ð˜Ð”Ð•ÐÐ›Ð¬ÐÐ«Ð™ Ð—ÐÐ‘Ð ÐžÐ¡!
+Claim_all_x; CLAIM ALL x; Ð—ÐÐ‘Ð ÐÐ¢Ð¬ Ð’Ð¡Ð• Ñ…
+No_thanks; NO, THANKS; ÐÐ•Ð¢, Ð¡ÐŸÐÐ¡Ð˜Ð‘Ðž
+Open_chest; OPEN; ÐžÐ¢ÐšÐ Ð«Ð¢Ð¬
+Open_for_ad_msg; WATCH AD; Ð—Ð Ð Ð•ÐšÐ›ÐÐœÐ£ 
+Price; PRICE; Ð¡Ð¢ÐžÐ˜ÐœÐžÐ¡Ð¢Ð¬
+Treasure_found; TREASURE#FOUND; Ð’Ð« ÐÐÐ¨Ð›Ð˜#Ð¡ÐžÐšÐ ÐžÐ’Ð˜Ð©Ð!
+Chest; CHEST!; Ð¡Ð£ÐÐ”Ð£Ðš!
+Move_finger_tutorial; MOVE FINGER#TO CONTROL; Ð”Ð’Ð˜Ð“ÐÐ™ ÐŸÐÐ›Ð¬Ð¦Ð•Ðœ#Ð§Ð¢ÐžÐ‘Ð« Ð£ÐŸÐ ÐÐ’Ð›Ð¯Ð¢Ð¬
+Move_mouse_tutorial; CONTROL WITH MOUSE; Ð”Ð’Ð˜Ð“ÐÐ™ ÐœÐ«Ð¨Ð¬Ð®
+Become_VIP; BECOME VIP; Ð¡Ð¢ÐÐÐ¬Ð¢Ð• VIP
+VIP_night_mode; VIP NIGHT MODE; VIP ÐÐžÐ§ÐÐžÐ™ Ð Ð•Ð–Ð˜Ðœ
+Exclusive_night_mode; EXCLUSIVE NIGHT MODE!; Ð­ÐšÐ¡ÐšÐ›Ð®Ð—Ð˜Ð’ÐÐ«Ð™ ÐÐžÐ§ÐÐžÐ™ Ð Ð•Ð–Ð˜Ðœ!
+No_ads; NO ADS!; ÐÐ˜ÐšÐÐšÐžÐ™ Ð Ð•ÐšÐ›ÐÐœÐ«!
+All_money_x_2; ALL MONEY x2!; Ð’Ð¡Ð• Ð”Ð•ÐÐ¬Ð“Ð˜ Ñ…2!
+Start_free_trial; START FREE TRIAL; ÐŸÐžÐŸÐ ÐžÐ‘ÐžÐ’ÐÐ¢Ð¬ Ð‘Ð•Ð¡ÐŸÐ›ÐÐ¢ÐÐž
+Time_to_check_the_aquarium; TIME TO CHECK#THE AQUARIUM; ÐŸÐžÐ Ð ÐŸÐ ÐžÐ’Ð•Ð Ð˜Ð¢Ð¬#ÐÐšÐ’ÐÐ Ð˜Ð£Ðœ
+ 
