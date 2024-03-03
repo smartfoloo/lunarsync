@@ -1,0 +1,264 @@
+{"frames": {
+
+"booster_plus":
+{
+	"frame": {"x":39,"y":1,"w":36,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
+	"sourceSize": {"w":36,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_buy":
+{
+	"frame": {"x":1,"y":145,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_chest_gate":
+{
+	"frame": {"x":328,"y":1,"w":136,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":65},
+	"sourceSize": {"w":136,"h":65},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_daily_challenge":
+{
+	"frame": {"x":139,"y":1,"w":61,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":62},
+	"sourceSize": {"w":61,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_game_pause":
+{
+	"frame": {"x":78,"y":145,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_green":
+{
+	"frame": {"x":201,"y":560,"w":198,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":112},
+	"sourceSize": {"w":198,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_home":
+{
+	"frame": {"x":305,"y":674,"w":170,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":170,"h":168},
+	"sourceSize": {"w":170,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_moregames":
+{
+	"frame": {"x":1,"y":844,"w":170,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":170,"h":168},
+	"sourceSize": {"w":170,"h":170},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_orange":
+{
+	"frame": {"x":1,"y":560,"w":198,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":112},
+	"sourceSize": {"w":198,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_play":
+{
+	"frame": {"x":173,"y":844,"w":196,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":196,"h":194},
+	"sourceSize": {"w":200,"h":200},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_plus":
+{
+	"frame": {"x":77,"y":1,"w":60,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":60,"h":61},
+	"sourceSize": {"w":64,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_present":
+{
+	"frame": {"x":222,"y":68,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_red":
+{
+	"frame": {"x":201,"y":446,"w":198,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":112},
+	"sourceSize": {"w":198,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_sound_off":
+{
+	"frame": {"x":1,"y":674,"w":150,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":150,"h":148},
+	"sourceSize": {"w":150,"h":155},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_sound_on":
+{
+	"frame": {"x":153,"y":674,"w":150,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":150,"h":148},
+	"sourceSize": {"w":150,"h":155},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_start_goal":
+{
+	"frame": {"x":145,"y":68,"w":75,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":75,"h":74},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_task_blank":
+{
+	"frame": {"x":1,"y":68,"w":70,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":67},
+	"sourceSize": {"w":70,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_task_info":
+{
+	"frame": {"x":73,"y":68,"w":70,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":67},
+	"sourceSize": {"w":70,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_trash":
+{
+	"frame": {"x":299,"y":68,"w":74,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":75},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_trash_buy":
+{
+	"frame": {"x":375,"y":68,"w":74,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":75},
+	"sourceSize": {"w":75,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"btn_x":
+{
+	"frame": {"x":155,"y":145,"w":90,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":90,"h":81},
+	"sourceSize": {"w":90,"h":86},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"button_green":
+{
+	"frame": {"x":1,"y":228,"w":282,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":86},
+	"sourceSize": {"w":282,"h":86},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"button_play":
+{
+	"frame": {"x":1,"y":336,"w":400,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":108},
+	"sourceSize": {"w":400,"h":108},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_btn":
+{
+	"frame": {"x":1,"y":446,"w":198,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":112},
+	"sourceSize": {"w":198,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Mission_Button_locked_yellow":
+{
+	"frame": {"x":202,"y":1,"w":61,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":62},
+	"sourceSize": {"w":61,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Mission_Button_yellow":
+{
+	"frame": {"x":265,"y":1,"w":61,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":62},
+	"sourceSize": {"w":61,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"moves-ad-btn":
+{
+	"frame": {"x":285,"y":228,"w":191,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":106},
+	"sourceSize": {"w":191,"h":106},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"send_heart_button":
+{
+	"frame": {"x":1,"y":1,"w":36,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":35},
+	"sourceSize": {"w":36,"h":38},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "buttons.png",
+	"format": "RGBA8888",
+	"size": {"w":477,"h":1039},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c8380b2763520174ed30291dd7b21dde:7d5e55fd9a22d68763aed19903463271:b34c8670b11bb20cb1751a70d3683e22$"
+}
+}

@@ -1,0 +1,2471 @@
+{
+  "featuresUnlock": {
+    "daily": 4,
+    "globalGoals": 9,
+    "dailyChallenge": 13
+  },
+
+  "mapHeight": 45122,
+
+  "dailyReward": {
+    "days": [
+      {
+        "gifts": [["coin", 200]],
+        "boxIcon": [
+
+        ]
+      },
+
+      {
+        "gifts": [["booster#2", 1]],
+        "boxIcon": [
+          {
+            "sprite": "medium_green_present",
+            "pos": [10,0]
+          },
+          {
+            "sprite": "small_green_present",
+            "pos": [-20,20]
+          }
+        ]
+      },
+
+      {
+        "gifts": [["booster#7", 1]],
+        "boxIcon": [
+          {
+            "sprite": "medium_pink_present",
+            "pos": [0,0]
+          },
+          {
+            "sprite": "small_purple_present",
+            "pos": [-20,25],
+            "scale": [-1,1]
+          }
+        ]
+      },
+
+      {
+        "gifts": [["booster#5", 1]],
+        "boxIcon": [
+          {
+            "sprite": "medium_pink_present",
+            "pos": [0,0]
+          },
+          {
+            "sprite": "small_purple_present",
+            "pos": [-20,25],
+            "scale": [-1,1]
+          }
+        ]
+      },
+
+      {
+        "gifts": [["booster#1", 1]],
+        "boxIcon": [
+          {
+            "sprite": "medium_pink_present",
+            "pos": [0,0]
+          }
+        ]
+      },
+
+      {
+        "gifts": [["booster#8", 1]],
+        "boxIcon": [
+          {
+            "sprite": "medium_purple_present",
+            "pos": [20,-10]
+          },
+          {
+            "sprite": "small_purple_present",
+            "pos": [-30,0]
+          },
+          {
+            "sprite": "small_green_present",
+            "pos": [0,20]
+          }
+        ]
+      },
+
+      {
+        "gifts": [["booster#5", 1],["booster#8", 1]],
+        "boxIcon": [
+          {
+            "sprite": "small_purple_present",
+            "pos": [50,-30],
+            "scale": [-1, 1]
+          },
+          {
+            "sprite": "small_green_present",
+            "pos": [90,-20],
+            "scale": [-1, 1]
+          },
+          {
+            "sprite": "small_purple_present",
+            "pos": [-50,-30]
+          },
+          {
+            "sprite": "small_green_present",
+            "pos": [-90,-20]
+          },
+          {
+            "sprite": "medium_pink_present",
+            "pos": [0,0]
+          }
+        ]
+      }
+    ]
+  },
+
+  "interstitialSettings": {
+    "passLevel": 10,
+    "everyN": 3,
+    "outOfMovesTimerMin": 60
+  },
+
+  "coinsOnStart": 200,
+  "startBoosterUnlock": [
+    9,
+    12,
+    13,
+    41
+  ],
+  "livesOnStart": 20,
+  "livesMax": 20,
+  "lifePrice": 200,
+  "refillRateMin": 10,
+  "outOfMovesTimer": 10,
+  "coinsForSharingDaily": 25,
+  "mapGiftChance": 0.20,
+  "firstMapGift": [
+    false,
+    [
+      "coin",
+      25
+    ]
+  ],
+  "mapGifts": [
+    [
+      true,
+      [
+        "coin",
+        75
+      ]
+    ],
+    [
+      true,
+      [
+        "coin",
+        25
+      ]
+    ],
+    [
+      true,
+      [
+        "coin",
+        50
+      ]
+    ],
+    [
+      true,
+      [
+        "booster#R",
+        1
+      ]
+    ]
+  ],
+  "dailySpinPrice": 2,
+  "wheelPrizes": [
+    {
+      "prize": [
+        "coin",
+        75
+      ],
+      "keep": 0.4
+    },
+    {
+      "prize": [
+        "coin",
+        25
+      ]
+    },
+    {
+      "prize": [
+        "booster#R",
+        2
+      ],
+      "keep": 0.05,
+      "specialField": true
+    },
+    {
+      "prize": [
+        "coin",
+        50
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        125
+      ],
+      "keep": 0.1
+    },
+    {
+      "prize": [
+        "coin",
+        50
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        25
+      ]
+    },
+    {
+      "prize": [
+        "booster#R",
+        1
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        250
+      ],
+      "keep": 0.05,
+      "specialField": true
+    },
+    {
+      "prize": [
+        "coin",
+        25
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        125
+      ],
+      "keep": 0.2
+    },
+    {
+      "prize": [
+        "coin",
+        100
+      ],
+      "keep": 0.3
+    }
+  ],
+  "wheelPrizesGold": [
+    {
+      "prize": [
+        "coin",
+        225
+      ],
+      "keep": 0.4
+    },
+    {
+      "prize": [
+        "coin",
+        75
+      ]
+    },
+    {
+      "prize": [
+        "booster#R",
+        6
+      ],
+      "keep": 0.05,
+      "specialField": true
+    },
+    {
+      "prize": [
+        "coin",
+        150
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        250
+      ],
+      "keep": 0.1
+    },
+    {
+      "prize": [
+        "coin",
+        150
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        75
+      ]
+    },
+    {
+      "prize": [
+        "booster#R",
+        3
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        1000
+      ],
+      "keep": 0.05,
+      "specialField": true
+    },
+    {
+      "prize": [
+        "coin",
+        75
+      ]
+    },
+    {
+      "prize": [
+        "coin",
+        375
+      ],
+      "keep": 0.2
+    },
+    {
+      "prize": [
+        "coin",
+        300
+      ],
+      "keep": 0.3
+    }
+  ],
+  "gates": [
+    {
+      "id": 1,
+      "lvlNr": 21,
+      "req": {
+        "coins": 1000,
+        "stars": 60,
+        "invites": 3,
+        "timeMinutes": 1440
+      }
+    },
+    {
+      "id": 2,
+      "lvlNr": 41,
+      "req": {
+        "coins": 2000,
+        "stars": 120,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 3,
+      "lvlNr": 61,
+      "req": {
+        "coins": 2000,
+        "stars": 180,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 4,
+      "lvlNr": 81,
+      "req": {
+        "coins": 2000,
+        "stars": 240,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 5,
+      "lvlNr": 101,
+      "req": {
+        "coins": 2000,
+        "stars": 300,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 6,
+      "lvlNr": 121,
+      "req": {
+        "coins": 2000,
+        "stars": 360,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 7,
+      "lvlNr": 141,
+      "req": {
+        "coins": 2000,
+        "stars": 420,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 8,
+      "lvlNr": 161,
+      "req": {
+        "coins": 2000,
+        "stars": 480,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 9,
+      "lvlNr": 181,
+      "req": {
+        "coins": 2000,
+        "stars": 540,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 10,
+      "lvlNr": 201,
+      "req": {
+        "coins": 2000,
+        "stars": 600,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 11,
+      "lvlNr": 221,
+      "req": {
+        "coins": 2000,
+        "stars": 660,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 12,
+      "lvlNr": 241,
+      "req": {
+        "coins": 2000,
+        "stars": 720,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 13,
+      "lvlNr": 261,
+      "req": {
+        "coins": 2000,
+        "stars": 780,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 14,
+      "lvlNr": 281,
+      "req": {
+        "coins": 2000,
+        "stars": 840,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 15,
+      "lvlNr": 301,
+      "req": {
+        "coins": 2000,
+        "stars": 900,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 16,
+      "lvlNr": 321,
+      "req": {
+        "coins": 2000,
+        "stars": 960,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 17,
+      "lvlNr": 341,
+      "req": {
+        "coins": 2000,
+        "stars": 1020,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 18,
+      "lvlNr": 361,
+      "req": {
+        "coins": 2000,
+        "stars": 1080,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 19,
+      "lvlNr": 381,
+      "req": {
+        "coins": 2000,
+        "stars": 1140,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 20,
+      "lvlNr": 401,
+      "req": {
+        "coins": 2000,
+        "stars": 1200,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 21,
+      "lvlNr": 421,
+      "req": {
+        "coins": 2000,
+        "stars": 1260,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    },
+    {
+      "id": 22,
+      "lvlNr": 441,
+      "req": {
+        "coins": 2000,
+        "stars": 1320,
+        "invites": 3,
+        "timeMinutes": 4320
+      }
+    }
+    ],
+
+  "bubbleGifts": [
+    {
+      "levelNumber": 4,
+      "gift": [ "booster#1", 1 ]
+    },
+    {
+      "levelNumber": 9,
+      "gift": [ "booster#1", 1 ]
+    },
+    {
+      "levelNumber": 11,
+      "gift": [ "booster#2", 1 ]
+    },
+    {
+      "levelNumber": 15,
+      "gift": [ "booster#2", 1 ]
+    },
+    {
+      "levelNumber": 18,
+      "gift": [ "booster#3", 1 ]
+    },
+    {
+      "levelNumber": 23,
+      "gift": [ "booster#3", 1 ]
+    },
+    {
+      "levelNumber": 30,
+      "gift": [ "booster#4", 1 ]
+    },
+    {
+      "levelNumber":  38,
+      "gift": [ "booster#4", 1 ]
+    },
+    {
+      "levelNumber": 40,
+      "gift": [ "booster#5", 1 ]
+    },
+    {
+      "levelNumber": 47,
+      "gift": [ "booster#7", 1 ]
+    },
+    {
+      "levelNumber": 53,
+      "gift": [ "booster#8", 1 ]
+    },
+    {
+      "levelNumber": 61,
+      "gift": [ "booster#1", 1 ]
+    },
+    {
+      "levelNumber": 69,
+      "gift": [ "booster#2", 3 ]
+    },
+    {
+      "levelNumber": 73,
+      "gift": [ "booster#3", 3 ]
+    },
+    {
+      "levelNumber": 80,
+      "gift": [ "booster#3", 3 ]
+    },
+    {
+      "levelNumber": 89,
+      "gift": [ "booster#4", 3 ]
+    },
+    {
+      "levelNumber": 94,
+      "gift": [ "booster#5", 3 ]
+    },
+    {
+      "levelNumber": 101,
+      "gift": [ "booster#7", 3 ]
+    },
+    {
+      "levelNumber": 110,
+      "gift": [ "booster#8", 3 ]
+    },
+    {
+      "levelNumber": 117,
+      "gift": [ "booster#1", 3 ]
+    },
+    {
+      "levelNumber": 126,
+      "gift": [ "booster#2", 3 ]
+    },
+    {
+      "levelNumber": 137,
+      "gift": [ "booster#3", 3 ]
+    },
+    {
+      "levelNumber": 146,
+      "gift": [ "booster#4", 3 ]
+    },
+    {
+      "levelNumber": 159,
+      "gift": [ "coin", 650 ]
+    },
+    {
+      "levelNumber": 166,
+      "gift": [ "booster#5", 3 ]
+    },
+    {
+      "levelNumber": 179,
+      "gift": [ "coin", 650 ]
+    },
+    {
+      "levelNumber": 186,
+      "gift": [ "booster#7", 3 ]
+    },
+    {
+      "levelNumber": 197,
+      "gift": [ "booster#8", 3 ]
+    },
+    {
+      "levelNumber": 210,
+      "gift": [ "booster#1", 3 ]
+    },
+    {
+      "levelNumber": 225,
+      "gift": [ "booster#2", 3 ]
+    },
+    {
+      "levelNumber": 250,
+      "gift": [ "booster#3", 5 ]
+    },
+    {
+      "levelNumber": 275,
+      "gift": [ "booster#4", 5 ]
+    },
+    {
+      "levelNumber": 300,
+      "gift": [ "booster#5", 5 ]
+    },
+    {
+      "levelNumber": 325,
+      "gift": [ "booster#7", 5 ]
+    },
+    {
+      "levelNumber": 350,
+      "gift": [ "booster#8", 5 ]
+    },
+    {
+      "levelNumber": 375,
+      "gift": [ "booster#1", 5 ]
+    },
+    {
+      "levelNumber": 400,
+      "gift": [ "booster#2", 5 ]
+    },
+    {
+      "levelNumber": 425,
+      "gift": [ "booster#3", 5 ]
+    },
+    {
+      "levelNumber": 450,
+      "gift": [ "booster#4", 5 ]
+    }
+  ],
+
+  "mapChests" : [
+    {
+      "id" : 1,
+      "mapX" : 100,
+      "mapY" : -850,
+      "req": 18,
+      "gifts" : [["coin", 50]]
+    },
+    {
+      "id" : 2,
+      "mapX" : -500,
+      "mapY" : -1300,
+      "req": 36,
+      "gifts" : [["coin",125], ["booster#1", 1]]
+    },
+    {
+      "id" : 3,
+      "mapX" : 195,
+      "mapY" : -1780,
+      "req": 54,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 4,
+      "mapX" : -450,
+      "mapY" : -2450,
+      "req": 72,
+      "gifts" : [["coin",250]]
+    },
+    {
+      "id" : 5,
+      "mapX" : 175,
+      "mapY" : -2990,
+      "req": 90,
+      "gifts" : [["coin",375],["booster#1",1]]
+    },
+    {
+      "id" : 6,
+      "mapX" : -50,
+      "mapY" : -3450,
+      "req": 108,
+      "gifts" : [["coin",200],["booster#2",1],["booster#3",1]]
+    },
+    {
+      "id" : 7,
+      "mapX" : 0,
+      "mapY" : -4000,
+      "req": 126,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 8,
+      "mapX" : 90,
+      "mapY" : -4680,
+      "req": 144,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 9,
+      "mapX" : -150,
+      "mapY" : -5250,
+      "req": 162,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 10,
+      "mapX" : 350,
+      "mapY" : -5720,
+      "req": 180,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 11,
+      "mapX" : -180,
+      "mapY" : -6150,
+      "req": 198,
+      "gifts" : [["booster#2",1]]
+    },
+    {
+      "id" : 12,
+      "mapX" : 100,
+      "mapY" : -6700,
+      "req": 216,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 13,
+      "mapX" : 0,
+      "mapY" : -7200,
+      "req": 234,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 14,
+      "mapX" : 0,
+      "mapY" : -7880,
+      "req": 252,
+      "gifts" : [["coin",200],["booster#2",1]]
+    },
+    {
+      "id" : 15,
+      "mapX" : 0,
+      "mapY" : -8400,
+      "req": 270,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 16,
+      "mapX" : -60,
+      "mapY" : -9000,
+      "req": 288,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 17,
+      "mapX" : 450,
+      "mapY" : -9520,
+      "req": 306,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 18,
+      "mapX" : 250,
+      "mapY" : -10000,
+      "req": 318,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 19,
+      "mapX" : -400,
+      "mapY" : -10420,
+      "req": 336,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 20,
+      "mapX" : 195,
+      "mapY" : -10880,
+      "req": 354,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 21,
+      "mapX" : -370,
+      "mapY" : -11350,
+      "req": 372,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 22,
+      "mapX" : 175,
+      "mapY" : -11850,
+      "req": 390,
+      "gifts" : [["coin",25],["booster#2",1]]
+    },
+    {
+      "id" : 23,
+      "mapX" : -50,
+      "mapY" : -12300,
+      "req": 408,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 24,
+      "mapX" : 50,
+      "mapY" : -12700,
+      "req": 426,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 25,
+      "mapX" : 20,
+      "mapY" : -13150,
+      "req": 444,
+      "gifts" : [["booster#3",1]]
+    },
+    {
+      "id" : 26,
+      "mapX" : -150,
+      "mapY" : -13650,
+      "req": 462,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 27,
+      "mapX" : 450,
+      "mapY" : -14100,
+      "req": 480,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 28,
+      "mapX" : -180,
+      "mapY" : -14500,
+      "req": 498,
+      "gifts" : [["booster#2",1]]
+    },
+    {
+      "id" : 29,
+      "mapX" : 100,
+      "mapY" : -15000,
+      "req": 516,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 30,
+      "mapX" : 0,
+      "mapY" : -15450,
+      "req": 534,
+      "gifts" : [["coin",100]]
+    },
+    {
+      "id" : 31,
+      "mapX" : 0,
+      "mapY" : -16000,
+      "req": 552,
+      "gifts" : [["coin",100],["booster#2",1]]
+    },
+    {
+      "id" : 32,
+      "mapX" : -100,
+      "mapY" : -16500,
+      "req": 570,
+      "gifts" : [["coin",100]]
+    },
+    {
+      "id" : 33,
+      "mapX" : -60,
+      "mapY" : -16900,
+      "req": 588,
+      "gifts" : [["coin",100]]
+    },
+    {
+      "id" : 34,
+      "mapX" : 450,
+      "mapY" : -17400,
+      "req": 606,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 35,
+      "mapX" : 250,
+      "mapY" : -17850,
+      "req": 618,
+      "gifts" : [["coin",100]]
+    },
+    {
+      "id" : 36,
+      "mapX" : -400,
+      "mapY" : -18200,
+      "req": 636,
+      "gifts" : [["coin",100]]
+    },
+    {
+      "id" : 37,
+      "mapX" : 195,
+      "mapY" : -18600,
+      "req": 654,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 38,
+      "mapX" : -370,
+      "mapY" : -19000,
+      "req": 672,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 39,
+      "mapX" : 175,
+      "mapY" : -19500,
+      "req": 690,
+      "gifts" : [["coin",100],["booster#1",1]]
+    },
+    {
+      "id" : 40,
+      "mapX" : -50,
+      "mapY" : -20000,
+      "req": 708,
+      "gifts" : [["coin",100],["booster#5",1]]
+    },
+    {
+      "id" : 41,
+      "mapX" : 0,
+      "mapY" : -20500,
+      "req": 726,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 42,
+      "mapX" : 90,
+      "mapY" : -21000,
+      "req": 744,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 43,
+      "mapX" : -50,
+      "mapY" : -21500,
+      "req": 762,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 44,
+      "mapX" : 350,
+      "mapY" : -22000,
+      "req": 780,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 45,
+      "mapX" : -180,
+      "mapY" : -22500,
+      "req": 798,
+      "gifts" : [["booster#2",1]]
+    },
+    {
+      "id" : 46,
+      "mapX" : 0,
+      "mapY" : -23000,
+      "req": 816,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 47,
+      "mapX" : 0,
+      "mapY" : -23400,
+      "req": 834,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 48,
+      "mapX" : 0,
+      "mapY" : -24000,
+      "req": 852,
+      "gifts" : [["coin",200],["booster#2",1]]
+    },
+    {
+      "id" : 49,
+      "mapX" : 100,
+      "mapY" : -24500,
+      "req": 870,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 50,
+      "mapX" : -60,
+      "mapY" : -25000,
+      "req": 888,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 51,
+      "mapX" : 350,
+      "mapY" : -25500,
+      "req": 906,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 52,
+      "mapX" : 0,
+      "mapY" : -26000,
+      "req": 1020,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 53,
+      "mapX" : 90,
+      "mapY" : -26500,
+      "req": 1040,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 54,
+      "mapX" : -150,
+      "mapY" : -27000,
+      "req": 1060,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 55,
+      "mapX" : 350,
+      "mapY" : -27500,
+      "req": 1080,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 56,
+      "mapX" : -280,
+      "mapY" : -28000,
+      "req": 1100,
+      "gifts" : [["booster#2",1]]
+    },
+    {
+      "id" : 57,
+      "mapX" : 100,
+      "mapY" : -28400,
+      "req": 1120,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 58,
+      "mapX" : 0,
+      "mapY" : -29000,
+      "req": 1140,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 59,
+      "mapX" : 0,
+      "mapY" : -29500,
+      "req": 1160,
+      "gifts" : [["coin",200],["booster#2",1]]
+    },
+    {
+      "id" : 60,
+      "mapX" : 0,
+      "mapY" : -30000,
+      "req": 1180,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 61,
+      "mapX" : 40,
+      "mapY" : -30500,
+      "req": 1100,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 62,
+      "mapX" : 450,
+      "mapY" : -31000,
+      "req": 1220,
+      "gifts" : [["booster#1",1]]
+    },
+    {
+      "id" : 63,
+      "mapX" : 450,
+      "mapY" : -32000,
+      "req": 1250,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 64,
+      "mapX" : -180,
+      "mapY" : -33000,
+      "req": 1200,
+      "gifts" : [["booster#2",1]]
+    },
+    {
+      "id" : 65,
+      "mapX" : 100,
+      "mapY" : -34000,
+      "req": 1250,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 66,
+      "mapX" : 0,
+      "mapY" : 35000,
+      "req": 1300,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 67,
+      "mapX" : 300,
+      "mapY" : -36000,
+      "req": 1350,
+      "gifts" : [["coin",200],["booster#2",1]]
+    },
+    {
+      "id" : 68,
+      "mapX" : 0,
+      "mapY" : -37000,
+      "req": 1400,
+      "gifts" : [["coin",150]]
+    },
+    {
+      "id" : 69,
+      "mapX" : -60,
+      "mapY" : -38000,
+      "req": 1450,
+      "gifts" : [["coin",200]]
+    },
+    {
+      "id" : 70,
+      "mapX" : 450,
+      "mapY" : -40000,
+      "req": 1500,
+      "gifts" : [["booster#8",3]]
+    }
+  ],
+  "coinsForAd": 250,
+  "livesForAd": 1,
+  "coinsForStar": [
+    10,
+    20,
+    40
+  ],
+  "coinsForImprovingHighscore": 0,
+  "boostersOnStart": 2,
+  "priceOfBooster1": 150,
+  "priceOfBooster2": 250,
+  "priceOfBooster3": 300,
+  "priceOfBooster4": 300,
+  "priceOfBooster5": 200,
+  "priceOfBooster6": 1200,
+  "priceOfBooster7": 300,
+  "priceOfBooster8": 500,
+  "comboBonus": [
+    0,
+    0,
+    2,
+    4,
+    8,
+    10
+  ],
+  "priceOfGoalRemove": [
+    150,
+    350
+  ],
+  "goalReward": 150,
+  "priceOfExtraMoves": 300,
+  "movesAfterWatchingAdWhenOutOfMoves": 3,
+  "pointsForMoveLeft": 100,
+  "chancesForAchievementGift": 0.5,
+  "chancesFor3StarsGift": 0.15,
+  "chancesForMapGift": 0.03,
+  "mapGiftTimeMinutes": 180,
+  "completedLevelCoinsProb": 0.25,
+  "mapTiles": [
+    "map_1",
+    "map_2",
+    "map_3",
+    "map_4",
+    "map_1",
+    "map_2",
+    "map_3",
+    "map_4"
+  ],
+  "goals": {
+    "1": {
+      "sprite": "candy_1",
+      "toUIAnimation": true
+    },
+    "2": {
+      "sprite": "candy_2",
+      "toUIAnimation": true
+    },
+    "3": {
+      "sprite": "candy_3",
+      "toUIAnimation": true
+    },
+    "4": {
+      "sprite": "candy_4",
+      "toUIAnimation": true
+    },
+    "5": {
+      "sprite": "candy_5",
+      "toUIAnimation": true
+    },
+    "6": {
+      "sprite": "candy_6",
+      "toUIAnimation": true
+    },
+    "concrete": {
+      "sprite": "concrete_3",
+      "toUIAnimation": true
+    },
+    "dirt": {
+      "sprite": "dirt_1",
+      "toUIAnimation": true
+    },
+    "chain": {
+      "sprite": "blocker_chain_wrapped",
+      "toUIAnimation": true
+    },
+    "ice": {
+      "sprite": "ice_front",
+      "toUIAnimation": true
+    },
+    "infection": {
+      "sprite": "candy_infection",
+      "toUIAnimation": true
+    },
+    "goalCandy": {
+      "sprite": "candy_goalCandy",
+      "toUIAnimation": true
+    }
+  },
+  "gifts": {
+    "boosterMaxNr": 2,
+    "boosterChance": 0.1,
+    "fallbackCoins": 50,
+    "icons": {
+      "coin": "coin_1",
+      "booster#1": "ui_booster_1",
+      "booster#2": "ui_booster_2",
+      "booster#3": "ui_booster_3",
+      "booster#4": "ui_booster_4",
+      "booster#5": "ui_booster_5",
+      "booster#7": "ui_booster_7",
+      "booster#8": "ui_booster_8",
+      "life": "heart",
+      "ginger": "ginger_gift"
+    },
+    "normals": {
+      "boosterNrLimit": true,
+      "list": [
+        [
+          "coin",
+          50
+        ],
+        [
+          "coin",
+          75
+        ],
+        [
+          "coin",
+          100
+        ],
+        [
+          "coin",
+          125
+        ],
+        [
+          "coin",
+          150
+        ],
+        [
+          "booster#1",
+          1
+        ],
+        [
+          "booster#1",
+          2
+        ],
+        [
+          "booster#2",
+          1
+        ],
+        [
+          "booster#2",
+          2
+        ],
+        [
+          "booster#3",
+          1
+        ],
+        [
+          "booster#3",
+          2
+        ],
+        [
+          "booster#4",
+          1
+        ],
+        [
+          "booster#4",
+          2
+        ],
+        [
+          "booster#5",
+          1
+        ],
+        [
+          "booster#5",
+          2
+        ],
+        [
+          "booster#7",
+          1
+        ],
+        [
+          "booster#7",
+          2
+        ],
+        [
+          "booster#8",
+          1
+        ],
+        [
+          "booster#8",
+          2
+        ]
+      ]
+    },
+    "missions": {
+      "boosterNrLimit": true,
+      "list": [
+        [
+          "coin",
+          50
+        ],
+        [
+          "coin",
+          65
+        ],
+        [
+          "coin",
+          75
+        ],
+        [
+          "coin",
+          85
+        ],
+        [
+          "coin",
+          100
+        ]
+      ]
+    },
+    "ingamechests": {
+      "boosterNrLimit": true,
+      "list": [
+        [
+          "coin",
+          1
+        ],
+        [
+          "coin",
+          2
+        ],
+        [
+          "coin",
+          3
+        ]
+      ]
+    },
+    "inactivityReminder": {
+      "boosterNrLimit": true,
+      "list": [
+        [
+          "coin",
+          1000
+        ]
+      ]
+    }
+  },
+  "globalGoals": [
+    {
+      "id": 0,
+      "description": "$Make$ %TARGET% $moves$",
+      "listener": "userMadeMove",
+      "increaser": 1,
+      "targetRange": [
+        10,
+        1000
+      ],
+      "timeRange": [
+        5,
+        300
+      ],
+      "levelRangeRequired": [
+        0,
+        50
+      ]
+    },
+    {
+      "id": 1,
+      "description": "@*1.5*candy_1@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "1"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        0,
+        43
+      ]
+    },
+    {
+      "id": 2,
+      "description": "@*1.5*candy_2@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "2"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        0,
+        43
+      ]
+    },
+    {
+      "id": 3,
+      "description": "@*1.5*candy_3@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "3"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        0,
+        43
+      ]
+    },
+    {
+      "id": 4,
+      "description": "@*1.5*candy_4@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "4"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        0,
+        43
+      ]
+    },
+    {
+      "id": 5,
+      "description": "@*1.5*candy_5@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        0,
+        43
+      ]
+    },
+    {
+      "id": 6,
+      "description": "@*1.5*candy_6@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        2000
+      ],
+      "timeRange": [
+        5,
+        60
+      ],
+      "levelRangeRequired": [
+        43,
+        80
+      ]
+    },
+    {
+      "id": 7,
+      "description": "@*1.5*map_star_1@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        5,
+        50
+      ],
+      "timeRange": [
+        15,
+        120
+      ],
+      "levelRangeRequired": [
+        10,
+        50
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 8,
+      "description": "@*1.5*map_star_3@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        1,
+        5
+      ],
+      "timeRange": [
+        10,
+        60
+      ],
+      "levelRangeRequired": [
+        10,
+        50
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 9,
+      "description": "@*1.5*dirt_1@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "dirt"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        12,
+        50
+      ]
+    },
+    {
+      "id": 10,
+      "description": "@*1.5*ice_front@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "ice"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        70,
+        120
+      ]
+    },
+    {
+      "id": 11,
+      "description": "@*1.5*blocker_chain_wrapped@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "chain"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        18,
+        35
+      ]
+    },
+    {
+      "id": 12,
+      "description": "@*1.5*concrete_3@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "concrete"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        25,
+        200
+      ],
+      "timeRange": [
+        25,
+        120
+      ],
+      "levelRangeRequired": [
+        90,
+        450
+      ]
+    },
+    {
+      "id": 13,
+      "description": "$Collect$%TARGET%$points$",
+      "listener": "onPointsAdded",
+      "increaser": [
+        true
+      ],
+      "targetRange": [
+        5000,
+        150000
+      ],
+      "timeRange": [
+        10,
+        300
+      ],
+      "levelRangeRequired": [
+        10,
+        50
+      ]
+    },
+    {
+      "id": 14,
+      "description": "$Make$ %TARGET% $moves$",
+      "listener": "userMadeMove",
+      "increaser": 1,
+      "targetRange": [
+        500,
+        3000
+      ],
+      "timeRange": [
+        100,
+        700
+      ],
+      "levelRangeRequired": [
+        51,
+        150
+      ]
+    },
+    {
+      "id": 15,
+      "description": "$Make$ %TARGET% $moves$",
+      "listener": "userMadeMove",
+      "increaser": 1,
+      "targetRange": [
+        1000,
+        4000
+      ],
+      "timeRange": [
+        200,
+        1000
+      ],
+      "levelRangeRequired": [
+        151,
+        450
+      ]
+    },
+    {
+      "id": 16,
+      "description": "@*1.5*candy_1@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "1"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        44,
+        150
+      ]
+    },
+    {
+      "id": 17,
+      "description": "@*1.5*candy_1@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "1"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        151,
+        450
+      ]
+    },
+    {
+      "id": 18,
+      "description": "@*1.5*candy_2@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "2"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        44,
+        150
+      ]
+    },
+    {
+      "id": 19,
+      "description": "@*1.5*candy_2@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "2"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        151,
+        450
+      ]
+    },
+    {
+      "id": 20,
+      "description": "@*1.5*candy_3@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "3"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        44,
+        150
+      ]
+    },
+    {
+      "id": 21,
+      "description": "@*1.5*candy_3@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "3"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        150,
+        450
+      ]
+    },
+    {
+      "id": 22,
+      "description": "@*1.5*candy_4@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "4"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        44,
+        151
+      ]
+    },
+    {
+      "id": 23,
+      "description": "@*1.5*candy_4@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "4"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        150,
+        451
+      ]
+    },
+    {
+      "id": 24,
+      "description": "@*1.5*candy_5@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        44,
+        150
+      ]
+    },
+    {
+      "id": 25,
+      "description": "@*1.5*candy_5@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ]
+    },
+    {
+      "id": 26,
+      "description": "@*1.5*candy_6@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        100,
+        1000
+      ],
+      "timeRange": [
+        30,
+        120
+      ],
+      "levelRangeRequired": [
+        81,
+        150
+      ]
+    },
+    {
+      "id": 27,
+      "description": "@*1.5*candy_6@ $Collect$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "5"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        120,
+        1000
+      ],
+      "timeRange": [
+        20,
+        60
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ]
+    },
+    {
+      "id": 28,
+      "description": "@*1.5*map_star_1@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        8,
+        40
+      ],
+      "timeRange": [
+        15,
+        100
+      ],
+      "levelRangeRequired": [
+        51,
+        150
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 29,
+      "description": "@*1.5*map_star_1@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        10,
+        35
+      ],
+      "timeRange": [
+        20,
+        100
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 30,
+      "description": "@*1.5*map_star_2@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        8,
+        40
+      ],
+      "timeRange": [
+        15,
+        100
+      ],
+      "levelRangeRequired": [
+        51,
+        150
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 31,
+      "description": "@*1.5*map_star_2@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        10,
+        35
+      ],
+      "timeRange": [
+        20,
+        100
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 32,
+      "description": "@*1.5*map_star_3@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        8,
+        40
+      ],
+      "timeRange": [
+        15,
+        100
+      ],
+      "levelRangeRequired": [
+        51,
+        150
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 33,
+      "description": "@*1.5*map_star_3@ $Collect$%TARGET%",
+      "listener": "onLevelFinished",
+      "terms": [
+        []
+      ],
+      "increaser": [
+        false,
+        true
+      ],
+      "targetRange": [
+        10,
+        35
+      ],
+      "timeRange": [
+        20,
+        100
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ],
+      "afterIncreaseCallback": "pushPassedLevelToTerms"
+    },
+    {
+      "id": 34,
+      "description": "@*1.5*dirt_2@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "dirt"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        150
+      ],
+      "timeRange": [
+        15,
+        120
+      ],
+      "levelRangeRequired": [
+        24,
+        85
+      ]
+    },
+    {
+      "id": 35,
+      "description": "@*1.5*dirt_3@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "dirt"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        50
+      ],
+      "timeRange": [
+        20,
+        120
+      ],
+      "levelRangeRequired": [
+        29,
+        100
+      ]
+    },
+    {
+      "id": 36,
+      "description": "@*1.5*ice_crack_1@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "ice"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        10,
+        50
+      ]
+    },
+    {
+      "id": 37,
+      "description": "@*1.5*ice_crack_2@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "ice"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        20,
+        60
+      ]
+    },
+    {
+      "id": 38,
+      "description": "@*1.5*ice_crack_3@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "ice"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        10,
+        250
+      ],
+      "timeRange": [
+        10,
+        120
+      ],
+      "levelRangeRequired": [
+        40,
+        80
+      ]
+    },
+    {
+      "id": 39,
+      "description": "@*1.5*blocker_chain_wrapped@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "chain"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        25,
+        300
+      ],
+      "timeRange": [
+        10,
+        110
+      ],
+      "levelRangeRequired": [
+        36,
+        150
+      ]
+    },
+    {
+      "id": 40,
+      "description": "@*1.5*blocker_chain_wrapped@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "chain"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        35,
+        80
+      ],
+      "timeRange": [
+        15,
+        100
+      ],
+      "levelRangeRequired": [
+        151,
+        451
+      ]
+    },
+    {
+      "id": 41,
+      "description": "@*1.5*concrete_1@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "concrete"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        25,
+        120
+      ],
+      "timeRange": [
+        20,
+        120
+      ],
+      "levelRangeRequired": [
+        24,
+        44
+      ]
+    },
+    {
+      "id": 42,
+      "description": "@*1.5*concrete_2@ $Remove$%TARGET%",
+      "listener": "onCollectableRemove",
+      "terms": [
+        "concrete"
+      ],
+      "increaser": 1,
+      "targetRange": [
+        15,
+        150
+      ],
+      "timeRange": [
+        20,
+        120
+      ],
+      "levelRangeRequired": [
+        45,
+        89
+      ]
+    },
+    {
+      "id": 43,
+      "description": "$Collect$%TARGET%$points$",
+      "listener": "onPointsAdded",
+      "increaser": [
+        true
+      ],
+      "targetRange": [
+        7000,
+        150000
+      ],
+      "timeRange": [
+        10,
+        300
+      ],
+      "levelRangeRequired": [
+        51,
+        100
+      ]
+    },
+    {
+      "id": 44,
+      "description": "$Collect$%TARGET%$points$",
+      "listener": "onPointsAdded",
+      "increaser": [
+        true
+      ],
+      "targetRange": [
+        10000,
+        150000
+      ],
+      "timeRange": [
+        12,
+        250
+      ],
+      "levelRangeRequired": [
+        101,
+        150
+      ]
+    },
+    {
+      "id": 45,
+      "description": "$Collect$%TARGET%$points$",
+      "listener": "onPointsAdded",
+      "increaser": [
+        true
+      ],
+      "targetRange": [
+        13000,
+        150000
+      ],
+      "timeRange": [
+        15,
+        200
+      ],
+      "levelRangeRequired": [
+        151,
+        250
+      ]
+    },
+    {
+      "id": 46,
+      "description": "$Collect$%TARGET%$points$",
+      "listener": "onPointsAdded",
+      "increaser": [
+        true
+      ],
+      "targetRange": [
+        25000,
+        150000
+      ],
+      "timeRange": [
+        20,
+        200
+      ],
+      "levelRangeRequired": [
+        251,
+        451
+      ]
+    }
+  ]
+}
