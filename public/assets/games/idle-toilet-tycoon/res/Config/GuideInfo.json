@@ -1,0 +1,554 @@
+{
+    "0": {
+        "id": 0,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 1000,
+        "posIndex": 0,
+        "text": "Hey, I finally found you! \nI'm your grandfather's housekeeper.He went abroad last month."
+    },
+    "1": {
+        "id": 1,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "He was managing the world's largest toilet business tycoon. Now he wants you to take it over."
+    },
+    "2": {
+        "id": 2,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Wait, there seems to be a visitor over there"
+    },
+    "3": {
+        "id": 3,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 1000,
+        "posIndex": 0,
+        "text": "Can I teach you how to run a toilet as a boss first"
+    },
+    "4": {
+        "id": 4,
+        "guideIndex": 3,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "5": {
+        "id": 5,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Customers earn a profit every time they come to the bathroom"
+    },
+    "6": {
+        "id": 6,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "The current toilet is too simple, try to upgrade the toilet, improve the income"
+    },
+    "7": {
+        "id": 7,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "8": {
+        "id": 8,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "9": {
+        "id": 9,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Omg, there is no toilet paper. did the guest just wipe it with his hands?"
+    },
+    "10": {
+        "id": 10,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 1,
+        "text": "null"
+    },
+    "11": {
+        "id": 11,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "12": {
+        "id": 12,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Great, customers no longer need to use their hands to solve the problem, and the revenue is also increased"
+    },
+    "13": {
+        "id": 13,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "What? the toilet doesn't even have a trash can"
+    },
+    "14": {
+        "id": 14,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 2,
+        "text": "null"
+    },
+    "15": {
+        "id": 15,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "16": {
+        "id": 16,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 3,
+        "text": "null"
+    },
+    "17": {
+        "id": 17,
+        "guideIndex": 3,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "18": {
+        "id": 18,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Most people wash their hands after going to the toilet, but someone don't. There are also benefits to hand washing"
+    },
+    "19": {
+        "id": 19,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Sink can also be upgraded.More hand-washing sinks can avoid congestion."
+    },
+    "20": {
+        "id": 20,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 1,
+        "text": "null"
+    },
+    "21": {
+        "id": 21,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "22": {
+        "id": 22,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Great! but there are so few people coming to the toilet now, we need to attract more people."
+    },
+    "23": {
+        "id": 23,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 3,
+        "text": "null"
+    },
+    "24": {
+        "id": 24,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "25": {
+        "id": 25,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "The more prominent billboard can bring greater customer flow, of course, the more the better!"
+    },
+    "26": {
+        "id": 26,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "27": {
+        "id": 27,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 3,
+        "text": "null"
+    },
+    "28": {
+        "id": 28,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Great! you know how to run a toilet now! remember, upgrade toilets and passenger flow to make more money"
+    },
+    "29": {
+        "id": 29,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 1000,
+        "posIndex": 0,
+        "text": "If you want to develop quickly, remember this little sister"
+    },
+    "30": {
+        "id": 30,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "31": {
+        "id": 31,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 4,
+        "text": "null"
+    },
+    "32": {
+        "id": 32,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "We got a lot of money! with that money, we can go ahead and expand our men's room"
+    },
+    "33": {
+        "id": 33,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "34": {
+        "id": 34,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 4,
+        "text": "null"
+    },
+    "35": {
+        "id": 35,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "With more toilets, we can serve more customers! it's up to you! i'll be there to help you!"
+    },
+    "36": {
+        "id": 36,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 6,
+        "text": "null"
+    },
+    "37": {
+        "id": 37,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "You're doing well, but the earnings are still too low"
+    },
+    "38": {
+        "id": 38,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Fortunately, I have prepared a double income benefit for you. remember to receive it when you are free"
+    },
+    "39": {
+        "id": 39,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 4,
+        "text": "null"
+    },
+    "40": {
+        "id": 40,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Get 30 minutes of double earning time for every video you watch, plus extra diamonds for 5 views!"
+    },
+    "41": {
+        "id": 41,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 5,
+        "text": "null"
+    },
+    "42": {
+        "id": 42,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Now that you've earned double time, go and see if it's easier to make money"
+    },
+    "43": {
+        "id": 43,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "44": {
+        "id": 44,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "We went to the cleaning room, cleaning and repair equipment are managed here. Oh, the cost of this upgrade I will pay ~"
+    },
+    "45": {
+        "id": 45,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "46": {
+        "id": 46,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "High-grade equipment can improve the efficiency of staff cleaning repair oh! But it also wastes more water"
+    },
+    "47": {
+        "id": 47,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "By the way, the staff recruitment is also done here, now go to hire one to try"
+    },
+    "48": {
+        "id": 48,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 8,
+        "text": "null"
+    },
+    "49": {
+        "id": 49,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 9,
+        "text": "null"
+    },
+    "50": {
+        "id": 50,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Highly competent staff are also expensive, choose your favorite one."
+    },
+    "51": {
+        "id": 51,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "52": {
+        "id": 52,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "The use of diamonds can be great, let me teach you how to use!"
+    },
+    "53": {
+        "id": 53,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 6,
+        "text": "null"
+    },
+    "54": {
+        "id": 54,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "The diamond decoration will make the toilet more attractive, and it will greatly increase the revenue"
+    },
+    "55": {
+        "id": 55,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "56": {
+        "id": 56,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Good. I have some more diamonds here. try another one."
+    },
+    "57": {
+        "id": 57,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Don't look at me like that. men always have money"
+    },
+    "58": {
+        "id": 58,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 7,
+        "text": "null"
+    },
+    "59": {
+        "id": 59,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Air conditioning can reduce the use of toilets, which can improve efficiency, which is great!"
+    },
+    "60": {
+        "id": 60,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "61": {
+        "id": 61,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "done, this toilet is running at full capacity!"
+    },
+    "62": {
+        "id": 62,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Toilet development requires strong water resources. Fortunately, we have special sewage treatment system."
+    },
+    "63": {
+        "id": 63,
+        "guideIndex": 2,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "64": {
+        "id": 64,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Upgrading the sewage treatment system can increase the amount of water, I will help you build this!"
+    },
+    "65": {
+        "id": 65,
+        "guideIndex": 0,
+        "layerIndex": 1,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "66": {
+        "id": 66,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "To earn diamonds, try the task in the bottom right corner."
+    },
+    "67": {
+        "id": 67,
+        "guideIndex": 1,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "null"
+    },
+    "68": {
+        "id": 68,
+        "guideIndex": 0,
+        "layerIndex": 0,
+        "delay": 0,
+        "posIndex": 0,
+        "text": "Good,It's time to go,I wish you to run the toilet better and better."
+    }
+}

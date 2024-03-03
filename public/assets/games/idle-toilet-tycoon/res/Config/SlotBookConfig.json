@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Library of books",
+        "Describe": "Coffee warms your taste buds",
+        "updataCostDiamond": 400,
+        "Buff": -5
+    }
+}

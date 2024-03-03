@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Mint aromatherapy",
+        "Describe": "The Pungent Minty Smell Can Ease Indoor Odors Slightly",
+        "updateCostCoin": 1100,
+        "income": 14
+    },
+    "2": {
+        "id": 2,
+        "Name": "Lemon aroma",
+        "Describe": "The Freshness Of Lemon Greatly Reduces Indoor Odors",
+        "updateCostCoin": 3600,
+        "income": 30
+    },
+    "3": {
+        "id": 3,
+        "Name": "Grapefruit Aroma",
+        "Describe": "The Sweetness Of Grapefruit Is Just Perfect To Cover Up Indoor Odors",
+        "updateCostCoin": 27000,
+        "income": 48
+    },
+    "4": {
+        "id": 4,
+        "Name": "Electronic Aroma Therapy",
+        "Describe": "Automatic smell adjustment",
+        "updateCostCoin": 95000,
+        "income": 68
+    },
+    "5": {
+        "id": 5,
+        "Name": "Luxury Fragrance",
+        "Describe": "Bring You A Relaxing And Comfortable Experience Like Home",
+        "updateCostCoin": 220000,
+        "income": 90
+    }
+}

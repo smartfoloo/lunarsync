@@ -1,0 +1,436 @@
+{
+    "0": {
+        "id": 0,
+        "name": "slot_Baby_mirror_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_mirror_config.png"
+    },
+    "1": {
+        "id": 1,
+        "name": "slot_mt_config",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "url": "res/sprite/ui/mt.png"
+    },
+    "2": {
+        "id": 2,
+        "name": "slot_Accessible_mt_config",
+        "maxLevel": 7,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_Accessible_mt_config.png"
+    },
+    "3": {
+        "id": 3,
+        "name": "slot_clean_trash_can_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_clean_trash_can_config.png"
+    },
+    "4": {
+        "id": 4,
+        "name": "slot_detergent_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_detergent_config.png"
+    },
+    "5": {
+        "id": 5,
+        "name": "slot_airConditioner_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_airConditioner_config.png"
+    },
+    "6": {
+        "id": 6,
+        "name": "slot_Accessible_airConditioner_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_airConditioner_config.png"
+    },
+    "7": {
+        "id": 7,
+        "name": "slot_air_cleaner_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/air_cleaner.png"
+    },
+    "8": {
+        "id": 8,
+        "name": "slot_sweep_config",
+        "maxLevel": 5,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_sweep_config.png"
+    },
+    "9": {
+        "id": 9,
+        "name": "slot_cart_config",
+        "maxLevel": 4,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_cart_config.png"
+    },
+    "10": {
+        "id": 10,
+        "name": "slot_book_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_book_config.png"
+    },
+    "11": {
+        "id": 11,
+        "name": "slot_Chair_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Chair_config.png"
+    },
+    "12": {
+        "id": 12,
+        "name": "slot_coffee_config",
+        "maxLevel": 3,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_coffee_config.png"
+    },
+    "13": {
+        "id": 13,
+        "name": "slot_sweetmeats_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_sweetmeats_config.png"
+    },
+    "14": {
+        "id": 14,
+        "name": "slot_desk_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_desk_config.png"
+    },
+    "15": {
+        "id": 15,
+        "name": "slot_Accessible_cushion_config",
+        "maxLevel": 4,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_cushion_config.png"
+    },
+    "16": {
+        "id": 16,
+        "name": "slot_plss_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_plss_config.png"
+    },
+    "17": {
+        "id": 17,
+        "name": "slot_Accessible_wt_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_wt_config.png"
+    },
+    "18": {
+        "id": 18,
+        "name": "slot_Baby_lr_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_lr_config.png"
+    },
+    "19": {
+        "id": 19,
+        "name": "slot_Baby_c_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_c_config.png"
+    },
+    "20": {
+        "id": 20,
+        "name": "slot_urinal_config",
+        "maxLevel": 10,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_urinal_config.png"
+    },
+    "21": {
+        "id": 21,
+        "name": "slot_Accessible_xbc_config",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_Accessible_xbc_config.png"
+    },
+    "22": {
+        "id": 22,
+        "name": "slot_Baby_bed_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_bed_config.png"
+    },
+    "23": {
+        "id": 23,
+        "name": "slot_Baby_bench_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_bench_config.png"
+    },
+    "24": {
+        "id": 24,
+        "name": "slot_Baby_platform_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_platform_config.png"
+    },
+    "25": {
+        "id": 25,
+        "name": "slot_Baby_toy_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Baby_toy_config.png"
+    },
+    "26": {
+        "id": 26,
+        "name": "slot_mint_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_mint_config.png"
+    },
+    "27": {
+        "id": 27,
+        "name": "slot_Accessible_mint_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_mint_config.png"
+    },
+    "28": {
+        "id": 28,
+        "name": "slot_potted_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_potted_config.png"
+    },
+    "29": {
+        "id": 29,
+        "name": "slot_Accessible_pot_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_pot_config.png"
+    },
+    "30": {
+        "id": 30,
+        "name": "slot_trashCan_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_trashCan_config.png"
+    },
+    "31": {
+        "id": 31,
+        "name": "slot_Accessible_trash_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_trash_config.png"
+    },
+    "32": {
+        "id": 32,
+        "name": "slot_paper_config",
+        "maxLevel": 5,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_paper_config.png"
+    },
+    "33": {
+        "id": 33,
+        "name": "slot_Accessible_paper_config",
+        "maxLevel": 5,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_phone_config.png"
+    },
+    "34": {
+        "id": 34,
+        "name": "slot_phone_config",
+        "maxLevel": 4,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_phone_config.png"
+    },
+    "35": {
+        "id": 35,
+        "name": "slot_Accessible_phone_config",
+        "maxLevel": 4,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_Accessible_phone_config.png"
+    },
+    "36": {
+        "id": 36,
+        "name": "slot_clock_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_clock_config.png"
+    },
+    "37": {
+        "id": 37,
+        "name": "slot_wash_basin_man_config",
+        "maxLevel": 7,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_wash_basin_man_config.png"
+    },
+    "38": {
+        "id": 38,
+        "name": "slot_wash_basin_woman_config",
+        "maxLevel": 7,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_wash_basin_woman_config.png"
+    },
+    "39": {
+        "id": 39,
+        "name": "slot_Accessible_Hand_washstand_config",
+        "maxLevel": 8,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_Accessible_Hand_washstand_config.png"
+    },
+    "40": {
+        "id": 40,
+        "name": "slot_Baby_wash_config",
+        "maxLevel": 6,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_Baby_wash_config.png"
+    },
+    "41": {
+        "id": 41,
+        "name": "slot_sewage_config",
+        "maxLevel": 5,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_sewage_config.png"
+    },
+    "42": {
+        "id": 42,
+        "name": "slot_peeQueue_config",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_peeQueue_config.png"
+    },
+    "43": {
+        "id": 43,
+        "name": "slot_maleQueue_config",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_maleQueue_config.png"
+    },
+    "44": {
+        "id": 44,
+        "name": "slot_femaleQueue_config",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_femaleQueue_config.png"
+    },
+    "45": {
+        "id": 45,
+        "name": "slot_flow_config",
+        "maxLevel": 20,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_flow_config.png"
+    },
+    "46": {
+        "id": 46,
+        "name": "slot_secretaire_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_secretaire_config.png"
+    },
+    "47": {
+        "id": 47,
+        "name": "slot_table_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_table_config.png"
+    },
+    "48": {
+        "id": 48,
+        "name": "slot_onewindow_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_onewindow_config.png"
+    },
+    "49": {
+        "id": 49,
+        "name": "slot_twowindow_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_twowindow_config.png"
+    },
+    "50": {
+        "id": 50,
+        "name": "slot_basket_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_basket_config.png"
+    },
+    "51": {
+        "id": 51,
+        "name": "slot_clean_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_clean_config.png"
+    },
+    "52": {
+        "id": 52,
+        "name": "slot_groceries_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_groceries_config.png"
+    },
+    "53": {
+        "id": 53,
+        "name": "slot_drinks_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_drinks_config.png"
+    },
+    "54": {
+        "id": 54,
+        "name": "slot_bookrack_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_bookrack_config.png"
+    },
+    "55": {
+        "id": 55,
+        "name": "slot_freezer_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_freezer_config.png"
+    },
+    "56": {
+        "id": 56,
+        "name": "slot_shelf_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_shelf_config.png"
+    },
+    "57": {
+        "id": 57,
+        "name": "slot_flower_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_flower_config.png"
+    },
+    "58": {
+        "id": 58,
+        "name": "slot_vertical_air_config",
+        "maxLevel": 1,
+        "minLevel": 0,
+        "url": "res/sprite/ui/slot_vertical_air_config.png"
+    },
+    "59": {
+        "id": 59,
+        "name": "slot_fruits_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_fruits_config.png"
+    },
+    "60": {
+        "id": 60,
+        "name": "slot_cashier_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_cashier_config.png"
+    },
+    "61": {
+        "id": 61,
+        "name": "slot_book_cabinet_config",
+        "maxLevel": 4,
+        "minLevel": 1,
+        "url": "res/sprite/ui/slot_book_cabinet_config.png"
+    }
+}

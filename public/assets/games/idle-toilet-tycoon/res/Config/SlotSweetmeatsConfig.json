@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Dessert cupboard",
+        "Describe": "How can afternoon tea be without dessert?",
+        "updataCostDiamond": 300,
+        "income": 100
+    }
+}

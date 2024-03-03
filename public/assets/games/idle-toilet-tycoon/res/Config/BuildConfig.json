@@ -1,0 +1,79 @@
+{
+    "0": {
+        "id": 0,
+        "maleMoney": 0,
+        "maleWater": 0,
+        "femaleMoney": 0,
+        "femaleWater": 0,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    },
+    "1": {
+        "id": 1,
+        "maleMoney": 0,
+        "maleWater": 0,
+        "femaleMoney": 0,
+        "femaleWater": 0,
+        "disableMoney": 60000,
+        "disableWater": 11,
+        "babyMoney": 1600000,
+        "babyWater": 12
+    },
+    "2": {
+        "id": 2,
+        "maleMoney": 0,
+        "maleWater": 0,
+        "femaleMoney": 0,
+        "femaleWater": 0,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    },
+    "3": {
+        "id": 3,
+        "maleMoney": 4000,
+        "maleWater": 2,
+        "femaleMoney": 5000,
+        "femaleWater": 4,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    },
+    "4": {
+        "id": 4,
+        "maleMoney": 150000,
+        "maleWater": 2,
+        "femaleMoney": 150000,
+        "femaleWater": 4,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    },
+    "5": {
+        "id": 5,
+        "maleMoney": 800000,
+        "maleWater": 2,
+        "femaleMoney": 500000,
+        "femaleWater": 4,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    },
+    "6": {
+        "id": 6,
+        "maleMoney": 1600000,
+        "maleWater": 2,
+        "femaleMoney": 2500000,
+        "femaleWater": 4,
+        "disableMoney": 0,
+        "disableWater": 0,
+        "babyMoney": 0,
+        "babyWater": 0
+    }
+}

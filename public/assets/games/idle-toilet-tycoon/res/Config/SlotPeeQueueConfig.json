@@ -1,0 +1,72 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 0,
+        "length": 4
+    },
+    "2": {
+        "id": 2,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 100,
+        "length": 5
+    },
+    "3": {
+        "id": 3,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 200,
+        "length": 6
+    },
+    "4": {
+        "id": 4,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 1000,
+        "length": 7
+    },
+    "5": {
+        "id": 5,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 2500,
+        "length": 9
+    },
+    "6": {
+        "id": 6,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 8000,
+        "length": 11
+    },
+    "7": {
+        "id": 7,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 13000,
+        "length": 13
+    },
+    "8": {
+        "id": 8,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 50000,
+        "length": 15
+    },
+    "9": {
+        "id": 9,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 100000,
+        "length": 17
+    },
+    "10": {
+        "id": 10,
+        "Name": "Urine queue",
+        "Describe": "Determine the length of the queue for boys to urinate",
+        "updateCostCoin": 200000,
+        "length": 20
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Air Conditioner",
+        "Describe": "The Effect Of Air Conditioning Can Regulate The Mood",
+        "updataCostDiamond": 200,
+        "Buff": -5
+    }
+}

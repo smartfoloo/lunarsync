@@ -1,0 +1,37 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Plastic Trash Can",
+        "Describe": "Poor Quality",
+        "updateCostCoin": 75,
+        "income": 4
+    },
+    "2": {
+        "id": 2,
+        "Name": "Metal Trash Can",
+        "Describe": "It's Just More Durable",
+        "updateCostCoin": 200,
+        "income": 9
+    },
+    "3": {
+        "id": 3,
+        "Name": "Trash Can With Lid",
+        "Describe": "Sanitary, Clean And Tidy Trash Cans",
+        "updateCostCoin": 650,
+        "income": 14
+    },
+    "4": {
+        "id": 4,
+        "Name": "Green Trash Can",
+        "Describe": "Can Remove Odor, More Sanitary",
+        "updateCostCoin": 4500,
+        "income": 20
+    },
+    "5": {
+        "id": 5,
+        "Name": "Smart Trash Can",
+        "Describe": "Better Experience",
+        "updateCostCoin": 66000,
+        "income": 30
+    }
+}

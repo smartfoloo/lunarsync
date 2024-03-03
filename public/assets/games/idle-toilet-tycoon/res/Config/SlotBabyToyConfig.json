@@ -1,0 +1,9 @@
+{
+    "1": {
+        "id": 1,
+        "Name": "Toy area",
+        "Describe": "Can heal the heart of all children ~~",
+        "updataCostDiamond": 500,
+        "Buff": -8
+    }
+}
