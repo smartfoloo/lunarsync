@@ -1,9 +1,0 @@
-{
-    "1": {
-        "id": 1,
-        "Name": "Air Purifier",
-        "Describe": "Give Users A More Comfortable Environment",
-        "updataCostDiamond": 300,
-        "Buff": -2
-    }
-}

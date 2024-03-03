@@ -1,8 +1,0 @@
-@font-face {
-    font-family: "quintessence";
-    font-style: normal;
-    font-weight: normal;
-    src: url("assets/fonts/quintessence.woff2") format("woff2"),
-      url("assets/fonts/quintessence.woff") format("woff"),
-      url("assets/fonts/quintessence.ttf") format("truetype");
-  }

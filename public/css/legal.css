@@ -1,0 +1,54 @@
+* {
+  color: var(--text);
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h4, li{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.box {
+  background: var(--background2);
+  border-radius: 15px;
+  margin: 10px 200px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  line-height: 1.15;
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    margin: 10px 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    margin: 10px 50px;
+  }
+}
