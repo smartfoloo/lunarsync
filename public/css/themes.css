@@ -3,6 +3,7 @@ body[theme="default"] {
   --background2: #161616;
   --background3: #1f1f1f;
   --theme: #1cd96a;
+  --shadow: rgba(28, 217, 106, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #2b2b2b;
@@ -13,6 +14,7 @@ body[theme="light"] {
   --background2: #e0e0e0;
   --background3: #9e9e9e;
   --theme: #1cd96a;
+  --shadow: rgba(28, 217, 106, 0.5);
   --text: #000;
   --text-secondary: #fff;
   --nav-btn: #cfcfcf;
@@ -23,6 +25,7 @@ body[theme="monochrome"] {
   --background2: #161616;
   --background3: #1f1f1f;
   --theme: #fff;
+  --shadow: rgba(255, 255, 255, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #2b2b2b;
@@ -33,19 +36,10 @@ body[theme="abyss"] {
   --background2: #1a242d;
   --background3: #262641;
   --theme: #4958e4;
+  --shadow: rgba(73, 88, 228, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #10192c;
-}
-
-body[theme="ocean"] {
-  --background: #05668D;
-  --background2: #679436;
-  --background3: #427AA1;
-  --theme: #A5BE00;
-  --text: #EBF2FA;
-  --text-secondary: #000;
-  --nav-btn: #679436;
 }
 
 body[theme="magma"] {
@@ -53,6 +47,7 @@ body[theme="magma"] {
   --background2: #5a0000;
   --background3: #b10000;
   --theme: #ff0000;
+  --shadow: rgba(255, 0, 0, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #850000;
@@ -63,30 +58,23 @@ body[theme="mint-apple"] {
   --background2: #1c3729;
   --background3: #2c5b50;
   --theme: #578464;
+  --shadow: rgba(87, 132, 100, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #578464;
-}
-
-body[theme="sunset"] {
-  --background: #132421;
-  --background2: #b85b43;
-  --background3: #7c2b8e;
-  --theme: #d37015;
-  --text: #fff;
-  --text-secondary: #000;
-  --nav-btn: #d37015;
 }
 
 body[theme="blueberry"] {
   --background: #578deb;
   --background2: #005dfc;
   --background3: #0040ad;
-  --theme: #00328a;
+  --theme: rgb(0, 50, 138);
+  --shadow: rgba(0, 50, 138, 0.5);
   --text: #fff;
   --text-secondary: #000;
   --nav-btn: #323945;
 }
+
 body[theme="gruvbox"] {
   --background: #282828;
   --background2: #504945;

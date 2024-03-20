@@ -1,5 +1,4 @@
 "use strict";
-
 /**
  * @type {HTMLFormElement}
  */
@@ -33,7 +32,5 @@ form.addEventListener("submit", async (event) => {
   }
 
   const url = search(address.value, searchEngine.value);
-  localStorage.setItem("proxy-load", __uv$config.prefix + __uv$config.encodeUrl(url));
-  console.log(__uv$config.prefix + __uv$config.encodeUrl(url))
-  location.href = "../load.html"
+  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
