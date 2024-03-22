@@ -1,5 +1,6 @@
 const gameList = document.getElementById("gameList");
 const searchInput = document.getElementById("searchInput");
+const likedGamesContainer = document.getElementById("likedGames");
 
 searchInput.addEventListener("input", function () {
   const searchTerm = searchInput.value.toLowerCase();
@@ -13,9 +14,20 @@ searchInput.addEventListener("input", function () {
       card.style.display = "none";
     }
   });
+
+  likedGamesContainer.forEach((card) => {
+    const title = card.querySelector(".title").textContent.toLowerCase();
+    if (title.includes(searchTerm)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
   
   gameList.style.removeProperty("display");
   gameList.style.removeProperty("flex-wrap");
+  likedGamesContainer.style.removeProperty("display");
+  likedGamesContainer.style.removeProperty("flex-wrap");
 
   const visibleCards = Array.from(gameList.querySelectorAll(".game-card[style='display: block;']"));
 
@@ -27,9 +39,6 @@ searchInput.addEventListener("input", function () {
     gameList.style.gridTemplateColumns = "repeat(auto-fit, 150px)";
   }
 });
-
-
-
 
 function incrementGamesPlayed(gameName) {
   var gamesPlayed = JSON.parse(localStorage.getItem("gamesPlayed")) || [];
@@ -60,7 +69,6 @@ gameCards.forEach(function (gameCard) {
 
 storeTotalGames();
 
-
 document.addEventListener('DOMContentLoaded', function () {
   var likedGames = JSON.parse(localStorage.getItem('likedGames')) || [];
   var gameCards = document.querySelectorAll('.game-card');
@@ -70,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var link = card.closest('a').getAttribute('href');
       if (link === likedGameLink) {
         addLikedLabel(card);
+        moveToLiked(card);
       }
     });
   });
@@ -88,6 +97,10 @@ function removeLikedLabel(gameCard) {
   }
 }
 
+function moveToLiked(card) {
+  card.closest('a').remove();
 
+  likedGamesContainer.appendChild(card.closest('a'));
 
-
+  card.closest('a').classList.add('liked-game');
+}

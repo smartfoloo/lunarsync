@@ -26,31 +26,30 @@ document.addEventListener('DOMContentLoaded', function () {
   var index = likedGames.indexOf(currentPage);
 
   if (index !== -1) {
-    toggleLike(true);
+    toggleLike(true, currentPage);
   }
 
   likeButton.addEventListener('click', function () {
     if (index !== -1) {
       likedGames.splice(index, 1);
-      toggleLike(false);
+      toggleLike(false, currentPage);
     } else {
       likedGames.push(currentPage);
-      toggleLike(true);
+      toggleLike(true, currentPage);
     }
 
     localStorage.setItem('likedGames', JSON.stringify(likedGames));
+    index = likedGames.indexOf(currentPage);
   });
-});
 
-function toggleLike(isLiked) {
-  var starButton = document.getElementById('likeButton');
-  var starLogo = starButton.querySelector('.star-logo');
+  function toggleLike(isLiked, currentPage) {
+    var starButton = document.getElementById('likeButton');
+    var starLogo = starButton.querySelector('.star-logo');
 
-  if (isLiked) {
-    starLogo.innerHTML = '<i class="fa-solid fa-star" style="color: var(--text);"></i>';
-  } else {
-    starLogo.innerHTML = '<i class="fa-regular fa-star" style="color: var(--text);"></i>';
+    if (isLiked) {
+      starLogo.innerHTML = '<i class="fa-solid fa-star" style="color: yellow;"></i>';
+    } else {
+      starLogo.innerHTML = '<i class="fa-regular fa-star" style="color: var(--text);"></i>';
+    }
   }
-}
-
-
+});

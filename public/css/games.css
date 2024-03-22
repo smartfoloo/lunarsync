@@ -22,11 +22,10 @@ h4 {
   text-align: center;
 }
 
-.center {
+.center, .liked-games {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 10px;
   text-align: center;
   line-height: 1.7;
   margin: 0px 150px;
@@ -119,7 +118,7 @@ input:hover {
   position: absolute;
   display: inline-block;
   padding: 5px;
-  color: var(--text)f00;
+  color: yellow;
   text-align: center;
   font-size: 20px;
   background: var(--text-secondary);
@@ -179,13 +178,13 @@ kbd {
 }
 
 @media screen and (max-width: 1000px) {
-  .center {
+  .center, .liked-games{
     margin: 0px 100px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .center {
+  .center, .liked-games{
     margin: 0px 50px;
   }
 }
