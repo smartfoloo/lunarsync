@@ -1,0 +1,55 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--text);
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 20px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.battery-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid var(--nav-btn);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#battery-icon {
+  font-size: 25px;
+}
+
+#uv-address {
+  background: var(--background3);
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 50vw;
+  color: var(--text);
+  text-align: center;
+  margin: 10px;
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  text-decoration-style: solid;
+  text-decoration-color: var(--text);
+  transition: 500ms;
+  outline: none;
+}
+
+#uv-address ::placeholder {
+  color: #757575;
+  font-size: 16px;
+}

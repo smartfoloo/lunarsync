@@ -1,0 +1,73 @@
+[
+	{
+		"index": 0,
+		"reward_type": "",
+		"reward_value": "",
+		"trophy": "wood_1"
+	},
+	{
+		"index": 5,
+		"reward_type": "skin",
+		"reward_value": "tom"
+	},
+	{
+		"index": 10,
+		"reward_type": "skin",
+		"reward_value": "billy"
+	},
+	{
+		"index": 15,
+		"reward_type": "skin",
+		"reward_value": "horn"
+	},
+	{
+		"index": 20,
+		"reward_type": "skin",
+		"reward_value": "haka"
+	},
+	{
+		"index": 25,
+		"reward_type": "skin",
+		"reward_value": "walter"
+	},
+	{
+		"index": 30,
+		"reward_type": "skin",
+		"reward_value": "james"
+	},
+	{
+		"index": 35,
+		"reward_type": "skin",
+		"reward_value": "bud"
+	},
+	{
+		"index": 40,
+		"reward_type": "skin",
+		"reward_value": "tony"
+	},
+	{
+		"index": 45,
+		"reward_type": "skin",
+		"reward_value": "pepe"
+	},
+	{
+		"index": 50,
+		"reward_type": "skin",
+		"reward_value": "igor"
+	},
+	{
+		"index": 55,
+		"reward_type": "skin",
+		"reward_value": "jack"
+	},
+	{
+		"index": 60,
+		"reward_type": "skin",
+		"reward_value": "nori"
+	},
+	{
+		"index": 65,
+		"reward_type": "skin",
+		"reward_value": "king"
+	}
+]

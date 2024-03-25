@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="description" content="The ultimate place for 200+ unblocked games at school">
   <meta name="keywords" content="unblocked, games, unblocked games, school, work">
+  <meta property="og:image" content="./assets/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Platformer.io</title>
@@ -11,7 +12,7 @@
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="./css/themes.css" />
   <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/games.css" />
+  <link rel="stylesheet" href="./css/search.css" />
   <link rel="stylesheet" href="./css/footer.css" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
@@ -50,7 +51,11 @@
     </div>
   </nav>
   <div class="main-content">
-    <h4 id="randomText"></h4>
+    <h1 id="time-text"></h1>
+    <div class="battery-info">
+      <i id="battery-icon"></i>
+      <h4 id="battery-level"></h4>
+    </div>
     <form id="uv-form">
       <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
       <input id="uv-address" type="text" placeholder="Search Google or type a URL" />
@@ -66,6 +71,6 @@
   <script src="uv/register-sw.js" defer></script>
   <script src="uv/search.js" defer></script>
   <script src="uv/proxy.js" defer></script>
-  <script src="./js/randomtext.js" defer></script>
+  <script src="./js/index.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,391 @@
+{
+	"bro":{
+		"health":1000,
+		"attack":50,
+		"attack_cd":0.7,
+		"skill_cd":9,
+		"skill_atk":200,
+		"attack_distance":240,
+		"earnFrom":"EARN MORE TROPHIES",
+		"tier":"Trophy Road Reward",
+		"powers":{
+			"level2":{
+				"name":"HAND GRENADE",
+				"description":"Throw a grenade on your opponent"
+			},
+			"level6":{
+				"name":"BRO HEADPHONES",
+				"description":"Heal if you have less than 50% of health"
+			},
+			"level15":{
+				"name":"BRO SNEAKERS",
+				"description":"Increase attack speed by 20%"
+			},
+			"level20":{
+				"name":"GOLD NECKLACE",
+				"description":"Increase damage by 30%"
+			}
+		}
+	},
+	"tom":{
+		"health":1000,
+		"attack":200,
+		"attack_cd":1.5,
+		"skill_cd":15,
+		"attack_distance":240,
+		"earnFrom":"EARN MORE TROPHIES",
+		"tier":"Trophy Road Reward",
+		"powers":{
+			"level2":{
+				"name":"MEDIC CASE",
+				"description":"Heal 20% of your health instantly"
+			},
+			"level6":{
+				"name":"WALKIE TALKIE",
+				"description":"Incrise damage by 20% while your health is high"
+			},
+			"level15":{
+				"name":"MILITARY BINOCULARS",
+				"description":"Increase speed move by 25% while your health is high"
+			},
+			"level20":{
+				"name":"SOLDIER TAG",
+				"description":"Increase attack speed by 30% while your health is high"
+			}
+		}
+	},
+	"billy":{
+		"health":1000,
+		"attack":320,
+		"attack_cd":2,
+		"skill_cd":15,
+		"attack_distance":240,
+		"earnFrom":"EARN MORE TROPHIES",
+		"tier":"Trophy Road Reward",
+		"powers":{
+			"level2":{
+				"name":"FRESH DRINK",
+				"description":"Heal a lot but prevent him from moving meanwhile"
+			},
+			"level6":{
+				"name":"LUCKY HORSESHOE",
+				"description":"Bullets move faster"
+			},
+			"level15":{
+				"name":"READ BANDANA",
+				"description":"Deal more damage when you are further away"
+			},
+			"level20":{
+				"name":"SHERIFF STAR",
+				"description":"Increase attack speed by 30% while your health is high"
+			}
+		}
+	},
+	"horn":{
+		"health":700,
+		"attack":160,
+		"attack_cd":0.5,
+		"skill_atk":250,
+		"skill_cd":8,
+		"attack_distance":70,
+		"earnFrom":"EARN MORE TROPHIES",
+		"tier":"Trophy Road Reward",
+		"powers":{
+			"level2":{
+				"name":"THROWING AXE",
+				"description":"Throw an axe in front of you"
+			},
+			"level6":{
+				"name":"YELLING HORN",
+				"description":"Every kill heal 25% of your health"
+			},
+			"level15":{
+				"name":"WOOD SHIELD",
+				"description":"Reduce damage received by 20%"
+			},
+			"level20":{
+				"name":"VIKING WRISTBAND",
+				"description":"Every attack has 20% chance to double its damage"
+			}
+		}
+	},
+	"haka":{
+		"health":1000,
+		"attack":150,
+		"attack_cd":1.5,
+		"skill_cd":25,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Rare",
+		"powers":{
+			"level2":{
+				"name":"HEALING TOTEM",
+				"description":"Drop a totem healing your allies during 4 sec"
+			},
+			"level6":{
+				"name":"ANCIENT SEASHELL",
+				"description":"Boomerang heals 20% more damage on way back"
+			},
+			"level15":{
+				"name":"HOOK NECKLACE",
+				"description":"Increase damage by 10%"
+			},
+			"level20":{
+				"name":"MAGIC FEATHER",
+				"description":"Boomerang becomes bigger and bigger"
+			}
+		}
+	},
+	"walter":{
+		"health":1200,
+		"attack":180,
+		"attack_cd":0.8,
+		"skill_cd":6,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Rare",
+		"powers":{
+			"level2":{
+				"name":"PUFFER FISH",
+				"description":"Shoot a giant bouncing fish"
+			},
+			"level6":{
+				"name":"BIG TELESCOPE",
+				"description":"Increase damage by 20% while health is low"
+			},
+			"level15":{
+				"name":"SEA COMPASS",
+				"description":"Increase attack speed by 30% while your health is low"
+			},
+			"level20":{
+				"name":"BLACK FLAG",
+				"description":"Your bullets can bounce on the ground"
+			}
+		}
+	},
+	"james":{
+		"health":800,
+		"attack":180,
+		"attack_cd":0.7,
+		"skill_cd":12,
+		"skill_time":4,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Rare",
+		"powers":{
+			"level2":{
+				"name":"IRON BANANA",
+				"description":"Cancel all damage during 4 sec"
+			},
+			"level6":{
+				"name":"AGENT SUITCASE",
+				"description":"Increase health by 20%"
+			},
+			"level15":{
+				"name":"SMARTWATCH",
+				"description":"After a successful attack, the next one deal 30% more damage"
+			},
+			"level20":{
+				"name":"SPY PHONE",
+				"description":"Every attack has 20% chance to double its damage"
+			}
+		}
+	},
+	"bud":{
+		"health":1000,
+		"attack":250,
+		"attack_cd":0.8,
+		"skill_cd":15,
+		"skill_time":11,
+		"attack_distance":180,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Rare",
+		"powers":{
+			"level2":{
+				"name":"SMOKE GRENADE",
+				"description":"Throw a smoke grenade dealing damage to opponents during 6 sec"
+			},
+			"level6":{
+				"name":"FLASHING LIGHT",
+				"description":"Bullets goes farther"
+			},
+			"level15":{
+				"name":"BULLETPROOF VEST",
+				"description":"Increase health by 20%"
+			},
+			"level20":{
+				"name":"POLICE BADGE",
+				"description":"Add 2 bullets to each attack"
+			}
+		}
+	},
+	"tony":{
+		"health":1000,
+		"attack":60,
+		"attack_cd":1.5,
+		"skill_cd":6,
+		"skill_time":5,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Rare",
+		"powers":{
+			"level2":{
+				"name":"CHEESE BALL",
+				"description":"Throw a cheese ball slowing down opponents"
+			},
+			"level6":{
+				"name":"PAIR OF ACES",
+				"description":"Each bullet hitting an opponent heals you"
+			},
+			"level15":{
+				"name":"RED TIE",
+				"description":"Add a pushback effect on each bullet"
+			},
+			"level20":{
+				"name":"CUBAN CIGAR",
+				"description":"Bullets pass through opponents"
+			}
+		}
+	},
+	"pepe":{
+		"health":1000,
+		"attack":200,
+		"attack_cd":1.5,
+		"skill_cd":16,
+		"skill_atk":300,
+		"skill_time":3,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Epic",
+		"powers":{
+			"level2":{
+				"name":"HOT CHILI",
+				"description":"Explode after a short delay dealing damage around him"
+			},
+			"level6":{
+				"name":"CALAVERA",
+				"description":"Drop a dynamite when dying"
+			},
+			"level15":{
+				"name":"MARACAS",
+				"description":"Increase attack speed by 20%"
+			},
+			"level20":{
+				"name":"TEQUILA",
+				"description":"Throw one more dynamite"
+			}
+		}
+	},
+	"igor":{
+		"health":1200,
+		"attack":140,
+		"attack_cd":2,
+		"skill_cd":16,
+		"skill_atk":50,
+		"skill_time":6,
+		"attack_distance":240,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Epic",
+		"powers":{
+			"level2":{
+				"name":"COCKTAIL MOLOTOV",
+				"description":"Throw a Cocktail Molotov buring opponents during 6 sec"
+			},
+			"level6":{
+				"name":"RUSSIAN BOOTS",
+				"description":"Each kill increase your max health by 2%"
+			},
+			"level15":{
+				"name":"TEDDY BEAR",
+				"description":"Increase damage by 10%"
+			},
+			"level20":{
+				"name":"RED STAR PENDANT",
+				"description":"Add one more missile"
+			}
+		}
+	},
+	"jack":{
+		"health":1300,
+		"attack":50,
+		"attack_cd":0,
+		"skill_atk":60,
+		"skill_cd":23,
+		"skill_time":5,
+		"attack_distance":70,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Epic",
+		"powers":{
+			"level2":{
+				"name":"EVIL PUMPKIN",
+				"description":"Become an evil pumpkin, move faster and drain opponent health"
+			},
+			"level6":{
+				"name":"CURSED CANDLE",
+				"description":"Increase the duration of evil pumpkin by 50%"
+			},
+			"level15":{
+				"name":"MAGIC POTION",
+				"description":"Increase speed move by 10%"
+			},
+			"level20":{
+				"name":"BLOODY SPIDER",
+				"description":"Every kill increase your damage by 2%"
+			}
+		}
+	},
+	"nori":{
+		"health":700,
+		"attack":360,
+		"attack_cd":2,
+		"skill_cd":10,
+		"attack_distance":100,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Epic",
+		"powers":{
+			"level2":{
+				"name":"DARK SHADOW",
+				"description":"Become invisible until your next attack"
+			},
+			"level6":{
+				"name":"NINJA HEADBAND",
+				"description":"Deal 25% more damage to low health opponent"
+			},
+			"level15":{
+				"name":"MAKIMONO",
+				"description":"Reset all your cooldowns after killing an opponent"
+			},
+			"level20":{
+				"name":"SHINOBI PENDANT",
+				"description":"Ignore all damages during attack"
+			}
+		}
+	},
+	"king":{
+		"health":1400,
+		"attack":230,
+		"attack_cd":0.7,
+		"skill_cd":15,
+		"attack_distance":70,
+		"earnFrom":"FOUND IN CANNED",
+		"tier":"Epic",
+		"powers":{
+			"level2":{
+				"name":"KING WRATH",
+				"description":"During 6 sec, your weapon shoot magic projectiles"
+			},
+			"level6":{
+				"name":"ROYAL CAPE",
+				"description":"Increase speed move by 20%"
+			},
+			"level15":{
+				"name":"GOLD RING",
+				"description":"Increase attack speed by 20%"
+			},
+			"level20":{
+				"name":"HOLY RELIC",
+				"description":"Every attack has 5% chance to instantly kill your opponent"
+			}
+		}
+	}
+}
