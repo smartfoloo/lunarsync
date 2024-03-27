@@ -85,13 +85,14 @@ h4 {
 }
 
 .main-content button:disabled {
-  background-color: rgba(128, 128, 128, 0.548);
+  background-color: var(--background2);
+  color: #757575;
   border: transparent;
   cursor: auto;
 }
 
 .main-content button:disabled:hover {
-  color: var(--text);
+  color: #757575;
 }
 
 kbd {
@@ -165,8 +166,8 @@ input {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 20px;
+  gap: 5px;
+  margin: 20px 0px;
 }
 
 .url-buttons button {

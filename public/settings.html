@@ -59,11 +59,19 @@
           <input id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)" />
           <input id="icon" class="input" placeholder="Icon URL" onkeyup="setFavicon(this.value.trim())" />
         </div>
+        <div class="url-buttons">
+          <button class="url-button" onclick="resetTab()"><img src="./assets/favicon.png" alt=""></button>
+          <button class="url-button" onclick="setCloak('canvas')"><img src="./assets/images/canvas.png" alt=""></button>
+          <button class="url-button" onclick="setCloak('google-classroom')"><img src="./assets/images/classroom.png" alt=""></button>
+          <button class="url-button" onclick="setCloak('google-drive')"><img src="./assets/images/googledrive.png" alt=""></button>
+          <button class="url-button" onclick="setCloak('khan-academy')"><img src="./assets/images/khanacademy.png" alt=""></button>
+        </div>
         <h4>This will automatically be saved across our site!</h4>
       </div>
       <div class="box">
         <h3>Advanced about:blank Cloaking</h3>
-        <h4>This will hide our site from your history! Please enable popups!</h4>
+        <h4>This will hide our site from your history!</h4>
+        <h4><b>You need to enable popups for this to work.</b></h4>
         <button id="enableAboutBlank" onclick="enableAboutBlank()">Enable</button>
         <button id="disableAboutBlank" onclick="disableAboutBlank()">Disable</button>
       </div>

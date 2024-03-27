@@ -78,6 +78,35 @@ function setFavicon(icon) {
   localStorage.setItem("tab", JSON.stringify(tabData));
 }
 
+function setCloak(cloak) {
+  switch (cloak) {
+    case "canvas":
+      setTitle("Dashboard");
+      setFavicon("./assets/images/canvas.png");
+      location.reload();
+      break;
+    case "google-classroom":
+      setTitle("Classes");
+      setFavicon("./assets/images/classroom.png");
+      location.reload();
+      break;
+    case "google":
+      setTitle("Google");
+      setFavicon("./assets/images/google.ico");
+      location.reload();
+      break;
+    case "google-drive":
+      setTitle("Google Drive");
+      setFavicon("./assets/images/googledrive.png");
+      location.reload();
+      break;
+    case "khan-academy":
+      setTitle("Khan Academy");
+      setFavicon("./assets/images/khanacademy.png");
+      location.reload();
+      break;
+  }
+}
 
 function resetTab() {
   document.title = settingsDefaultTab.title;

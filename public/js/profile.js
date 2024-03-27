@@ -1,20 +1,13 @@
 function displayUserXP() {
   var currentXP = parseInt(localStorage.getItem("userXP")) || 0;
   var xpPerLevel = 200;
-
   var currentLevel = Math.floor(currentXP / xpPerLevel) + 1;
-  var xpForNextLevel = xpPerLevel * (currentLevel);
-  var xpProgress = ((currentXP % xpPerLevel) / xpPerLevel) * 100;
 
   document.getElementById("user-Level").textContent = "Level " + currentLevel;
-  document.getElementById("xp-progress").style.width = xpProgress + "%";
+  document.getElementById("user-Xp").textContent = currentXP + "/200 XP";
 }
 
-
-window.onload = function () {
-  displayUserXP();
-  checkLevelUp();
-};
+displayUserXP();
 
 const editableHeading = document.getElementById('editableHeading');
 const editInput = document.getElementById('editInput');
@@ -23,29 +16,13 @@ const saveButton = document.getElementById('saveButton');
 const savedUsername = localStorage.getItem('username');
 if (savedUsername) {
   editableHeading.textContent = savedUsername;
-  editInput.value = savedUsername;
 }
 
-saveButton.addEventListener('click', () => {
-  const newUsername = editInput.value;
+document.getElementById("editIcon").addEventListener("click", function () {
+  var newUsername = prompt('Enter your new username')
   editableHeading.textContent = newUsername;
-  editInput.style.display = 'none';
-  saveButton.style.display = 'none';
-  editableHeading.style.display = 'block';
-
   localStorage.setItem('username', newUsername);
   location.reload();
-});
-
-document.getElementById("editIcon").addEventListener("click", function () {
-  var inputDiv = document.querySelector(".input-div");
-  if (inputDiv.style.display === "none" || inputDiv.style.display === "") {
-    inputDiv.style.display = "block";
-    document.getElementById("saveButton").style.display = "block";
-  } else {
-    inputDiv.style.display = "none";
-    document.getElementById("saveButton").style.display = "none";
-  }
 });
 
 const firstVisitDate = localStorage.getItem('firstVisitDate');
@@ -97,28 +74,6 @@ if (tabData.icon) {
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
   document.body.setAttribute('theme', savedTheme);
-}
-
-const isLazyLoadingEnabled = localStorage.getItem('lazyLoadEnabled') === 'true';
-
-if (isLazyLoadingEnabled) {
-  applyLazyLoading();
-} else {
-  removeLazyLoading();
-}
-
-function applyLazyLoading() {
-  const gameCards = document.querySelectorAll('.game-card');
-  gameCards.forEach(card => {
-    card.setAttribute('loading', 'lazy');
-  });
-}
-
-function removeLazyLoading() {
-  const gameCards = document.querySelectorAll('.game-card');
-  gameCards.forEach(card => {
-    card.removeAttribute('loading');
-  });
 }
 
 function startTrackingTime() {
@@ -176,35 +131,6 @@ if (localStorage.getItem('pageVisits')) {
 } else {
   localStorage.setItem('pageVisits', '1');
 }
-
-function showTime() {
-  var date = new Date();
-  var h = date.getHours();
-  var m = date.getMinutes();
-  var s = date.getSeconds();
-  var session = "AM";
-
-  if (h == 0) {
-    h = 12;
-  }
-
-  if (h > 12) {
-    h = h - 12;
-    session = "PM";
-  }
-
-  h = (h < 10) ? "0" + h : h;
-  m = (m < 10) ? "0" + m : m;
-  s = (s < 10) ? "0" + s : s;
-
-  var time = h + ":" + m + ":" + s + " " + session;
-  document.getElementById("clock").innerText = time;
-  document.getElementById("clock").textContent = time;
-
-  setTimeout(showTime, 1000);
-
-}
-showTime();
 
 
 
