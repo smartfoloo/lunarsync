@@ -144,6 +144,30 @@ h6 {
   font-size: 24px;
 }
 
+.user-info {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-right {
+  width: 100%;
+}
+
+#pfpImg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+#pfpImg:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1000px) {
   .box {
     margin: 10px 100px;

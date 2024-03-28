@@ -53,15 +53,25 @@
   </nav>
   <div class="main-content">
     <div class="box">
-      <div class="username">
-        <h3 id="editableHeading">Gamer</h3>
-        <div class="editicon" id="editIcon">
-          <i class="fa-solid fa-pen"></i>
+      <div class="user-info">
+        <div class="pfp">
+          <label for="pfpInput">
+            <img id="pfpImg" src="./assets/images/user.webp" alt="Profile Picture">
+          </label>
+          <input type="file" id="pfpUpload" accept="image/*" style="display: none;">
         </div>
-      </div>
-      <div class="level">
-        <h5 id="user-Level"></h5>
-        <h6 id="user-Xp"></h6>
+        <div class="user-right">
+          <div class="username">
+            <h3 id="editableHeading">User</h3>
+            <div class="editicon" id="editIcon">
+              <i class="fa-solid fa-pen"></i>
+            </div>
+          </div>
+          <div class="level">
+            <h5 id="user-Level"></h5>
+            <h6 id="user-Xp"></h6>
+          </div>
+        </div>
       </div>
       <div class="stat-cards">
         <div class="stat-card">

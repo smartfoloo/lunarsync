@@ -2,9 +2,10 @@ function displayUserXP() {
   var currentXP = parseInt(localStorage.getItem("userXP")) || 0;
   var xpPerLevel = 200;
   var currentLevel = Math.floor(currentXP / xpPerLevel) + 1;
+  var currentXPInLevel = currentXP % xpPerLevel;
 
   document.getElementById("user-Level").textContent = "Level " + currentLevel;
-  document.getElementById("user-Xp").textContent = currentXP + "/200 XP";
+  document.getElementById("user-Xp").textContent = currentXPInLevel + "/200 XP";
 }
 
 displayUserXP();
@@ -51,6 +52,38 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+const pfpInput = document.getElementById('pfpUpload');
+const pfpImg = document.getElementById('pfpImg');
+
+function handlepfpUpload(event) {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function (event) {
+      const base64Data = event.target.result;
+      localStorage.setItem('pfp', base64Data);
+      pfpImg.src = base64Data;
+    };
+    reader.readAsDataURL(file);
+  }
+}
+
+function loadpfp() {
+  const pfpData = localStorage.getItem('pfp');
+  if (pfpData) {
+    pfpImg.src = pfpData;
+  } else {
+    pfpImg.src = "./assets/images/default-pfp.jpeg";
+  }
+}
+
+pfpImg.addEventListener('click', function () {
+  pfpInput.click();
+});
+
+pfpInput.addEventListener('change', handlepfpUpload);
+loadpfp();
 
 var tab = localStorage.getItem('tab');
 if (tab) {
@@ -131,10 +164,3 @@ if (localStorage.getItem('pageVisits')) {
 } else {
   localStorage.setItem('pageVisits', '1');
 }
-
-
-
-
-
-
-
