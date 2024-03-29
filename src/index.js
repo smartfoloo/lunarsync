@@ -13,6 +13,7 @@ app.use("/uv/", express.static(uvPath));
 // Error for everything else
 app.get('*', function (req, res) {
   res.send('404');
+  res.sendFile(join(../public, "404.html"));
 });
 
 const server = createServer();
