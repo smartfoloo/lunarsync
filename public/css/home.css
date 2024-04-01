@@ -16,19 +16,19 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 h3 {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
   margin: 10px;
 }
 
 h4 {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h5 {
@@ -38,26 +38,37 @@ h5 {
 
 .buttons {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
 
-.play {
-  background: var(--theme);
+.play, .browse{
   border: 0px;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: 500;
   padding: 10px 15px;
-  border-radius: 28px;
-  transition: all 300ms;
+  border-radius: 15px;
+  transition: all 200ms;
   cursor: pointer;
   margin-bottom: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.play:hover {
-  background: var(--text);
+.play {
+  background: var(--theme);
+}
+
+.browse {
+  background: var(--background3);
+  color: var(--text);
+}
+
+.play:hover, .browse:hover {
+  transform: scale(1.05);
 }
 
 .about {
@@ -88,8 +99,8 @@ h5 {
 }
 
 .partner-card {
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   border-radius: 30px;
   overflow: hidden;
   position: relative;
