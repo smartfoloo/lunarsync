@@ -57,7 +57,7 @@ input:hover {
 }
 
 ::placeholder {
-  color: #757575;
+  color: var(--placeholder);
   font-size: 16px;
 }
 
@@ -151,7 +151,7 @@ input:hover {
 kbd {
   font-family: Arial, sans-serif;
   background-color: var(--background3);
-  border: 1px solid #757575;
+  border: 1px solid var(--placeholder);
   padding: 5px 10px;
   border-radius: 3px;
 }

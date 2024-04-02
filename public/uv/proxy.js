@@ -34,3 +34,7 @@ form.addEventListener("submit", async (event) => {
   const url = search(address.value, searchEngine.value);
   location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
+
+function loadPage(url) {
+  location.href = "/uv/service/" + __uv$config.encodeUrl(url)
+}

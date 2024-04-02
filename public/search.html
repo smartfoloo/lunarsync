@@ -55,10 +55,6 @@
   </nav>
   <div class="main-content">
     <h1 id="time-text"></h1>
-    <div class="battery-info">
-      <i id="battery-icon"></i>
-      <h4 id="battery-level"></h4>
-    </div>
     <form id="uv-form">
       <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
       <input id="uv-address" type="text" placeholder="Search Google or type a URL" />
@@ -67,6 +63,28 @@
       <p id="uv-error"></p>
       <pre id="uv-error-code"></pre>
     </div>
+    <div class="shortcuts">
+      <button onclick="loadPage('https://youtube.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/youtube.png" alt="" class="shortcut-image">
+        <p>YouTube</p>
+      </button>
+      <button onclick="loadPage('https://discord.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/discord.ico" alt="" class="shortcut-image">
+        <p>Discord</p>
+      </button>
+      <button onclick="loadPage('https://play.geforcenow.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/geforcenow.webp" alt="" class="shortcut-image">
+        <p>GeForce Now</p>
+      </button>
+      <button onclick="loadPage('https://github.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/github.svg" alt="" class="shortcut-image">
+        <p>GitHub</p>
+      </button>
+      <button onclick="loadPage('https://www.tiktok.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/tiktok.ico" alt="" class="shortcut-image">
+        <p>TikTok</p>
+      </button>
+    </div>
   </div>
   <script src="uv/uv.bundle.js" defer></script>
   <script src="uv/uv.config.js" defer></script>
@@ -74,5 +92,6 @@
   <script src="uv/search.js" defer></script>
   <script src="uv/proxy.js" defer></script>
   <script src="./js/index.js" defer></script>
+  <script src="./js/search.js" defer></script>
 </body>
 </html>

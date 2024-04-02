@@ -51,7 +51,7 @@ h4 {
 }
 
 ::placeholder {
-  color: #757575;
+  color: var(--placeholder);
   font-size: 16px;
 }
 
@@ -86,13 +86,13 @@ h4 {
 
 .main-content button:disabled {
   background-color: var(--background2);
-  color: #757575;
+  color: var(--placeholder);
   border: transparent;
   cursor: auto;
 }
 
 .main-content button:disabled:hover {
-  color: #757575;
+  color: var(--placeholder);
 }
 
 kbd {

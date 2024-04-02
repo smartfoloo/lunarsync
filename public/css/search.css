@@ -18,20 +18,6 @@ h4 {
   font-size: 18px;
 }
 
-.battery-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  border: 2px solid var(--nav-btn);
-  padding: 10px;
-  border-radius: 20px;
-}
-
-#battery-icon {
-  font-size: 25px;
-}
-
 #uv-address {
   background: var(--background3);
   border: none;
@@ -40,7 +26,7 @@ h4 {
   width: 50vw;
   color: var(--text);
   text-align: center;
-  margin: 10px;
+  margin: 20px 0px;
   border-radius: 23px;
   -webkit-border-radius: 23px;
   text-decoration-style: solid;
@@ -50,6 +36,45 @@ h4 {
 }
 
 #uv-address ::placeholder {
-  color: #757575;
+  color: var(--placeholder);
   font-size: 16px;
+}
+
+.shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0px;
+}
+
+.shortcut {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 300ms;
+  cursor: pointer;
+  width: 90px
+}
+
+.shortcut:hover {
+  background: var(--background3);
+}
+
+.shortcut p {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.shortcut-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
 }
