@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./css/themes.css" />
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -103,6 +103,15 @@
           <option value="catppuccin-frappe">Catppuccin Frappe</option>
           <option value="catppuccin-macchiato">Catppuccin Macchiato</option>
           <option value="catppuccin-mocha">Catppuccin Mocha</option>
+        </select>
+      </div>
+      <div class="box">
+        <h3>Search Engine</h3>
+        <select id="searchEngine" title="search-engines" onchange="saveSearchEngine(this.value)">
+          <option value="google">Google</option>
+          <option value="bing">Bing</option>
+          <option value="duckduckgo">DuckDuckGo</option>
+          <option value="yahoo">Yahoo</option>
         </select>
       </div>
     </div>

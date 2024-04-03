@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./css/themes.css" />
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/search.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
   <script>
@@ -76,13 +76,21 @@
         <img src="./assets/images/geforcenow.webp" alt="" class="shortcut-image">
         <p>GeForce Now</p>
       </button>
-      <button onclick="loadPage('https://github.com/')" class="shortcut" title="shortcut">
-        <img src="./assets/images/github.svg" alt="" class="shortcut-image">
-        <p>GitHub</p>
+      <button onclick="loadPage('https://netflix.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/netflix.png" alt="" class="shortcut-image">
+        <p>Netflix</p>
       </button>
-      <button onclick="loadPage('https://www.tiktok.com/')" class="shortcut" title="shortcut">
-        <img src="./assets/images/tiktok.ico" alt="" class="shortcut-image">
-        <p>TikTok</p>
+      <button onclick="loadPage('https://chess.com/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/chess.png" alt="" class="shortcut-image">
+        <p>Chess.com</p>
+      </button>
+      <button onclick="loadPage('https://chat.vercel.ai/')" class="shortcut" title="shortcut">
+        <img src="./assets/images/chatbot.ico" alt="" class="shortcut-image">
+        <p>Chatbot</p>
+      </button>
+      <button onclick="handleAddShortcut()" class="shortcut" title="add-shortcut">
+        <i class="fa-solid fa-square-plus" style="font-size: 30px; color: var(--text);"></i>
+        <p>Add Shortcut</p>
       </button>
     </div>
   </div>

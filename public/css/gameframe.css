@@ -1,20 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-:root{
-	--proformer: var(--background3);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body{
-	font-family: 'Inter';
-  background: var(--background);
 	line-height: 1.7;
-	color: var(--text);
-	letter-spacing: 0.2px;
+  color: var(--text);
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear; 
 	scroll-behavior: smooth;

@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="./css/themes.css" />
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  
+  <link rel="stylesheet" href="./css/quadratics.css" />
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -52,49 +53,32 @@
     </div>
   </nav>
   <div class="main-content">
-    <div class="extras">
-      <div class="box">
-        <h3>Credits</h3>
-        <h4><b>smxrtfoloo/smartfoloo</b> - Main Dev, Creator. Contact me on Discord!</h4>
-        <h4><b>silvereen/silvereen_</b> - Dev. Helped me with Linux.</h4>
-        <h4><b>hotmayonaise/hotmayonaise</b> - Dev. Do not contact me on Discord!</h4>
-        <h4><b>Aluminoom/itookpogs</b> - Moderator.</h4>
-        <p>Username after the <b>/</b> is the Discord username.</p>
-        <h4 style="margin: 20px 0px;">I do not own these games! Thanks for individual game developers who work to make
-          the internet a more fun place!</h4>
-      </div>
-      <div class="box">
-        <h3>Resources</h3>
-        <div class="buttons">
-          <a href="quadratics.html" target="_parent">
-            <button class="button">Quadratic Function Solver</button>
-          </a>
-          <a href="https://forms.gle/FdMBtco9ysBZae8B9" target="_parent">
-            <button class="button">Game Request</button>
-          </a>
-          <a href="https://discord.com/invite/sSWRxaHhvA" target="_parent">
-            <button class="button">Discord</button>
-          </a>
-          <a href="privacy-policy.html" target="_parent">
-            <button class="button">Privacy Policy</button>
-          </a>
+    <div id="function-display"></div>
+    <div id="calculator">
+      <div class="inputs">
+        <div class="input-group">
+          <label for="coefficient-a">A value</label>
+          <input type="number" id="coefficient-a" value="1" placeholder="a value">
+        </div>
+        <div class="input-group">
+          <label for="coefficient-b">B value</label>
+          <input type="number" id="coefficient-b" value="1" placeholder="b value">
+        </div>
+        <div class="input-group">
+          <label for="coefficient-c">C value</label>
+          <input type="number" id="coefficient-c" value="1" placeholder="c value">
         </div>
       </div>
+      <button id="solve-button">
+        <i class="fa-solid fa-calculator"></i>
+        Solve
+      </button>
+      <p id="result"></p>
     </div>
   </div>
-  <footer class="footer">
-    <div class="footer-branding">
-      <img src="./assets/favicon.png" alt="" class="footer-logo">
-      <h4>Platformer.io</h4>
-    </div>
-    <div class="copyright">
-      <h5>© 2022-2024 Platformer.io. All rights reserved.</h5>
-    </div>
-  </footer>
 </body>
+
+<script src="./js/quadratics.js"></script>
 <script src="./js/index.js"></script>
-
-
 <script src="./js/sw.js"></script>
-
 </html>

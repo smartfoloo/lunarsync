@@ -161,6 +161,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+function saveSearchEngine(selectedEngine) {
+  localStorage.setItem('searchEngine', selectedEngine);
+}
+
 function setTheme(theme) {
   document.body.setAttribute('theme', theme);
   localStorage.setItem('theme', theme);

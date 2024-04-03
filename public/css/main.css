@@ -194,7 +194,7 @@ input {
   outline: 2px solid var(--text);
 }
 
-#themes {
+#themes, #searchEngine {
   padding: 10px;
   background: var(--background3);
   border: none;

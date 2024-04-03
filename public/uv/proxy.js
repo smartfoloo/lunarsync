@@ -36,5 +36,8 @@ form.addEventListener("submit", async (event) => {
 });
 
 function loadPage(url) {
-  location.href = "/uv/service/" + __uv$config.encodeUrl(url)
+  registerSW()
+    .then(() => {
+      location.href = "/uv/service/" + __uv$config.encodeUrl(url);
+    });
 }
