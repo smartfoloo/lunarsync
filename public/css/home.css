@@ -13,6 +13,7 @@ body {
 
 h1 {
   font-size: 80px;
+  padding: 0px 200px;
 }
 
 h2 {
@@ -231,6 +232,7 @@ h5 {
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 80px;
+    padding: 0px 100px;
   }
 
   h2 {
@@ -261,9 +263,29 @@ h5 {
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 60px;
+    padding: 0px 30px;
   }
 
   .about {
     padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+    padding: 0px 30px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .buttons {
+    padding: 
+  }
+
+  .main {
+    padding: 10px 0px;
   }
 }

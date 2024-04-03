@@ -232,3 +232,10 @@ a {
     margin: 20px 50px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .nav {
+    margin: 15px;
+    width: calc(100vw - 30px);
+  }
+}
