@@ -1,3 +1,6 @@
+window.addEventListener('load', startTrackingTime);
+window.addEventListener('pagehide', stopTrackingTime);
+
 var tab = localStorage.getItem('tab');
 if (tab) {
   try {
@@ -86,14 +89,6 @@ function stopTrackingTime() {
     localStorage.removeItem("startTime");
   }
 }
-
-window.onload = function () {
-  startTrackingTime();
-};
-
-window.onunload = function () {
-  stopTrackingTime();
-};
 
 function handleKeyPress(event) {
   const selectedUrl = localStorage.getItem('selectedUrl');
