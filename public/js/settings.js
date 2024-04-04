@@ -122,6 +122,12 @@ if (localStorage.getItem("theme")) {
   document.getElementById("themes").value = "default";
 }
 
+if (localStorage.getItem("searchEngine")) {
+  document.getElementById("searchEngine").value = localStorage.getItem("searchEngine");
+} else {
+  document.getElementById("searchEngine").value = "google";
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   const urlButtons = document.querySelectorAll('.url-button');
   const recordKeyButton = document.getElementById('recordKeyButton');

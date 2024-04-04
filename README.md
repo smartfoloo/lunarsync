@@ -1,25 +1,25 @@
 <p align="center">
 <kbd>
-<img style="border-radius:50%" height="150px" src="/favicon.png">
+<img style="border-radius:50%" height="150px" src="./public/assets/favicon.png">
 </kbd>
-<h1 align = "center" >Platformer.io</h1>
-The best place for Unblocked Games on Mars. This is a free-for-all unblocked games website to use. You can deploy it to whatever service to make your own link!
+<h1 align="center">Platformer.io</h1>
+The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy.
 
 ## Deployment
 
-> **Note**
-> You need to contact us in order to add your site to our sitelock. Otherwise, the games won't work.
-
-[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/smartfoloo/platformer.io)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/smartfoloo/platformer.io)
-[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsmartfoloo%2Fplatformer.io) 
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/smartfoloo/platformer.io)
+
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/smartfoloo/platformer.io)
+
+[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/smartfoloo/platformer.io)
+
+[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/smartfoloo/platformer.io)
 
 ## FAQ
 
 #### I wanna make a copy of Platformer.io!!1!! How do I do it?
 
-Please refer to this lovely wiki article (it's not boring i promise) --> [Deployment](https://github.com/smartfoloo/platformer.io/wiki/Deployment)
+Please refer to this lovely wiki article (it's not boring i promise) --> [Deployment](https://github.com/smartfoloo/platformer.io/wiki/deployment)
 
 #### The Games don't work on my deployed version.
 

@@ -57,6 +57,10 @@
   gap: 5px;
 }
 
+.input-group input {
+  width: calc(100% - 20px);
+}
+
 #result {
   font-size: 30px;
   font-weight: 500;
