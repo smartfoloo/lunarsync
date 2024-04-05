@@ -8,7 +8,7 @@ The best place to evade internet censorship with <b>200+</b> games and a ultrafa
 ## Running Locally
 
 ```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
+git clone https://github.com/smartfoloo/platformer.io.git
 cd platformer.io
 npm install
 npm start
