@@ -3,13 +3,13 @@
 <img style="border-radius:50%" height="150px" src="./public/assets/favicon.png">
 </kbd>
 <h1 align="center">Lunarsync</h1>
-The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy.
+<p align="center">The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy. </p>
 
 ## Running Locally
 
 ```bash
-git clone https://github.com/smartfoloo/platformer.io.git
-cd platformer.io
+git clone https://github.com/smartfoloo/lunarsync.git
+cd lunarsync
 npm install
 npm start
 ```
