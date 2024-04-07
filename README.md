@@ -5,6 +5,15 @@
 <h1 align="center">Lunarsync</h1>
 The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy.
 
+## Running Locally
+
+```bash
+git clone https://github.com/smartfoloo/platformer.io.git
+cd platformer.io
+npm install
+npm start
+```
+
 ## Deployment
 
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/smartfoloo/lunarsync)
