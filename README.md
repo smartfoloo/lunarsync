@@ -25,7 +25,7 @@ npm start
 
 #### I want to host a lunarsync domain!
 
-Please refer to [this](https://github.com/smartfoloo/lunarsync/wiki/deployment) wiki article.
+Check out the **Deployment** section in our [our discord server](https://discord.gg/sSWRxaHhvA).
 
 #### All of the links are blocked.
 
