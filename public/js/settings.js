@@ -18,7 +18,7 @@ if (tabData.icon) {
 }
 
 var settingsDefaultTab = {
-  title: "Platformer.io",
+  title: "Lunarsync",
   icon: "/favicon.png",
 };
 

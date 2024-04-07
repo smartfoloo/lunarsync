@@ -46,8 +46,8 @@ a {
   text-decoration: none;
 }
 .nav .logo .logo-image {
-  height: 26px;
-  width: 26px;
+  height: 35px;
+  width: 35px;
 }
 .nav .logo {
   font-size: 22px;
@@ -55,7 +55,7 @@ a {
   letter-spacing: 0 !important;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   transition: 300ms;
 }
 .nav .nav-links {
@@ -164,13 +164,13 @@ a {
 /* responsive */
 @media screen and (max-width: 2000px) {
   .nav {
-    padding: 15px 30px;
+    padding: 11px 30px;
   }
 }
 
 @media screen and (max-width: 950px) {
   .nav {
-    padding: 15px 30px;
+    padding: 11px 30px;
   }
 
   .nav #clock {

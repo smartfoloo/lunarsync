@@ -2,21 +2,21 @@
 <kbd>
 <img style="border-radius:50%" height="150px" src="./public/assets/favicon.png">
 </kbd>
-<h1 align="center">Platformer.io</h1>
+<h1 align="center">Lunarsync</h1>
 The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy.
 
 ## Deployment
 
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/smartfoloo/platformer.io)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/smartfoloo/platformer.io)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/smartfoloo/platformer.io)
-[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/smartfoloo/platformer.io)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/smartfoloo/lunarsync)
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/smartfoloo/lunarsync)
+[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/smartfoloo/lunarsync)
+[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/smartfoloo/lunarsync)
 
 ## FAQ
 
-#### I wanna make a copy of Platformer.io!!1!! How do I do it?
+#### I wanna make a copy of Lunarsync!!1!! How do I do it?
 
-Please refer to this lovely wiki article (it's not boring i promise) --> [Deployment](https://github.com/smartfoloo/platformer.io/wiki/deployment)
+Please refer to this lovely wiki article (it's not boring i promise) --> [Deployment](https://github.com/smartfoloo/lunarsync/wiki/deployment)
 
 #### The Games don't work on my deployed version.
 
