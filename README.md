@@ -3,13 +3,13 @@
 <img style="border-radius:50%" height="150px" src="./public/assets/favicon.png">
 </kbd>
 <h1 align="center">Lunarsync</h1>
-The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy.
+<p align="center">The best place to evade internet censorship with <b>200+</b> games and a ultrafast proxy. </p>
 
 ## Running Locally
 
 ```bash
-git clone https://github.com/smartfoloo/platformer.io.git
-cd platformer.io
+git clone https://github.com/smartfoloo/lunarsync.git
+cd lunarsync
 npm install
 npm start
 ```
@@ -23,17 +23,13 @@ npm start
 
 ## FAQ
 
-#### I wanna make a copy of Lunarsync!!1!! How do I do it?
+#### I want to host a lunarsync domain!
 
-Please refer to this lovely wiki article (it's not boring i promise) --> [Deployment](https://github.com/smartfoloo/lunarsync/wiki/deployment)
-
-#### The Games don't work on my deployed version.
-
-You need to contact us either on Discord or by email to add your site to our sitelock list. We have to do this for security reasons.
+Check out the **Deployment** section in our [our discord server](https://discord.gg/sSWRxaHhvA).
 
 #### All of the links are blocked.
 
-You can make your own custom link by either forking this repo and adding a custom domain or using a cloud hosting solution such as Netlify or Vercel. The links are in the **Deployment** Section.
+You can join [our discord server](https://discord.gg/sSWRxaHhvA) for links for deploy your own.
 
 #### Did you make these games?
 
@@ -41,11 +37,7 @@ No, I did not. These games are made by different game developers. Thank you so m
 
 #### Can you add this game to the site?
 
-You can request a game on our site under Extras. Remember, your game may not be added at all. BTW, stop requesting for Roblox, Shell Shockers, Fortnite, Minecraft, or Valorant. It's not possible for me to get code for those games.
-
-#### Please give me mod!!!!
-
-No, we do not have any open spots for moderators. Sorry:)
+You can request a game on our site under Extras. Remember, your game may not be added at all. I cannot add games such as Roblox or Fortnite, it's just not possible.
 
 ## License
 
