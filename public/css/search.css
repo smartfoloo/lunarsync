@@ -46,7 +46,7 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin: 25px 25%;
+  margin: 25px 20%;
 }
 
 .shortcut {
@@ -77,4 +77,16 @@ h4 {
   width: 30px;
   height: 30px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .shortcuts {
+    margin: 20px 15%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .shortcuts {
+    margin: 20px 10%;
+  }
 }
