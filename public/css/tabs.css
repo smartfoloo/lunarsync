@@ -1,0 +1,85 @@
+body, .main-content {
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs-left {
+  width: 15%;
+  padding: 15px;
+}
+
+.tabs-right {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+#tab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 80%;
+}
+
+.bottom {
+  height: 20%;
+  z-index: 3; 
+  background: var(--background);
+}
+
+#tab-bar {
+  width: 100%;
+  height: 60px;
+  background: var(--background2);
+  display: flex;
+}
+
+#url-bar {
+  background: var(--background3);
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 50vw;
+  color: var(--text);
+  text-align: center;
+  margin: 20px 0px;
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  text-decoration-style: solid;
+  text-decoration-color: var(--text);
+  transition: 500ms;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--placeholder);
+  font-size: 16px;
+}
+
+#iframe {
+  width: 100%;
+  height: calc(100vh - 205px);
+  border: none;
+}
+
+.tab {
+  background: var(--background3);
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.current-tab {
+  background: var(--theme);
+}
+

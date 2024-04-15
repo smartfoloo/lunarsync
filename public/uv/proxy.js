@@ -35,7 +35,7 @@ form.addEventListener("submit", async (event) => {
   location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
 
-function loadPage(url) {
+function openPage(url) {
   registerSW()
     .then(() => {
       location.href = "/uv/service/" + __uv$config.encodeUrl(url);

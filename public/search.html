@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -45,18 +44,43 @@
     <div class="left">
       <ul class="nav-links">
         <i class="uil uil-times navCloseBtn"></i>
-        <a href="/"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-home"></i></button></a>
-        <a href="/games.html"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-gamepad"></i></button></a>
-        <a href="/search.html"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-magnifying-glass"></i></button></a>
-        <a href="/extras.html"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-circle-plus"></i></button></a>
-        <a href="/settings.html"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-gear"></i></button></a>
-        <a href="/profile.html"><button class="nav-btn" name="nav-btn"><i class="fa-solid fa-user"></i></button></a>
+        <a href="/">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-home"></i>
+          </button>
+        </a>
+        <a href="/games.html">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-gamepad"></i>
+          </button>
+        </a>
+        <a href="/search.html">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </a>
+        <a href="/extras.html">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-circle-plus"></i>
+          </button>
+        </a>
+        <a href="/settings.html">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+        </a>
+        <a href="/profile.html">
+          <button class="nav-btn" name="nav-btn">
+            <i class="fa-solid fa-user"></i>
+          </button>
+        </a>
       </ul>
     </div>
   </nav>
   <div class="main-content">
     <h1 id="time-text"></h1>
     <form id="uv-form">
+      <i id="addressIcon" class="search-icon fas fa-magnifying-glass"></i>
       <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
       <input id="uv-address" type="text" placeholder="Search Google or type a URL" />
     </form>
@@ -65,47 +89,47 @@
       <pre id="uv-error-code"></pre>
     </div>
     <div class="shortcuts">
-      <button onclick="loadPage('https://google.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://google.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/google.ico" alt="" class="shortcut-image">
         <p>Google</p>
       </button>
-      <button onclick="loadPage('https://youtube.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://youtube.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/youtube.png" alt="" class="shortcut-image">
         <p>YouTube</p>
       </button>
-      <button onclick="loadPage('https://twitter.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://twitter.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/twitter.png" alt="" class="shortcut-image">
         <p>Twitter</p>
       </button>
-      <button onclick="loadPage('https://gemini.google.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://gemini.google.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/gemini.png" alt="" class="shortcut-image">
         <p>Gemini</p>
       </button>
-      <button onclick="loadPage('https://discord.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://discord.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/discord.ico" alt="" class="shortcut-image">
         <p>Discord</p>
       </button>
-      <button onclick="loadPage('https://play.geforcenow.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://play.geforcenow.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/geforcenow.webp" alt="" class="shortcut-image">
         <p>GeForce Now</p>
       </button>
-      <button onclick="loadPage('https://crazygames.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://crazygames.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/crazygames.avif" alt="" class="shortcut-image">
         <p>CrazyGames</p>
       </button>
-      <button onclick="loadPage('https://shuttle.lol/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://shuttle.lol/')" class="shortcut" title="shortcut">
         <img src="./assets/images/nowgg.ico" alt="" class="shortcut-image">
         <p>Now.gg</p>
       </button>
-      <button onclick="loadPage('https://netflix.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://netflix.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/netflix.png" alt="" class="shortcut-image">
         <p>Netflix</p>
       </button>
-      <button onclick="loadPage('https://chess.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://chess.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/chess.png" alt="" class="shortcut-image">
         <p>Chess.com</p>
       </button>
-      <button onclick="loadPage('https://github.com/')" class="shortcut" title="shortcut">
+      <button onclick="openPage('https://github.com/')" class="shortcut" title="shortcut">
         <img src="./assets/images/github.svg" alt="" class="shortcut-image">
         <p>GitHub</p>
       </button>

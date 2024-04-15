@@ -95,3 +95,17 @@ const storedShortcuts = JSON.parse(localStorage.getItem('shortcuts')) || [];
 storedShortcuts.forEach(shortcut => {
   updateSavedShortcuts(shortcut);
 });
+
+const addressIcon = document.getElementById('addressIcon');
+
+addressInput.addEventListener('keyup', () => {
+  const value = addressInput.value;
+  if (/\./.test(value)) {
+    addressIcon.classList.remove('fa-magnifying-glass');
+    addressIcon.classList.add('fa-earth-americas');
+  } else {
+    addressIcon.classList.remove('fa-earth-americas');
+    addressIcon.classList.add('fa-magnifying-glass');
+  }
+});
+
