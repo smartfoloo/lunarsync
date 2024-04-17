@@ -104,3 +104,28 @@ function moveToLiked(card) {
 
   card.closest('a').classList.add('liked-game');
 }
+
+const textList = [
+  "boost our discord server for owner role",
+  "change your theme in settings",
+  "summercountdown",
+];
+
+function getRandomText() {
+  const randomIndex = Math.floor(Math.random() * textList.length);
+  let randomText = textList[randomIndex];
+
+  if (randomText === "summercountdown") {
+    const targetDate = new Date("2024-05-17");
+    const today = new Date();
+    const difference = targetDate.getTime() - today.getTime();
+    const daysLeft = Math.round(difference / (1000 * 60 * 60 * 24));
+
+    randomText = `${daysLeft} days till summer break`;
+  }
+
+  const paragraph = document.getElementById("randomText");
+  paragraph.textContent = randomText;
+}
+
+window.onload = getRandomText();
