@@ -106,8 +106,7 @@ function moveToLiked(card) {
 }
 
 const textList = [
-  "boost our discord server for owner role",
-  "change your theme in settings",
+  "all kids wear a blue shirt on monday may 13th as a prank",
   "summercountdown",
 ];
 

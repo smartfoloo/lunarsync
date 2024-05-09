@@ -130,13 +130,6 @@
           console.log("Purchasing True");
         }).catch(err => {
         })
-        if (SHOW_ADS) {
-          sdk.adv.showFullscreenAdv({ callbacks: {} });
-          //sdk.adv.showBannerAdv();
-        }
-        else {
-          //sdk.adv.hideBannerAdv();
-        }
       });
 
     function checkCom() {
@@ -338,25 +331,6 @@
           });
         });
       }
-    }
-  </script>
-<script>
-    function showFullscrenAd() {
-      sdk.adv.showFullscreenAdv({
-        callbacks: {
-          onOpen: () => {
-            window.unityInstance.SendMessage('SDKPlatforms', 'AudioEnable', 0);
-          },
-          onClose: () => {
-            window.unityInstance.SendMessage('SDKPlatforms', 'AudioEnable', 1);
-            window.unityInstance.SendMessage('SDKPlatforms', 'PlayGameAfterAd');
-          },
-          onError: (e) => {
-            window.unityInstance.SendMessage('SDKPlatforms', 'AudioEnable', 1);
-            window.unityInstance.SendMessage('SDKPlatforms', 'PlayGameAfterAd');
-          }
-        }
-      })
     }
   </script>
 <script>
