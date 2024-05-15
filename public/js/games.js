@@ -115,7 +115,7 @@ function getRandomText() {
   let randomText = textList[randomIndex];
 
   if (randomText === "summercountdown") {
-    const targetDate = new Date("2024-05-17");
+    const targetDate = new Date("2024-05-18");
     const today = new Date();
     const difference = targetDate.getTime() - today.getTime();
     const daysLeft = Math.round(difference / (1000 * 60 * 60 * 24));
