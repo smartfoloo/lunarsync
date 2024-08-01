@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plinko</title>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<link href="data:," rel="shortcut icon">
+<meta content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" name="viewport">
+<script type="text/javascript">
+window.__OPTIONS__ = {"server_id":"demo","env":"production","csrfTokenHeaderName":"X-CSRF-Token","csrfTokenHeaderValue":"joOlF9RtCnD9ajZl8PB2GNx8smvNOezOjK8SqrB6vcYx1dfxGFMSwBIvWd8u6kjbWGCjGHeWg03q-gpweLNMCw","play_token":"ab86085f-23b9-4c74-8413-5897d0eeb089","game":"casual/plinko","identifier":"Plinko","title":"Plinko","currency":"FUN","cache_id":"3efd2078174eb73f6280a3cb7de1004fdc6f21e9b7f32c495ad47b2c2ec8c19a","cache_player_id":"d79684d023189da57293c0e6715ed65c7d47dda4590fc7c8b7a8ed99e2b95716","locale":"en","api":"https://demo.bgaming-network.com/api/Plinko/35649/ab86085f-23b9-4c74-8413-5897d0eeb089","rules_url":"https://rules.bgaming-network.com/en/Plinko.json","deposit_url":null,"games_page_url":"https://www.bgaming.com/games.html","history_url":null,"lobby_launch_url":"https://demo.bgaming-network.com/lobby/FUN/ab86085f-23b9-4c74-8413-5897d0eeb089/launch","game_page_url":"https://demo.bgaming-network.com/games/Plinko/FUN?play_token=ab86085f-23b9-4c74-8413-5897d0eeb089","websocket_url":"wss://demo.bgaming-network.com:443/cable?currency=FUN\u0026identifier=Plinko\u0026play_token=ab86085f-23b9-4c74-8413-5897d0eeb089\u0026server_id=demo","ui":{"home_button":true,"full_screen_prompt":true,"logo":"standard","skin":"basic","skins":["basic"],"brand_logo":null,"brand":{"name":"","logo":null,"logo_in_game":null},"autospins_dialog":"standard","autospin_values":["10","25","50","100","250","500","750","1000","∞"],"easter_eggs_available":false,"gamble_enabled":true,"show_rtp_in_rules":true},"resources_path":"https://cdn.bgaming-network.com/html/Plinko","license_rules":{},"custom":{},"actions":{"deposit":null,"return":null,"history":{"text":null,"link":"/api/rounds_history/ab86085f-23b9-4c74-8413-5897d0eeb089","mode":"open"}},"actual_currency_rate":0.0,"games_loader_source":"https://cdn.bgaming-network.com/html/Plinko/loader.js?1722471375","game_bundle_source":"https://cdn.bgaming-network.com/html/Plinko/bundle.js","provable_fair":{"verify_url":"https://demo.bgaming-network.com/api/games/verify"},"math":{"rtp":{"main":98.91,"min_rtp":98.91,"max_rtp":99.16},"max_multiplier":1000},"loyalty_system_options":{"currency_exponent":2,"player_id":74700577},"rules":{"min_bet":100,"max_bet":10000,"currency":{"code":"FUN","symbol":"FUN","subunits":100,"exponent":2}},"version":"1.0.0","growthbook_flags":{}}
+</script>
+<script type="text/javascript">
+window.onbeforeunload = function(event) { fetch(window.__OPTIONS__.api, { method: 'post', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ command: 'close_session' }) }) }
+</script>
+<style>
+    body {background-color: #000000}
+</style>
+<style>
+  .preloader, .preloader_figure { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+  .preloader { overflow: visible; padding-top: 2em; height: 0; width: 2em;}
+  .preloader_figure { height: 0; width: 0; box-sizing: border-box; border: 0 solid #ff2c2c; border-radius: 50%; -webkit-animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1); animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1);}
+  .preloader_label { font-family: "Consolas", "Courier", monospace; float: left; margin-left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 0.5em 0 0 50%; font-size: 0.875em; letter-spacing: 0.1em; line-height: 1.5em; color: #ff2c2c; white-space: nowrap; -webkit-animation: loader-label 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1); animation: loader-label 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1);}
+  @-webkit-keyframes loader-figure { 0% { height: 0; width: 0; }
+    30% { height: 2em; width: 2em; border-width: 1em; opacity: 1; }
+    100% { height: 2em; width: 2em; border-width: 0; opacity: 0; }}
+  @keyframes loader-figure { 0% { height: 0; width: 0; }
+    30% { height: 2em; width: 2em; border-width: 1em; opacity: 1; }
+    100% { height: 2em; width: 2em; border-width: 0; opacity: 0; }}
+  @-webkit-keyframes loader-label { 0% { opacity: 0.35; }
+    30% { opacity: 1; }
+    100% { opacity: 0.35; }}
+  @keyframes loader-label { 0% { opacity: 0.35; }
+    30% { opacity: 1; }
+    100% { opacity: 0.35; }}
+</style>
+<script src="https://replays.bgaming-network.com/replays.js"></script>
+</head>
+<body>
+<div class="preloader">
+<div class="preloader_figure"></div>
+<p class="preloader_label">
+Loading
+</p>
+</div>
+<script src="https://cdn.bgaming-network.com/html/Plinko/loader.js?1722471375" crossorigin="anonymous"></script>
+<script type="text/javascript">
+document.write('\x3Cscript src="' + window.__OPTIONS__.game_bundle_source + '" crossorigin="anonymous">\x3C/script>');
+</script>
+</body>
+</html>

@@ -106,23 +106,12 @@ function moveToLiked(card) {
 }
 
 const textList = [
-  "all kids wear a blue shirt on monday may 13th as a prank",
-  "summercountdown",
+  "hehe",
 ];
 
 function getRandomText() {
   const randomIndex = Math.floor(Math.random() * textList.length);
   let randomText = textList[randomIndex];
-
-  if (randomText === "summercountdown") {
-    const targetDate = new Date("2024-05-18");
-    const today = new Date();
-    const difference = targetDate.getTime() - today.getTime();
-    const daysLeft = Math.round(difference / (1000 * 60 * 60 * 24));
-
-    randomText = `${daysLeft} days till summer break`;
-  }
-
   const paragraph = document.getElementById("randomText");
   paragraph.textContent = randomText;
 }
