@@ -35,9 +35,9 @@ h4, li{
 
 .box {
   background: var(--background2);
-  border-radius: 15px;
+  border-radius: 50px;
   margin: 10px 200px;
-  padding: 30px;
+  padding: 50px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: left;
   line-height: 1.15;
