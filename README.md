@@ -41,4 +41,4 @@ You can request a game on our site under Extras. Remember, your game may not be 
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
