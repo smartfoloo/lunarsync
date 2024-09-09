@@ -119,7 +119,7 @@ function resetTab() {
 if (localStorage.getItem("theme")) {
   document.getElementById("themes").value = localStorage.getItem("theme");
 } else {
-  document.getElementById("themes").value = "catppuccin-mocha";
+  document.getElementById("themes").value = "catppuccin-macchiato";
 }
 
 if (localStorage.getItem("searchEngine")) {

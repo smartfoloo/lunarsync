@@ -1,0 +1,1510 @@
+{
+    "c2array": true,
+    "size": [
+        12,
+        41,
+        1
+    ],
+    "data": [
+        [
+            [
+                "en"
+            ],
+            [
+                "Improve the runner 1 time"
+            ],
+            [
+                "Improve the runner 2 times"
+            ],
+            [
+                "Improve the runner 3 times"
+            ],
+            [
+                "Play 1 game"
+            ],
+            [
+                "Play 2 games"
+            ],
+            [
+                "Play 3 games"
+            ],
+            [
+                "Win 1 game"
+            ],
+            [
+                "Win 2 games"
+            ],
+            [
+                "Win 3 games"
+            ],
+            [
+                "Spend 100 coins"
+            ],
+            [
+                "Spend 500 coins"
+            ],
+            [
+                "Spend 1000 coins"
+            ],
+            [
+                "Run 500 meters"
+            ],
+            [
+                "Run 1000 meters"
+            ],
+            [
+                "Run 2000 meters"
+            ],
+            [
+                "Jump 20 times"
+            ],
+            [
+                "Jump 50 times"
+            ],
+            [
+                "Jump 100 times"
+            ],
+            [
+                "Teleport 3 times"
+            ],
+            [
+                "Teleport 5 times"
+            ],
+            [
+                "Teleport 10 times"
+            ],
+            [
+                "Tag one other player"
+            ],
+            [
+                "Tag two other players"
+            ],
+            [
+                "Tag three other players"
+            ],
+            [
+                "Take first place in zombie mode"
+            ],
+            [
+                "Take first place in tag mode"
+            ],
+            [
+                "Play 1 time in zombie mode"
+            ],
+            [
+                "Play 2 times in zombie mode"
+            ],
+            [
+                "Play 3 times in zombie mode"
+            ],
+            [
+                "Play tag mode once"
+            ],
+            [
+                "Play tag mode twice"
+            ],
+            [
+                "Play tag mode three times"
+            ],
+            [
+                "Open 1 reward in GOLD PASS"
+            ],
+            [
+                "Jump 10 times on a trampoline"
+            ],
+            [
+                "Jump 25 times on a trampoline"
+            ],
+            [
+                "Jump 50 times on a trampoline"
+            ],
+            [
+                "Buy something at the store"
+            ],
+            [
+                "Spend 5 gems"
+            ],
+            [
+                "Spend 10 gems"
+            ],
+            [
+                "Spend 15 gems"
+            ]
+        ],
+        [
+            [
+                "rew"
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                200
+            ],
+            [
+                50
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ],
+            [
+                200
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                100
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                200
+            ],
+            [
+                100
+            ],
+            [
+                100
+            ],
+            [
+                150
+            ],
+            [
+                200
+            ]
+        ],
+        [
+            [
+                "comp"
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ],
+            [
+                0
+            ]
+        ],
+        [
+            [
+                "count"
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                100
+            ],
+            [
+                500
+            ],
+            [
+                1000
+            ],
+            [
+                500
+            ],
+            [
+                1000
+            ],
+            [
+                2000
+            ],
+            [
+                20
+            ],
+            [
+                50
+            ],
+            [
+                100
+            ],
+            [
+                1
+            ],
+            [
+                5
+            ],
+            [
+                10
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ],
+            [
+                1
+            ],
+            [
+                10
+            ],
+            [
+                25
+            ],
+            [
+                50
+            ],
+            [
+                1
+            ],
+            [
+                5
+            ],
+            [
+                10
+            ],
+            [
+                15
+            ]
+        ],
+        [
+            [
+                "status"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ],
+            [
+                "derecd"
+            ]
+        ],
+        [
+            [
+                "es"
+            ],
+            [
+                "Mejorar el corredor 1 vez"
+            ],
+            [
+                "Mejorar el corredor 2 veces"
+            ],
+            [
+                "Mejorar el corredor 3 veces"
+            ],
+            [
+                "Jugar 1 partida"
+            ],
+            [
+                "Jugar 2 partidos"
+            ],
+            [
+                "Jugar 3 partidos"
+            ],
+            [
+                "Gana 1 partido"
+            ],
+            [
+                "Gana 2 partidos"
+            ],
+            [
+                "Gana 3 partidos"
+            ],
+            [
+                "Gasta 100 monedas"
+            ],
+            [
+                "Gasta 500 monedas"
+            ],
+            [
+                "Gasta 1000 monedas"
+            ],
+            [
+                "Correr 500 metros"
+            ],
+            [
+                "Correr 1000 metros"
+            ],
+            [
+                "Correr 2000 metros"
+            ],
+            [
+                "Salta 20 veces"
+            ],
+            [
+                "Salta 50 veces"
+            ],
+            [
+                "Salta 100 veces"
+            ],
+            [
+                "Teletransportarse 3 veces"
+            ],
+            [
+                "Teletransportarse 5 veces"
+            ],
+            [
+                "Teletransportarse 10 veces"
+            ],
+            [
+                "Etiqueta a un jugador más"
+            ],
+            [
+                "Etiqueta a dos jugadores más"
+            ],
+            [
+                "Etiqueta a tres jugadores más"
+            ],
+            [
+                "Obtener el primer lugar en el modo zombi"
+            ],
+            [
+                "Obtener el primer lugar en el modo etiqueta"
+            ],
+            [
+                "Juega 1 vez en modo zombi"
+            ],
+            [
+                "Juega 2 vez en modo zombi"
+            ],
+            [
+                "Juega 3 vez en modo zombi"
+            ],
+            [
+                "Jugar una vez en el modo Etiqueta"
+            ],
+            [
+                "Jugar dos veces en el modo Etiqueta"
+            ],
+            [
+                "Jugar tres veces en el modo Etiqueta"
+            ],
+            [
+                "Abrir 1 recompensa en GOLD PASS"
+            ],
+            [
+                "Saltar 10 veces en un trampolín"
+            ],
+            [
+                "Saltar 25 veces en un trampolín"
+            ],
+            [
+                "Saltar 50 veces en un trampolín"
+            ],
+            [
+                "Compra algo en la tienda"
+            ],
+            [
+                "Gasta 5 gemas"
+            ],
+            [
+                "Gasta 10 gemas"
+            ],
+            [
+                "Gasta 15 gemas"
+            ]
+        ],
+        [
+            [
+                "fr"
+            ],
+            [
+                "Améliorer le coureur 1 fois"
+            ],
+            [
+                "Améliorer le coureur 2 fois"
+            ],
+            [
+                "Améliorer le coureur 3 fois"
+            ],
+            [
+                "Jouer 1 jeu"
+            ],
+            [
+                "Jouer 2 jeux"
+            ],
+            [
+                "Jouer 3 jeux"
+            ],
+            [
+                "Gagner 1 match"
+            ],
+            [
+                "Gagner 2 matchs"
+            ],
+            [
+                "Gagner 3 matchs"
+            ],
+            [
+                "Dépenser 100 pièces"
+            ],
+            [
+                "Dépenser 500 pièces"
+            ],
+            [
+                "Dépenser 1000 pièces"
+            ],
+            [
+                "Courir 500 mètres"
+            ],
+            [
+                "Courir 1000 mètres"
+            ],
+            [
+                "Courir 2000 mètres"
+            ],
+            [
+                "Sauter 20 fois"
+            ],
+            [
+                "Sauter 50 fois"
+            ],
+            [
+                "Sauter 100 fois"
+            ],
+            [
+                "Téléportation 3 fois"
+            ],
+            [
+                "Téléportation 5 fois"
+            ],
+            [
+                "Téléportation 10 fois"
+            ],
+            [
+                "Marquez un autre joueur"
+            ],
+            [
+                "Marquez deux autres joueurs"
+            ],
+            [
+                "Marquez trois autres joueurs"
+            ],
+            [
+                "Prendre la première place en mode zombie"
+            ],
+            [
+                "Prendre la première place en mode étiquette"
+            ],
+            [
+                "Jouer 1 fois en mode zombie"
+            ],
+            [
+                "Jouer 2 fois en mode zombie"
+            ],
+            [
+                "Jouer 3 fois en mode zombie"
+            ],
+            [
+                "Jouer une fois en mode étiquette"
+            ],
+            [
+                "Jouer deux fois en mode étiquette"
+            ],
+            [
+                "Jouer trois fois en mode étiquette"
+            ],
+            [
+                "Ouvrir 1 récompense dans GOLD PASS"
+            ],
+            [
+                "Sauter 10 fois sur un trampoline"
+            ],
+            [
+                "Sauter 25 fois sur un trampoline"
+            ],
+            [
+                "Sauter 50 fois sur un trampoline"
+            ],
+            [
+                "Acheter quelque chose au magasin"
+            ],
+            [
+                "Dépenser 5 gemmes"
+            ],
+            [
+                "Dépenser 10 gemmes"
+            ],
+            [
+                "Dépenser 15 gemmes"
+            ]
+        ],
+        [
+            [
+                "de"
+            ],
+            [
+                "Verbessere den Läufer 1 Mal"
+            ],
+            [
+                "Verbessere den Läufer 2 mal"
+            ],
+            [
+                "Verbessere den Läufer 3 mal"
+            ],
+            [
+                "1 Spiel spielen"
+            ],
+            [
+                "2 Spiele spielen"
+            ],
+            [
+                "3 Spiele spielen"
+            ],
+            [
+                "1 Spiel gewinnen"
+            ],
+            [
+                "2 Spiele gewinnen"
+            ],
+            [
+                "3 Spiele gewinnen"
+            ],
+            [
+                "100 Münzen ausgeben"
+            ],
+            [
+                "500 Münzen ausgeben"
+            ],
+            [
+                "1000 Münzen ausgeben"
+            ],
+            [
+                "500 Meter laufen"
+            ],
+            [
+                "1000 Meter laufen"
+            ],
+            [
+                "2000 Meter laufen"
+            ],
+            [
+                "20 Mal springen"
+            ],
+            [
+                "50 Mal springen"
+            ],
+            [
+                "100 Mal springen"
+            ],
+            [
+                "3 Mal teleportieren"
+            ],
+            [
+                "5 Mal teleportieren"
+            ],
+            [
+                "10 Mal teleportieren"
+            ],
+            [
+                "Markieren Sie einen anderen Spieler"
+            ],
+            [
+                "Markieren Sie zwei weitere Spieler"
+            ],
+            [
+                "Markieren Sie drei weitere Spieler"
+            ],
+            [
+                "Erster Platz im Zombie-Modus belegen"
+            ],
+            [
+                "Erster Platz im Fangen-Modus belegen"
+            ],
+            [
+                "1 Mal im Zombie-Modus spielen"
+            ],
+            [
+                "2 Mal im Zombie-Modus spielen"
+            ],
+            [
+                "3 Mal im Zombie-Modus spielen"
+            ],
+            [
+                "Einmal im Fangen-Modus spielen"
+            ],
+            [
+                "Zweimal im Fangen-Modus spielen"
+            ],
+            [
+                "Dreimal im Fangen-Modus spielen"
+            ],
+            [
+                "1 Belohnung im GOLD PASS öffnen"
+            ],
+            [
+                "10 Mal auf einem Trampolin springen"
+            ],
+            [
+                "25 Mal auf einem Trampolin springen"
+            ],
+            [
+                "50 Mal auf einem Trampolin springen"
+            ],
+            [
+                "Etwas im Laden kaufen"
+            ],
+            [
+                "5 Edelsteine ausgeben"
+            ],
+            [
+                "10 Edelsteine ausgeben"
+            ],
+            [
+                "15 Edelsteine ausgeben"
+            ]
+        ],
+        [
+            [
+                "pt"
+            ],
+            [
+                "Melhorar o corredor 1 vez"
+            ],
+            [
+                "Melhore o corredor 2 vezes"
+            ],
+            [
+                "Melhore o corredor 3 vezes"
+            ],
+            [
+                "Jogar 1 jogo"
+            ],
+            [
+                "Jogar 2 jogos"
+            ],
+            [
+                "Jogar 3 jogos"
+            ],
+            [
+                "Ganhar 1 jogo"
+            ],
+            [
+                "Ganhar 2 jogos"
+            ],
+            [
+                "Ganhar 3 jogos"
+            ],
+            [
+                "Gastar 100 moedas"
+            ],
+            [
+                "Gastar 500 moedas"
+            ],
+            [
+                "Gastar 1000 moedas"
+            ],
+            [
+                "Corrida de 500 metros"
+            ],
+            [
+                "Corrida de 1000 metros"
+            ],
+            [
+                "Corrida de 2000 metros"
+            ],
+            [
+                "Pular 20 vezes"
+            ],
+            [
+                "Pular 50 vezes"
+            ],
+            [
+                "Pular 100 vezes"
+            ],
+            [
+                "Teleporte 3 vezes"
+            ],
+            [
+                "Teleporte 5 vezes"
+            ],
+            [
+                "Teleporte 10 vezes"
+            ],
+            [
+                "Marque mais um jogador"
+            ],
+            [
+                "Marque mais dois jogadores"
+            ],
+            [
+                "Marque mais três jogadores"
+            ],
+            [
+                "Obter o primeiro lugar no modo zumbi"
+            ],
+            [
+                "Obter o primeiro lugar no modo taguear"
+            ],
+            [
+                "Jogue 1 vez no modo zumbi"
+            ],
+            [
+                "Jogue 2 vez no modo zumbi"
+            ],
+            [
+                "Jogue 3 vez no modo zumbi"
+            ],
+            [
+                "Jogar uma vez no modo Taguear"
+            ],
+            [
+                "Jogar duas vezes no modo Taguear"
+            ],
+            [
+                "Jogar três vezes no modo Taguear"
+            ],
+            [
+                "Abrir 1 recompensa no GOLD PASS"
+            ],
+            [
+                "Pular 10 vezes em um trampolim"
+            ],
+            [
+                "Pular 25 vezes em um trampolim"
+            ],
+            [
+                "Pular 50 vezes em um trampolim"
+            ],
+            [
+                "Compre algo na loja"
+            ],
+            [
+                "Gastar 5 gemas"
+            ],
+            [
+                "Gastar 10 gemas"
+            ],
+            [
+                "Gastar 15 gemas"
+            ]
+        ],
+        [
+            [
+                "it"
+            ],
+            [
+                "Migliorare il corridore 1 volta"
+            ],
+            [
+                "Migliorare il corridore 2 volte"
+            ],
+            [
+                "Migliorare il corridore 3 volte"
+            ],
+            [
+                "Gioca 1 partita"
+            ],
+            [
+                "Gioca 2 partite"
+            ],
+            [
+                "Gioca 3 partite"
+            ],
+            [
+                "Vincere 1 partita"
+            ],
+            [
+                "Vincere 2 partite"
+            ],
+            [
+                "Vincere 3 partite"
+            ],
+            [
+                "Spendere 100 monete"
+            ],
+            [
+                "Spendere 500 monete"
+            ],
+            [
+                "Spendere 1000 monete"
+            ],
+            [
+                "Correre 500 metri"
+            ],
+            [
+                "Correre 1000 metri"
+            ],
+            [
+                "Correre 2000 metri"
+            ],
+            [
+                "Saltare 20 volte"
+            ],
+            [
+                "Saltare 50 volte"
+            ],
+            [
+                "Saltare 100 volte"
+            ],
+            [
+                "Teletrasporto 3 volte"
+            ],
+            [
+                "Teletrasporto 5 volte"
+            ],
+            [
+                "Teletrasporto 10 volte"
+            ],
+            [
+                "Tagga un altro giocatore"
+            ],
+            [
+                "Tagga altri due giocatori"
+            ],
+            [
+                "Tagga altri tre giocatori"
+            ],
+            [
+                "Prendere il primo posto nella modalità zombie"
+            ],
+            [
+                "Prendere il primo posto nella modalità acchiapparello"
+            ],
+            [
+                "Gioca 1 volta in modalità zombie"
+            ],
+            [
+                "Gioca 2 volta in modalità zombie"
+            ],
+            [
+                "Gioca 3 volta in modalità zombie"
+            ],
+            [
+                "Giocare una volta nella modalità Acchiapparello"
+            ],
+            [
+                "Giocare due volte nella modalità Acchiapparello"
+            ],
+            [
+                "Giocare tre volte nella modalità Acchiapparello"
+            ],
+            [
+                "Aprire 1 ricompensa in GOLD PASS"
+            ],
+            [
+                "Saltare 10 volte su un trampolino"
+            ],
+            [
+                "Saltare 25 volte su un trampolino"
+            ],
+            [
+                "Saltare 50 volte su un trampolino"
+            ],
+            [
+                "Comprare qualcosa al negozio"
+            ],
+            [
+                "Spendere 5 gemme"
+            ],
+            [
+                "Spendere 10 gemme"
+            ],
+            [
+                "Spendere 15 gemme"
+            ]
+        ],
+        [
+            [
+                "ru"
+            ],
+            [
+                "Улучшите бегуна 1 раз"
+            ],
+            [
+                "Улучшите бегуна 2 раза"
+            ],
+            [
+                "Улучшите бегуна 3 раза"
+            ],
+            [
+                "Сыграйте в 1 игру"
+            ],
+            [
+                "Сыграйте 2 игры"
+            ],
+            [
+                "Сыграйте 3 игры"
+            ],
+            [
+                "Выиграйте 1 игру"
+            ],
+            [
+                "Выиграйте 2 игры"
+            ],
+            [
+                "Выиграйте 3 игры"
+            ],
+            [
+                "Потратьте 100 монет"
+            ],
+            [
+                "Потратьте 500 монет"
+            ],
+            [
+                "Потратьте 1000 монет"
+            ],
+            [
+                "Пробегите 500 метров"
+            ],
+            [
+                "Пробегите 1000 метров"
+            ],
+            [
+                "Пробегите 2000 метров"
+            ],
+            [
+                "Прыгните 20 раз"
+            ],
+            [
+                "Прыгните 50 раз"
+            ],
+            [
+                "Прыгните 100 раз"
+            ],
+            [
+                "Телепортируйтесь 3 раза"
+            ],
+            [
+                "Телепортируйтесь 5 раз"
+            ],
+            [
+                "Телепортируйтесь 10 раз"
+            ],
+            [
+                "Осальте 1 раз других игроков"
+            ],
+            [
+                "Осальте 2 раза других игроков"
+            ],
+            [
+                "Осальте 3 раза других игроков"
+            ],
+            [
+                "Займите 1 место в режиме зомби"
+            ],
+            [
+                "Займите 1 место в режиме догонялки"
+            ],
+            [
+                "Сыграйте 1 раз в зомби"
+            ],
+            [
+                "Сыграйте 2 раза в зомби"
+            ],
+            [
+                "Сыграйте 3 раза в зомби"
+            ],
+            [
+                "Сыграйте 1 раз в догонялки "
+            ],
+            [
+                "Сыграйте 2 раза в догонялки "
+            ],
+            [
+                "Сыграйте 3 раза в догонялки"
+            ],
+            [
+                "Откройте 1 награду в GOLD PASS"
+            ],
+            [
+                "Прыгните 10 раз на батуте"
+            ],
+            [
+                "Прыгните 25 раз на батуте"
+            ],
+            [
+                "Прыгните 50 раз на батуте"
+            ],
+            [
+                "Купите что-то в магазине "
+            ],
+            [
+                "Потратьте 5 кристаллов "
+            ],
+            [
+                "Потратьте 10 кристаллов "
+            ],
+            [
+                "Потратьте 15 кристаллов "
+            ]
+        ],
+        [
+            [
+                "tr"
+            ],
+            [
+                "Koşucuyu 1 kez geliştirin"
+            ],
+            [
+                "Koşucuyu 2 kez geliştirin"
+            ],
+            [
+                "Koşucuyu 3 kez geliştirin"
+            ],
+            [
+                "1 oyun oynayın"
+            ],
+            [
+                "2 oyun oynayın"
+            ],
+            [
+                "3 oyun oynayın"
+            ],
+            [
+                "Gagner 1 match"
+            ],
+            [
+                "2 oyun kazanın"
+            ],
+            [
+                "3 oyun kazanın"
+            ],
+            [
+                "100 jeton harcayın"
+            ],
+            [
+                "500 jeton harcayın"
+            ],
+            [
+                "1000 jeton harcayın"
+            ],
+            [
+                "500 metre koşu"
+            ],
+            [
+                "1000 metre koşu"
+            ],
+            [
+                "2000 metre koşu"
+            ],
+            [
+                "20 kez zıpla"
+            ],
+            [
+                "50 kez zıpla"
+            ],
+            [
+                "100 kez zıpla"
+            ],
+            [
+                "3 kez ışınlanma"
+            ],
+            [
+                "5 kez ışınlanma"
+            ],
+            [
+                "10 kez ışınlanma"
+            ],
+            [
+                "Bir diğer oyuncuyu etiketle"
+            ],
+            [
+                "İki diğer oyuncuyu etiketle"
+            ],
+            [
+                "Üç diğer oyuncuyu etiketle"
+            ],
+            [
+                "Zombi modunda birinci olmak"
+            ],
+            [
+                "Etiket modunda birinci olmak"
+            ],
+            [
+                "Zombi modunda 1 kez oynayın"
+            ],
+            [
+                "Zombi modunda 2 kez oynayın"
+            ],
+            [
+                "Zombi modunda 3 kez oynayın"
+            ],
+            [
+                "Etiket modunda bir kez oynayın"
+            ],
+            [
+                "Etiket modunda iki kez oynayın"
+            ],
+            [
+                "Etiket modunda üç kez oynayın"
+            ],
+            [
+                "GOLD PASS'ta 1 ödül açın"
+            ],
+            [
+                "Trambolinde 10 kez zıplayın"
+            ],
+            [
+                "Trambolinde 25 kez zıplayın"
+            ],
+            [
+                "Trambolinde 50 kez zıplayın"
+            ],
+            [
+                "Mağazadan bir şey satın alın"
+            ],
+            [
+                "5 mücevher harcayın"
+            ],
+            [
+                "10 mücevher harcayın"
+            ],
+            [
+                "15 mücevher harcayın"
+            ]
+        ]
+    ]
+}

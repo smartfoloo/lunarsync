@@ -4,16 +4,16 @@ body {
 
 .main {
   margin-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 10px 47px;
+  padding: 50px;
   text-align: center;
 }
 
 h1 {
-  font-size: 80px;
-  padding: 0px 200px;
+  font-size: 60px;
+  padding: 0px 300px;
 }
 
 h2 {
@@ -231,7 +231,7 @@ h5 {
 
 @media screen and (max-width: 1000px) {
   h1 {
-    font-size: 80px;
+    font-size: 50px;
     padding: 0px 100px;
   }
 
@@ -256,13 +256,13 @@ h5 {
   }
 
   .main {
-    padding: 10px 20px;
+    padding: 50px 20px;
   }
 }
 
 @media screen and (max-width: 800px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     padding: 0px 30px;
   }
 
@@ -286,6 +286,6 @@ h5 {
   }
 
   .main {
-    padding: 10px 0px;
+    padding: 50px 0px;
   }
 }

@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='' xml:lang=''>
+<head>
+	<meta charset='utf-8' />
+	<meta name='viewport' content='width=device-width, user-scalable=no' />
+	<meta http-equiv="origin-trial" content="AnNMbT9QRWfbprIBsg5A+YWE1oZ/EAaDy9QvwbehegZtwx6cs2rZ4VIEvNiEhwgvHFNclALvZPGAeDF0pUmghgUAAAB4eyJvcmlnaW4iOiJodHRwczovL3dpbnRlcnBpeGVsLmlvOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTcwOTg1NTk5OSwiaXNTdWJkb21haW4iOnRydWV9" />
+	<meta http-equiv="origin-trial" content="A8wVSvraGdH9ihH9EA+cCUP5HlZidwChaj8ssDdHrG5ML9zTX+8K4hdOmH81FXYB3Y2R2csNN5d0wcRXC42SNREAAABpeyJvcmlnaW4iOiJodHRwczovL3dpbnRlcnBpeGVsLmlvIiwiZmVhdHVyZSI6IkNvZXBDcmVkZW50aWFsbGVzcyIsImV4cGlyeSI6MTcwNjU2OTIwMCwiaXNTdWJkb21haW4iOnRydWV9" />
+	<meta property="og:title" content="Goober World"/>
+	<meta property="og:description" content="Goober World is a fun platformer with whacky levels and customizable characters."/>
+	<meta property="og:site_name" content="Goober World"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="https://gooberworld-staging.winterpixel.io/capsule.png"/>
+	<meta property="og:url" content="https://gooberworld-staging.winterpixel.io/"/>
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@winterpixelco">
+	<meta name="twitter:title" content="Goober World">
+	<meta name="twitter:description" content="Goober World is a fun platformer with whacky levels and customizable characters.">
+	<meta name="twitter:image" content="https://gooberworld-staging.winterpixel.io/capsule.png">
+
+	<link id='-gd-engine-icon' rel='icon' type='image/png' href='favicon.png' />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+	<title>Goober World</title>
+
+	<script type='text/javascript'>
+		function getAdDriver() {
+			var adDriver = "adinplay"; 
+			var referrer = document.referrer.toLowerCase();
+			if(referrer.indexOf("crazygames") != -1 || referrer.indexOf("onlinegame") != -1 || referrer.indexOf("speelspelletjes") != -1 || referrer.indexOf("1001juegos") != -1) {
+				adDriver = "crazygames";
+			}
+			else if(referrer.indexOf("poki") != -1 || referrer.indexOf("po.ki") != -1) {
+				adDriver = "poki";
+			}
+			return adDriver;
+		};
+		if (getAdDriver() == "adinplay") {
+			var s1 = document.createElement( 'script' );
+			s1.innerHTML = `
+			window.aiptag = window.aiptag || {cmd: []};
+			aiptag.subid = "gooberworld";
+			aiptag.cmd.player = aiptag.cmd.player || [];
+			//CMP tool settings
+			aiptag.cmp = {
+				show: true,
+				position: "centered",  //centered, bottom
+				button: true,
+				buttonText: "Privacy settings",
+				buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+			}
+			aiptag.cmd.player.push(function() {
+				aiptag.adplayer = new aipPlayer({
+					AD_WIDTH: 960,
+					AD_HEIGHT: 540,
+					AD_DISPLAY: 'fullscreen', //default, fullscreen, center, fill
+					LOADING_TEXT: 'loading advertisement',
+					PREROLL_ELEM: function(){return document.getElementById('preroll')},
+					AIP_STARTED: function ()  {
+						winteradStarted();
+					},
+					AIP_COMPLETE: function (state)  {
+						winteradFinished();
+					},
+					AIP_REWARDEDCOMPLETE: function (state)  {
+						winteradFinished();
+					},
+					AIP_REWARDEDNOTGRANTED: function (state)  {
+						winteradError();
+					},
+					AIP_BLOCKED: function ()  {
+						winteradError();
+					},
+					AIP_ADBREAK_COMPLETE: function ()  {
+						winteradFinished();
+					},
+				});	
+			});
+			var ad_is_first = true;
+			function show_preroll() {
+				//check if the adslib is loaded correctly or blocked by adblockers etc.
+				if (typeof aiptag.adplayer !== 'undefined') {
+					if(ad_is_first) {
+						ad_is_first = false;
+						aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+					}
+					else {
+						// use preroll for everything rn
+						//aiptag.cmd.player.push(function() { aiptag.adplayer.startAdBreak(); });
+						aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+					}
+				} else {
+					//Adlib didnt load this could be due to an adblocker, timeout etc.
+					//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
+					winteradError();
+				}
+			}
+			function show_rewarded() {
+				//check if the adslib is loaded correctly or blocked by adblockers etc.
+				if (typeof aiptag.adplayer !== 'undefined') {
+					// use preroll for everything rn
+					//aiptag.cmd.player.push(function() { aiptag.adplayer.startRewardedAd(); });
+					aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+				} else {
+					//Adlib didnt load this could be due to an adblocker, timeout etc.
+					//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
+					winteradError();
+				}
+			}
+			function request_banner() {
+				aiptag.cmd.display.push(function() { aipDisplayTag.display('winterpixel-com_728x90'); });
+			}
+
+			
+			`;
+			document.head.appendChild( s1 );
+
+			var s = document.createElement( 'script' );
+			s.setAttribute( 'async', true );
+			s.setAttribute( 'src', '//api.adinplay.com/libs/aiptag/pub/WPX/winterpixel.com/tag.min.js' );
+			document.head.appendChild( s );
+		} else if (getAdDriver() == "crazygames") {
+			var s = document.createElement( 'script' );
+			s.setAttribute( 'src', '//sdk.crazygames.com/crazygames-sdk-v2.js' );
+			document.head.appendChild( s );
+		}
+
+		function getRequestParam(requestParam){
+			const queryString = window.location.search;
+			const urlParams = new URLSearchParams(queryString);
+			var p = urlParams.get(requestParam)
+			if(p) {
+				return p;
+			}
+			return "";
+		};
+	</script>
+	<script type="text/javascript" src="winterpixel_discord.js"></script>
+	<script type="text/javascript" src="winterpixelads.js"></script>
+	<script type="text/javascript" src="screenfull.js"></script>
+	<script src="/paystation.js"></script>
+	<style type='text/css'>
+
+		body {
+			touch-action: none;
+			margin: 0;
+			border: 0 none;
+			padding: 0;
+			text-align: center;
+			background-color: #000a15;
+			font-family: 'Baloo 2', cursive;
+		}
+
+		#canvas {
+			display: block;
+			margin: 0;
+			color: white;
+		}
+
+		#canvas:focus {
+			outline: none;
+		}
+
+		.godot {
+			font-family: 'Baloo 2', 'Noto Sans', 'Droid Sans', Arial, sans-serif;
+			color: #e0e0e0;
+			font-size: 24pt;
+		}
+
+
+		/* Status display
+		 * ============== */
+
+		 #status {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* don't consume click events - make children visible explicitly */
+			visibility: hidden;
+		}
+
+		#status-progress {
+			width: 366px;
+			height: 42px;
+			background-color: #000000;
+			border: 6px solid #111111;
+			padding: 0px;
+			border-radius: 8px;
+			border-color: #050505;
+			visibility: visible;
+			margin: 0px auto;
+		}
+
+		@media only screen and (orientation:portrait) {
+			#status-progress {
+				width: 61.8%;
+			}
+		}
+
+		#status-progress-inner {
+			height: 100%;
+			width: 0;
+			box-sizing: border-box;
+			background-color: #38363A;
+			background-image: linear-gradient(to bottom, #2DFDA6, #00BA60);
+			border-radius: 3px;
+		}
+
+		#status-indeterminate {
+			visibility: visible;
+			position: relative;
+			width: 1px;
+			height: 54px;
+			margin: 0px auto;
+		}
+
+		#status-indeterminate > div {
+			width: 4.5px;
+			height: 0;
+			border-style: solid;
+			border-width: 9px 3px 0 3px;
+			border-color: #2b2b2b transparent transparent transparent;
+			transform-origin: center 21px;
+			position: absolute;
+		}
+
+		#status-indeterminate > div:nth-child(1) { transform: rotate( 22.5deg); }
+		#status-indeterminate > div:nth-child(2) { transform: rotate( 67.5deg); }
+		#status-indeterminate > div:nth-child(3) { transform: rotate(112.5deg); }
+		#status-indeterminate > div:nth-child(4) { transform: rotate(157.5deg); }
+		#status-indeterminate > div:nth-child(5) { transform: rotate(202.5deg); }
+		#status-indeterminate > div:nth-child(6) { transform: rotate(247.5deg); }
+		#status-indeterminate > div:nth-child(7) { transform: rotate(292.5deg); }
+		#status-indeterminate > div:nth-child(8) { transform: rotate(337.5deg); }
+
+		#status-notice {
+			margin: 0 100px;
+			line-height: 1.3;
+			visibility: visible;
+			padding: 4px 6px;
+			visibility: visible;
+		}
+		
+		#status-bg {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: radial-gradient(#001F4D, #000E1F);
+		}
+
+		#logo {
+			max-width: 66vw;
+			max-height: 33vh;
+			margin: auto;
+		}
+		
+		
+		#status-bg-download {
+			/*position: absolute;
+			margin-top: 200px;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+
+		}
+		
+		#status-bg-bottom {
+			/*position: absolute; */
+			margin-top: 10px; 
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		#status-bg-loading {
+			color: #FFFFFF;
+		}
+	</style>
+<link id='-gd-engine-icon' rel='icon' type='image/png' href='index.icon.png' />
+<link rel='apple-touch-icon' href='index.apple-touch-icon.png'/>
+
+</head>
+<body>
+	<canvas id='canvas'>
+		HTML5 canvas appears to be unsupported in the current browser.<br />
+		Please try the direct downloads or use a different browser.
+	</canvas>
+	<div id='status-bg' >
+		<div>
+			<img id="logo" src="logo.png"/>
+			<div id='status-indeterminate' style='display: none;' oncontextmenu='event.preventDefault();'>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id='status-progress' style='display: none;' oncontextmenu='event.preventDefault();'>
+				<div id ='status-progress-inner'></div>
+			</div>
+			<br>
+			<div id='status-bg-loading' class="godot">
+			</div>
+			<div id='status-notice' class='godot' style='display: none;'></div>
+			<div id='status-bg-download' class="godot">
+				<!-- <div class="godot">Direct Downloads:</div> -->
+				<div id='status-bg-bottom'>
+					<!--
+					<a href="https://discord.gg/kdGuBhXz2r" target="_blank"><img id='status-bg-bottom-discord' src="discord.png"/></a> 
+					<a href="https://store.steampowered.com/app/1748390/asteroids/?beta=1" target="_blank"><img id='status-bg-bottom-steam' src="steam.png"/></a> 
+					<a href="https://itunes.apple.com/us/app/asteroids/id1585995080?mt=8" target="_blank"><img id='status-bg-bottom-appstore' src="appstore.png"/></a>
+					<a href="http://play.google.com/store/apps/details?id=com.winterpixel.asteroids&hl=en" target="_blank"><img id='status-bg-bottom-play' src="googleplay.png"/></a>
+					-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="winterpixel-fullscreen-container" style="pointer-events:none; width: 100%; height: 100%; position: absolute;">
+		<div id="preroll" style="pointer-events:auto; display: none;"></div>
+		<div id="winterpixel-banner-container" style="pointer-events:auto; width: 100%; height: 6.0%; position: absolute; bottom: 2px; display: flex; justify-content: center; align-items: center;">
+			<div id="winterpixel-com_728x90" style="pointer-events:auto; width: 728px; height: 90px; margin: 0 auto;"></div>
+		</div>
+	</div>
+
+	<script type='text/javascript'>//<![CDATA[
+		var GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":6912128,"index.wasm":12324198},"focusCanvas":true,"gdnativeLibs":[]};
+		var engine;
+
+		function startGodot() {
+			engine = new Engine(GODOT_CONFIG);
+			const INDETERMINATE_STATUS_STEP_MS = 100;
+			var statusProgress = document.getElementById('status-progress');
+			var statusProgressInner = document.getElementById('status-progress-inner');
+			var statusIndeterminate = document.getElementById('status-indeterminate');
+			var statusNotice = document.getElementById('status-notice');
+			var statusCustom = document.getElementById('status-bg');
+			var statusLoading = document.getElementById('status-bg-loading');
+
+			var initializing = true;
+			var statusMode = 'hidden';
+
+			var animationCallbacks = [];
+			function animate(time) {
+				animationCallbacks.forEach(callback => callback(time));
+				requestAnimationFrame(animate);
+			}
+			requestAnimationFrame(animate);
+
+			function setStatusMode(mode) {
+
+				if (statusMode === mode || !initializing)
+					return;
+				[statusProgress, statusIndeterminate, statusNotice, statusLoading].forEach(elem => {
+					elem.style.display = 'none';
+				});
+				animationCallbacks = animationCallbacks.filter(function(value) {
+					return (value != animateStatusIndeterminate);
+				});
+				switch (mode) {
+					case 'progress':
+						statusProgress.style.display = 'block';
+						statusLoading.style.display = 'block';
+						break;
+					case 'indeterminate':
+						statusIndeterminate.style.display = 'block';
+						animationCallbacks.push(animateStatusIndeterminate);
+						break;
+					case 'notice':
+						statusNotice.style.display = 'block';
+						break;
+					case 'hidden':
+						statusCustom.style.display = 'none';
+						break;
+					default:
+						throw new Error('Invalid status mode');
+				}
+				statusMode = mode;
+			}
+
+			function animateStatusIndeterminate(ms) {
+				var i = Math.floor(ms / INDETERMINATE_STATUS_STEP_MS % 8);
+				if (statusIndeterminate.children[i].style.borderTopColor == '') {
+					Array.prototype.slice.call(statusIndeterminate.children).forEach(child => {
+						child.style.borderTopColor = '';
+					});
+					statusIndeterminate.children[i].style.borderTopColor = '#dfdfdf';
+				}
+			}
+
+			function setStatusNotice(text) {
+				while (statusNotice.lastChild) {
+					statusNotice.removeChild(statusNotice.lastChild);
+				}
+				var lines = text.split('\n');
+				lines.forEach((line) => {
+					statusNotice.appendChild(document.createTextNode(line));
+					statusNotice.appendChild(document.createElement('br'));
+				});
+			};
+
+			function displayFailureNotice(err) {
+				var msg = err.message || err;
+				console.error(msg);
+				setStatusNotice(msg);
+				setStatusMode('notice');
+				initializing = false;
+			};
+
+			function hintGetWebGL() {
+				console.error('WebGL not available.\nFind out how to enable WebGL at https://get.webgl.org/');
+				setStatusNotice('To play, you must enable WebGL:');
+				
+				var a = document.createElement('a');
+				a.href = 'https://get.webgl.org/';
+                a.appendChild(document.createTextNode("https://get.webgl.org/"));
+				
+				var div = document.createElement('div');
+				div.appendChild(document.createTextNode("→ "));
+				div.appendChild(a);
+				div.appendChild(document.createTextNode(" ←"));
+
+				statusNotice.appendChild(div);
+				statusNotice.appendChild(document.createElement('br'));
+
+				setStatusMode('notice');
+				initializing = false;
+			};
+
+			if (!Engine.isWebGLAvailable()) {
+				hintGetWebGL();
+			} else {
+				setStatusMode('indeterminate');
+				engine.startGame({
+					'onProgress': function (current, total) {
+						if (total > 0) {
+							statusLoading.innerHTML = (100.0 * current/total).toFixed(2) + "%";
+							statusProgressInner.style.width = current/total * 100 + '%';
+							setStatusMode('progress');
+							if (current === total) {
+								// wait for progress bar animation
+								setTimeout(() => {
+									setStatusMode('indeterminate');
+								}, 500);
+							}
+						} else {
+							setStatusMode('indeterminate');
+						}
+					},
+				}).then(() => {
+					setStatusMode('hidden');
+					initializing = false;
+				}, displayFailureNotice);
+			}
+		};
+
+		function getconfigFile() {
+			return "prod";
+		};
+		function getIosURL() {
+			return "https://itunes.apple.com/us/app/id?mt=8";
+		};
+		function getAndroidURL() {
+			return "http://play.google.com/store/apps/details?id=&amp;hl=en";
+		};
+
+		function xsollaOpenPaystationNewWindow(access_token_string, sandbox_flag, product_id_string) {
+			var url = "https://secure.xsolla.com/paystation3/?access_token=" + access_token_string
+			if(sandbox_flag) {
+				url = "https://sandbox-secure.xsolla.com/paystation3/?access_token=" + access_token_string
+			}
+			
+			var newwindow = window.open(url,'Purchase','toolbar=no, directories=no,location=no, status=yes, menubar=no, resizable=no, scrollbars=yes, width=640,height=740'); 
+			newwindow.focus();
+		};
+		function xsollaOpenPaystation(access_token_string, sandbox_flag, product_id_string) {
+			var options = {
+				access_token: access_token_string,
+				sandbox: sandbox_flag,
+				iframeOnly: true
+			};
+			XPayStationWidget.init(options);
+			var isMobile = XPayStationWidget.isMobile();
+			// xsolla is broken on mobile, so we need to add a close button ourselves!!!
+
+			XPayStationWidget.on(XPayStationWidget.eventTypes.OPEN, function (event, data) {
+				console.log("XPayStationWidget.eventTypes.OPEN");
+			});
+			XPayStationWidget.on(XPayStationWidget.eventTypes.LOAD, function (event, data) {
+				console.log("XPayStationWidget.eventTypes.LOAD");
+				// If we're on mobile, we have to manually add a close button lol...
+				if (isMobile) {
+					// find paystation 
+					var lightboxDivs = document.getElementsByClassName('xpaystation-widget-lightbox');
+					if (lightboxDivs.length > 0) {
+						var lightboxDiv = lightboxDivs[0];
+						var iDiv = document.createElement('div');
+						iDiv.style.cssText = 'position: absolute; top: 0; right: 0; z-index:10001; padding-right: 20pt; padding-top: 10pt;'
+						iDiv.innerHTML = '╳';
+						lightboxDiv.appendChild(iDiv);
+
+						iDiv.addEventListener('click', e => {
+							XPayStationWidget.close();
+						});
+
+					}
+					
+				}
+			});
+			XPayStationWidget.open();
+		};
+		function xsollaBuy(access_token_string, sandbox_flag, product_id_string) {
+			if (crossOriginIsolated) {
+				xsollaOpenPaystationNewWindow(access_token_string, sandbox_flag, product_id_string)
+			} else {
+				xsollaOpenPaystation(access_token_string, sandbox_flag, product_id_string)
+			}
+		};
+
+		// SharedArrayBuffer checks
+		var threads_supported = false;
+		try {
+			var sab = new SharedArrayBuffer(64);
+   			if(sab===undefined){
+				throw new Error('not supported');
+			}
+			else {
+			   threads_supported = true;
+			}
+		}
+		catch(e) {
+			threads_supported = false;
+		}
+
+		var mainJsScript = document.createElement('script');
+		mainJsScript.onload = function () {
+			//do stuff with the script
+			startGodot();
+		};
+		mainJsScript.type = 'text/javascript';
+		if(threads_supported) {
+			console.log("Detected SharedArrayBuffer, using threads.");
+			mainJsScript.src = 'index.js';
+		}
+		else {
+			console.log("SharedArrayBuffer not available, disable threads.");
+			mainJsScript.src = 'index-nothreads.js';
+			// Overwrite index.pck, and wasm.pck
+			var pckSize = GODOT_CONFIG.fileSizes['index.pck'];
+			var wasmSize = GODOT_CONFIG.fileSizes['index.wasm'];
+
+			GODOT_CONFIG.executable = 'index-nothreads';
+			GODOT_CONFIG.fileSizes = {
+				'index-nothreads.pck' : pckSize,
+				'index-nothreads.wasm' : wasmSize,
+			};
+
+		}
+		document.body.appendChild(mainJsScript);
+
+
+		// \-----------------------------------
+		// \-----------------------------------
+		// Ads Devel
+		// \-----------------------------------
+		// \-----------------------------------
+		// \-----------------------------------
+		function htmlToElem(html) {
+			let temp = document.createElement('template');
+			html = html.trim(); // Never return a space text node as a result
+			temp.innerHTML = html;
+			return temp.content.firstChild;
+		}
+		
+		const winterpixeladsdk = window.WinterpixelAds;
+		var isShowingBanner = true;
+		
+		function wintersdkInitialized(event) {
+			console.log("wintersdkInitialized");
+			const userInfo = event.userInfo;
+			console.log(userInfo);
+		};
+		function adblockDetection(event) {
+    		if(event.hasAdblock) {
+				console.log('User is using an adblocker');
+    		} else {
+				console.log('User is not using an adblocker');
+    		}
+		};
+		function winteradStarted() {
+			console.log("winteradStarted");
+			window['winterpixelAdHandlers'].callbackMap.adStarted();
+		};
+		function winteradError() {
+			console.log("winteradError");
+			document.getElementById('canvas').focus();
+			window['winterpixelAdHandlers'].callbackMap.adError();
+		};
+		function winteradFinished() {
+			console.log("winteradFinished");
+			document.getElementById('canvas').focus();
+			window['winterpixelAdHandlers'].callbackMap.adEnded();
+		};		
+		function winterpixelGameplayStarted() {
+			var winterBanner = document.getElementById('winterpixel-banner-container');
+			winterBanner.style.display = 'none';
+			winterpixeladsdk.gameplayStart();
+
+		};
+		function winterpixelGameplayStopped() {
+			winterpixeladsdk.gameplayStop();
+		};
+		function winterpixelHomeScreen() {
+			var winterBanner = document.getElementById('winterpixel-banner-container');
+			winterBanner.style.display = 'flex';
+			isShowingBanner = true;
+			winterpixeladsdk.gameplayStop();
+		};
+		function winterpixelHappytime() {
+			winterpixeladsdk.happytime();
+		};
+		function winterpixelShowInterstitialAd(){
+			winterpixeladsdk.requestAd('midgame');
+		};
+		function winterpixelRequestBanner(){
+			var winterBanner = document.getElementById('winterpixel-banner-container');
+			winterBanner.style.display = 'flex';
+			isShowingBanner = true;
+			winterpixeladsdk.requestBanner({
+				id: "winterpixel-com_728x90",
+    			width: 728,
+    			height: 90,
+			});
+		};
+		function winterpixelResizeBannerContent() {
+			var bannerParentContainer = document.getElementById('winterpixel-banner-container');
+			var bannerContainer = document.getElementById('winterpixel-com_728x90');
+
+			var parentSize = bannerParentContainer.getBoundingClientRect();
+			var scale = 1.0;
+			if (parentSize.height < 90.0) {
+				scale = parentSize.height / 90.0;
+			}
+			if (parentSize.width < 728.0) {
+				var widthScale = parentSize.width / 728.0;
+				if(widthScale < scale) {
+					scale = widthScale;
+				}
+			}
+			var scaleString = "scale("+scale.toString()+", "+scale.toString()+")";
+			bannerContainer.style.transform = scaleString;
+		};
+		function winterpixelShowBanner(){
+			var winterBanner = document.getElementById('winterpixel-banner-container');
+			winterBanner.style.display = 'flex';
+			isShowingBanner = true;
+			winterpixelResizeBannerContent();
+		};
+		function winterpixelHideBanner(){
+			var winterBanner = document.getElementById('winterpixel-banner-container');
+			winterBanner.style.display = 'none';
+			if (getAdDriver() == "crazygames") {
+				window.CrazyGames.SDK.banner.clearAllBanners();
+			}
+			isShowingBanner = false;
+		};
+		function winterpixelShowRewardedAd(){
+			winterpixeladsdk.requestAd('rewarded');
+		};
+		window['winterpixelAdHandlers'] = {
+			callbackMap: {			
+			},
+			registerAdStarted: function(adStartedFunction) {
+				console.log("register ad started function");
+				this.callbackMap["adStarted"] = adStartedFunction;
+			},
+			registerAdEnded: function(adEndedFunction) {
+				console.log("register ad ended function");
+				this.callbackMap["adEnded"] = adEndedFunction;
+			},
+			registerAdError: function(adErrorFunction) {
+				console.log("register ad error function");
+				this.callbackMap["adError"] = adErrorFunction;
+			},
+			registerWindowResized: function(windowResizedFunction) {
+				console.log("window resized function");
+				this.callbackMap["windowResized"] = windowResizedFunction;
+			},
+			registerCrazygamesUserAccountAvailable: function(crazygamesUserAccountAvailableFunction) {
+				console.log("registerCrazygamesUserAccountAvailable");
+				this.callbackMap["crazygamesUserAccountAvailable"] = crazygamesUserAccountAvailableFunction;
+			},
+			registerCrazygamesGetUser: function(registerCrazygamesGetUserFunction) {
+				console.log("registerCrazygamesGetUser");
+				this.callbackMap["crazygamesGetUser"] = registerCrazygamesGetUserFunction;
+			},
+			registerCrazygamesAuthListener: function(registerCrazygamesAuthListenerFunction) {
+				console.log("registerCrazygamesAuthListener");
+				this.callbackMap["crazygamesAuthListener"] = registerCrazygamesAuthListenerFunction;
+			},
+			registerCrazygamesShowAuthPrompt: function(registerCrazygamesShowAuthPromptFunction) {
+				console.log("registerCrazygamesShowAuthPrompt");
+				this.callbackMap["crazygamesShowAuthPrompt"] = registerCrazygamesShowAuthPromptFunction;
+			},
+			registerCrazygamesGetUserToken: function(registerCrazygamesGetUserTokenFunction) {
+				console.log("registerCrazygamesGetUserToken");
+				this.callbackMap["crazygamesGetUserToken"] = registerCrazygamesGetUserTokenFunction;
+			},
+			registerCrazygamesAccountLinkPrompt: function(registerCrazygamesAccountLinkPromptFunction) {
+				console.log("registerCrazygamesAccountLinkPrompt");
+				this.callbackMap["crazygamesAccountLinkPrompt"] = registerCrazygamesAccountLinkPromptFunction;
+			},
+			registerCrazygamesInviteLink: function(registerCrazygamesInviteLinkFunction) {
+				console.log("registerCrazygamesInviteLink");
+				this.callbackMap["crazygamesInviteLink"] = registerCrazygamesInviteLinkFunction;
+			},
+			registerCrazygamesInviteButton: function(registerCrazygamesInviteButtonFunction) {
+				console.log("registerCrazygamesInviteButton");
+				this.callbackMap["crazygamesInviteButton"] = registerCrazygamesInviteButtonFunction;
+			}
+		};
+		function winterpixelIsAndroid(){
+			var isMatch = /android/.test(navigator.userAgent.toLowerCase());
+			if(isMatch) {
+				return true;
+			}
+			return false;
+		};
+		function winterpixelIsIos(){
+			var isMatch = /ipad|iphone|ipod/.test(navigator.userAgent.toLowerCase());
+			if(isMatch) {
+				return true;
+			}
+			return false;
+		};
+		function winterpixelIsMobile(){
+			var deviceAgent = navigator.userAgent.toLowerCase();
+			var isTouchDevice = (deviceAgent.match(/(iphone|ipod|ipad)/) ||
+			deviceAgent.match(/(android)/)  || 
+			deviceAgent.match(/(iemobile)/) || 
+			deviceAgent.match(/iphone/i) || 
+			deviceAgent.match(/ipad/i) || 
+			deviceAgent.match(/ipod/i) || 
+			deviceAgent.match(/blackberry/i) || 
+			deviceAgent.match(/bada/i));
+
+			if(!isTouchDevice) {
+				var isMobile = 'ontouchstart' in window;
+    			if (isMobile) {
+					return true;
+    			}
+				return false;
+			}
+			else {
+				return true;
+			}
+		};
+		function winterpixelToggleFullscreen(){
+			screenfull.toggle(document.body);
+		};
+		function winterpixelGoFullscreen(){
+			if (screenfull.isEnabled) {
+				screenfull.request(document.body, {navigationUI: 'hide'});
+			}
+		};
+		function winterpixelGetRequestParam(requestParam){
+			const queryString = window.location.search;
+			const urlParams = new URLSearchParams(queryString);
+			var p = urlParams.get(requestParam)
+			if(p) {
+				return p;
+			}
+			return "";
+		};
+		function winterpixelGetRequestParams() {
+			try {
+				const queryString = window.location.search;
+				const urlParams = new URLSearchParams(queryString);
+				const asSimpleObject = Object.fromEntries(urlParams.entries());
+				const asString = JSON.stringify(asSimpleObject);
+				return asString;
+			} catch (error) {
+				console.error("[html] winterpixelGetRequestParams() error " + error)
+			}
+		};
+
+		function winterpixelClearRequestParams(requestParams) {
+			try {
+				if (requestParams.length > 0) {
+					var urlParams = new URLSearchParams(window.location.search);
+					requestParams.forEach(function(value, index, array) {
+						urlParams.delete(value);
+					});
+					// reconstruct the newurl
+					var l = window.location;
+					var newUrl = l.pathname;
+					if (urlParams.size > 0) {
+						newUrl = newUrl + "?" + urlParams.toString()
+					}
+					history.replaceState(null, "", newUrl)
+				}
+			} catch(error) {
+				console.error("[html] winterpixelClearRequestParams error " + error);
+				return;
+			}
+		};
+		function winterpixelSetRequestParams(requestParams) {
+			try {
+				const requestParamKeys = Object.keys(requestParams);
+				if (requestParamKeys.length > 0) {
+					var urlParams = new URLSearchParams(window.location.search);
+					for (let i = 0; i < requestParamKeys.length; i++) {
+						const key = requestParamKeys[i];
+						const value = requestParams[key];
+						urlParams.set(key, value);
+					}
+					// reconstruct the newurl
+					var l = window.location;
+					var newUrl = l.pathname;
+					if (urlParams.size > 0) {
+						newUrl = newUrl + "?" + urlParams.toString()
+					}
+					history.replaceState(null, "", newUrl)
+				}
+			} catch(error) {
+				console.error("[html] winterpixelSetRequestParams error " + error);
+				return;
+			}
+		};
+		function winterpixelCanShare(p_title, p_text, p_url) {
+			if (navigator.share === undefined) {
+				return false;
+			} else {
+				const shareData = {
+					title: p_title,
+					text: p_text,
+					url: p_url,
+				};
+				return navigator.canShare(shareData);
+			}
+			return false;
+		};
+		
+		function winterpixelShare(p_title, p_text, p_url) {
+			const shareData = {
+				title: p_title,
+				text: p_text,
+				url: p_url,
+				};
+			try {
+				navigator.share(shareData);
+				console.log('Successfully sent share');
+      		} catch (error) {
+				console.error('Error sharing: ' + error);
+			}
+		};
+		function winterpixelCrazyUserAccountsAvailable() {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, isAvailable) => {
+					if (error) {
+						if ("crazygamesUserAccountAvailable" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesUserAccountAvailable(false);
+						}
+					} else {
+						if ("crazygamesUserAccountAvailable" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesUserAccountAvailable(true);
+						}
+					}
+				};
+				window.CrazyGames.SDK.user.isUserAccountAvailable(callback);
+			}
+			else {
+				if ("crazygamesUserAccountAvailable" in window['winterpixelAdHandlers'].callbackMap) {
+					window['winterpixelAdHandlers'].callbackMap.crazygamesUserAccountAvailable(false);
+				}
+			}
+		};
+		function winterpixelCrazyGetUser() {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, user) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyGetUser Error:", error);
+						if ("crazygamesGetUser" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesGetUser(null);
+						}
+					} else {
+						if (user == null) {
+							console.log("Get user result not logged in, null");
+							if ("crazygamesGetUser" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesGetUser(null);
+							}
+						}
+						else {
+							var userJSON = JSON.stringify(user); 
+							console.log("Get user result (callback)", user);
+							if ("crazygamesGetUser" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesGetUser(userJSON);
+							}
+						}
+					}
+				};
+				window.CrazyGames.SDK.user.getUser(callback);
+			}
+			else {
+				// Do nothing
+			}
+		};
+		function winterpixelCrazyShowAuthPrompt() {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, user) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyShowAuthPrompt Error:", error);
+						if (error == "userAlreadySignedIn") {
+							if ("crazygamesShowAuthPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesShowAuthPrompt(2.0);
+							}
+						} else if (error == "showAuthPromptInProgress") {
+							if ("crazygamesShowAuthPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesShowAuthPrompt(3.0);
+							}
+						} else if (error == "userCancelled") {
+							if ("crazygamesShowAuthPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesShowAuthPrompt(4.0);
+							}
+						} else {
+							if ("crazygamesShowAuthPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesShowAuthPrompt(5.0);
+							}
+						}
+					} else {
+						var userJSON = JSON.stringify(user); 
+						console.log("Get user result (callback)", user);
+						if ("crazygamesShowAuthPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesShowAuthPrompt(userJSON);
+						}
+					}
+				};
+				window.CrazyGames.SDK.user.showAuthPrompt(callback);
+			}
+			else {
+				// Do nothing
+			}
+		};
+		function winterpixelCrazyGetUserToken() {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, token) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyGetUserToken Error:", error);
+						if ("crazygamesGetUserToken" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesGetUserToken(null);
+						}
+					} else {
+						console.log("Get user token result (callback)", token);
+						if ("crazygamesGetUserToken" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesGetUserToken(token);
+						}
+					
+					}
+				};
+				window.CrazyGames.SDK.user.getUserToken(callback);
+			}
+			else {
+				// Do nothing
+			}
+		};
+		function winterpixelCrazyGetInviteLink(jsonString) {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, link) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyGetInviteLink Error:", error);
+						if ("crazygamesInviteLink" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesInviteLink(null);
+						}
+					} else {
+						console.log("winterpixelCrazyGetInviteLink");
+						if ("crazygamesInviteLink" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesInviteLink(link);
+						}
+					}
+				};
+				const obj = JSON.parse(jsonString);
+				window.CrazyGames.SDK.game.inviteLink(obj, callback)
+			}
+			else {
+				// Do nothing
+			}
+		};
+		function winterpixelCrazyGetInviteButton(jsonString) {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, link) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyGetInviteButton Error:", error);
+						if ("crazygamesInviteButton" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesInviteButton(null);
+						}
+					} else {
+						console.log("winterpixelCrazyGetInviteButton");
+						if ("crazygamesInviteButton" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesInviteButton(link);
+						}
+					}
+				};
+				const obj = JSON.parse(jsonString);
+				window.CrazyGames.SDK.game.showInviteButton(obj, callback);
+			}
+			else {
+				// Do nothing
+			}
+		};
+		function winterpixelCrazyHideInviteButton() {
+			if(getAdDriver() == "crazygames") {
+				window.CrazyGames.SDK.game.hideInviteButton();
+			}
+		};
+		function winterpixelCrazyAccountInit() {
+			if(getAdDriver() == "crazygames") {
+				const crazyAccountListener = (user) =>  {
+					console.log("User changed", user);
+					var userJSON = JSON.stringify(user); 
+					if ("crazygamesAuthListener" in window['winterpixelAdHandlers'].callbackMap) {
+						window['winterpixelAdHandlers'].callbackMap.crazygamesAuthListener(userJSON);
+					}
+				}
+				window.CrazyGames.SDK.user.addAuthListener(crazyAccountListener);
+			};
+		};
+		function winterpixelCrazyAccountLinkPrompt() {
+			if(getAdDriver() == "crazygames") {
+				const callback = (error, response) => {
+					if (error) {
+						// shouldn't happen normally
+						console.log("winterpixelCrazyAccountLinkPrompt Error:", error);
+						if (error == "userNotAuthenticated") {
+							if ("crazygamesAccountLinkPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesAccountLinkPrompt(2.0);
+							}
+						} else if (error == "showAccountLinkPromptInProgress") {
+							if ("crazygamesAccountLinkPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesAccountLinkPrompt(3.0);
+							}
+						} else {
+							if ("crazygamesAccountLinkPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+								window['winterpixelAdHandlers'].callbackMap.crazygamesAccountLinkPrompt(4.0);
+							}
+						}
+					} else {
+						console.log("winterpixelCrazyAccountLinkPrompt");
+						var responseJSON = JSON.stringify(response)
+						if ("crazygamesAccountLinkPrompt" in window['winterpixelAdHandlers'].callbackMap) {
+							window['winterpixelAdHandlers'].callbackMap.crazygamesAccountLinkPrompt(responseJSON);
+						}
+					}
+				};
+				window.CrazyGames.SDK.user.showAccountLinkPrompt(callback);
+			};
+		};
+		
+
+		// \-----------------------------------
+		// \-----------------------------------
+		// Google ads copy pasta 
+		// \-----------------------------------
+		// \-----------------------------------
+		// \-----------------------------------
+		window.onload = function() {
+			winterpixeladsdk.init({}, {}, getAdDriver());
+			winterpixeladsdk.addEventListener('adblockDetectionExecuted', adblockDetection);
+			winterpixeladsdk.addEventListener('initialized', wintersdkInitialized);
+			winterpixeladsdk.addEventListener('adStarted', winteradStarted);
+			winterpixeladsdk.addEventListener('adFinished', winteradFinished); 
+			winterpixeladsdk.addEventListener('adError', winteradError); 
+			if(winterpixelIsAndroid()) {
+				document.getElementById('canvas').addEventListener('touchstart', () => {
+					winterpixelGoFullscreen();
+				});
+			}
+		};
+		if(window.addEventListener) {
+			window.addEventListener('resize', function() {	
+				if ("windowResized" in window['winterpixelAdHandlers'].callbackMap) {
+					window['winterpixelAdHandlers'].callbackMap.windowResized();
+				}
+        		//console.log('window resize event');
+    		});
+		}
+
+		winterpixelResizeBannerContent();
+		var ro = new ResizeObserver(entries => {
+			//console.log('ResizeObserver on canvas');
+			for (let entry of entries) {
+				const cr = entry.contentRect;
+				const canvasElement = entry.target;
+				var fullscreenContainer = document.getElementById('winterpixel-fullscreen-container');
+				fullscreenContainer.style.width = canvasElement.style.width;
+				fullscreenContainer.style.height = canvasElement.style.height;
+				fullscreenContainer.style.display='block';
+			}
+			winterpixelResizeBannerContent();
+			// Hack for crazygames scrollbar issue
+			var bannerContainer = document.getElementById('winterpixel-banner-container');
+			if(isShowingBanner){
+				bannerContainer.style.display = 'none';
+				setTimeout(function() {
+					if(isShowingBanner){
+						bannerContainer.style.display = 'flex';
+						setTimeout(function() {
+							winterpixelResizeBannerContent();
+						}, 2000)
+					}
+				}, 2000)
+			}
+		});
+		ro.observe(document.getElementById('canvas'));
+
+	</script>
+
+
+</body>
+</html>
+

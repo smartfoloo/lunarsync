@@ -72,16 +72,15 @@ h4 {
   background: var(--background3);
   border: 0px;
   font-size: 16px;
-  padding: 15px 20px;
+  padding: 10px;
   border-radius: 10px;
-  transition: 300ms;
+  transition: 250ms;
   cursor: pointer;
   margin: 10px 5px;
 }
 
 .main-content button:hover {
-  background: var(--theme);
-  color: var(--text-secondary);
+  background: var(--background);
 }
 
 .main-content button:disabled {

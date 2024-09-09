@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
 :root {
-  --background: #11111b;
-  --background2: #1e1e2e;
-  --background3: #313244;
-  --theme: rgb(137, 180, 250);
-  --shadow: rgba(27, 38, 54, 0.5);
-  --text: #cdd6f4;
-  --placeholder: #cdd6f4;
-  --text-secondary: #11111b;
-  --nav-btn: #181825;
+  --background: #181926;
+  --background2: #24273a;
+  --background3: #494d64;
+  --theme: rgb(138, 173, 244);
+  --shadow: rgba(138, 173, 244, 0.5);
+  --text: #cad3f5;
+  --placeholder: #cad3f5;
+  --text-secondary: #181926;
+  --nav-btn: #1e2030;
 }
 
 * {
@@ -19,6 +19,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   letter-spacing: 0 !important;
 }
+
 body {
   background: var(--background);
   font-weight: 400;
@@ -28,13 +29,15 @@ body {
   top: 0px;
   position: fixed;
   z-index: 999999;
-  margin: 15px 10%;
-  background: var(--background3);
+  margin: 0px;
+  background: var(--background);
   justify-content: space-between;
   height: 70px;
-  border-radius: 20px;
-  width: 80%;
+  border-radius: 0px;
+  width: 100%;
+  border-bottom: 1px solid var(--theme);
 }
+
 .nav,
 .nav .nav-links {
   display: flex;
@@ -50,8 +53,8 @@ a {
   width: 35px;
 }
 .nav .logo {
-  font-size: 22px;
-  font-weight: 400 !important;
+  font-size: 20px;
+  font-weight: 700 !important;
   letter-spacing: 0 !important;
   display: flex;
   align-items: center;
@@ -63,7 +66,7 @@ a {
   list-style: none;
 }
 .nav .nav-links a {
-  transition: all 0.2s linear;
+  transition: 250ms;
 }
 
 .nav .left {
@@ -72,20 +75,24 @@ a {
 }
 
 .nav .nav-btn {
-  height: 48px;
-  width: 48px;
-  border: none;
-  background: var(--nav-btn);
-  font-size: 18px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: 300ms;
-  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav .nav-btn-text {
+  font-weight: 700;
 }
 
 .nav .nav-btn:hover {
-  background: var(--theme);
-  color: var(--text-secondary);
+  background: var(--background2);
+}
+
+.nav .nav-btn:focus {
+  transition: 100ms;
+  transform: scale(0.95);
 }
 
 .nav .navOpenBtn,
@@ -157,8 +164,8 @@ a {
 }
 
 .footer h4 {
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 /* responsive */
