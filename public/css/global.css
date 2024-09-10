@@ -84,6 +84,7 @@ a {
 
 .nav .nav-btn-text {
   font-weight: 700;
+  line-height: 1;
 }
 
 .nav .nav-btn:hover {

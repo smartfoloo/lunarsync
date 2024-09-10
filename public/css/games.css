@@ -19,7 +19,7 @@ h4 {
 .main-content {
   color: var(--text);
   margin-top: 85px !important;
-  text-align: center;
+  text-align: center !important;
 }
 
 .center, .liked-games {
@@ -31,29 +31,52 @@ h4 {
   margin: 0px 150px;
 }
 
-.input-div {
-  text-align: center;
+::placeholder {
+  color: var(--placeholder);
+  font-size: 16px;
 }
 
-input {
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container {
   background: var(--background3);
-  border: none;
-  padding: 15px 20px;
+  border: 0px solid var(--theme);
+  padding: 0px 20px;
   font-size: 16px;
-  width: 50vw;
+  width: 30%;
   color: var(--text);
-  text-align: center;
-  margin: 10px;
-  border-radius: 23px;
-  -webkit-border-radius: 23px;
+  margin: 20px 0px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   text-decoration-style: solid;
   text-decoration-color: var(--text);
   transition: 500ms;
   outline: none;
+  display: flex;
+  align-items: center;
 }
 
-input:hover {
-  background: var(--background3);
+.input-container:default {
+  border-width: 2px;
+}
+
+#searchInput {
+  padding: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text);
+  text-align: left;
+  width: 30vw;
+  text-decoration-style: solid;
+  text-decoration-color: var(--text);
+  transition: 300ms;
 }
 
 ::placeholder {
@@ -166,7 +189,7 @@ kbd {
   border: 0px;
   font-size: 16px;
   padding: 15px 20px;
-  border-radius: 23px;
+  border-radius: 15px;
   transition: all 300ms;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);

@@ -42,11 +42,11 @@ h4 {
 }
 
 .box {
-  background: var(--background2);
+  background: transparent;
   border-radius: 15px;
+  border: 1px solid var(--shadow);
   width: 400px;
-  padding: 10px 47px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 50px;
   text-align: center;
 }
 
@@ -80,7 +80,11 @@ h4 {
 }
 
 .main-content button:hover {
-  background: var(--background);
+  background: var(--background2);
+}
+
+.main-content button:active {
+  transform: scale(0.95);
 }
 
 .main-content button:disabled {
@@ -99,7 +103,7 @@ kbd {
   background-color: var(--background3);
   padding: 20px 25px;
   font-size: 24px;
-  border-radius: 30px;
+  border-radius: 15px;
   box-sizing: border-box;
   text-align: center;
   color: var(--text);
@@ -194,12 +198,12 @@ input {
 }
 
 #themes, #searchEngine {
-  padding: 10px;
+  padding: 8px;
   background: var(--background3);
   border: none;
   font-size: 16px;
   margin: 10px 0px;
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--text);
   outline: none;
 }

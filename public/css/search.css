@@ -27,8 +27,8 @@ h4 {
   color: var(--text);
   text-align: center;
   margin: 20px 0px;
-  border-radius: 23px;
-  -webkit-border-radius: 23px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   text-decoration-style: solid;
   text-decoration-color: var(--text);
   transition: 500ms;

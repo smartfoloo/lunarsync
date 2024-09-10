@@ -7,6 +7,10 @@ body{
   text-align: center;
 }
 
+.nav-btn {
+  line-height: 1;
+}
+
 h2 {
   font-weight: 700;
   font-size: 40px;
