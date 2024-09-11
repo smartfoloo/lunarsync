@@ -75,13 +75,17 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  transition: 300ms;
+  transition: 250ms;
   cursor: pointer;
   width: 90px
 }
 
 .shortcut:hover {
-  background: var(--background3);
+  background: var(--background2);
+}
+
+.shortcut:active {
+  transform: scale(0.9);
 }
 
 .shortcut p {
