@@ -49,17 +49,25 @@ a {
   text-decoration: none;
 }
 .nav .logo .logo-image {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
 }
 .nav .logo {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700 !important;
   letter-spacing: 0 !important;
   display: flex;
+  padding: 8px;
   align-items: center;
   gap: 8px;
+  border-radius: 10px;
   transition: 300ms;
+}
+.nav .logo:hover {
+  background: var(--background2);
+}
+.nav .logo:active {
+  transform: scale(0.95);
 }
 .nav .nav-links {
   column-gap: 20px;
