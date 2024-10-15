@@ -13,7 +13,7 @@
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="./css/themes.css" />
   <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/settings.css" />
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
   <script>
@@ -23,10 +23,8 @@
 
     gtag('config', 'G-Y2W1BSNMG9');
   </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
   <script src="./js/navbar.js" defer></script>
 </head>
 
@@ -43,40 +41,40 @@
       <ul class="nav-links">
         <i class="uil uil-times navCloseBtn"></i>
         <a href="/" class="nav-btn">
-          <i class="fa-solid fa-home"></i>
+          <ion-icon name="home-outline"></ion-icon>
           <p class="nav-btn-text">Home</p>
         </a>
         <a href="/games.html" class="nav-btn">
-          <i class="fa-solid fa-gamepad"></i>
+          <ion-icon name="game-controller-outline"></ion-icon>
           <p class="nav-btn-text">Games</p>
         </a>
         <a href="/search.html" class="nav-btn">
-          <i class="fa-solid fa-mask"></i>
+          <ion-icon name="server-outline"></ion-icon>
           <p class="nav-btn-text">Proxy</p>
         </a>
-        <a href="/extras.html" class="nav-btn">
-          <i class="fa-solid fa-plus"></i>
-          <p class="nav-btn-text">Extras</p>
-        </a>
         <a href="/settings.html" class="nav-btn">
-          <i class="fa-solid fa-gear"></i>
+          <ion-icon name="cog-outline"></ion-icon>
           <p class="nav-btn-text">Settings</p>
-        </a>
-        <a href="/profile.html" class="nav-btn">
-          <i class="fa-solid fa-user"></i>
-          <p class="nav-btn-text">Profile</p>
         </a>
       </ul>
     </div>
   </nav>
   <div class="main-content">
-    <div class="settings">
+    <div class="sidebar">
+      <div class="settings-tabs">
+        <button class="tab-link" onclick="openTab(event, 'settings')">
+          <ion-icon name="cog-outline"></ion-icon>
+          Settings
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'about')">
+          <ion-icon name="information-circle-outline"></ion-icon>
+          About
+        </button>
+      </div>
+    </div>
+    <div id="settings" class="settings tab-content">
       <div class="box">
         <h3 style="margin-bottom: 10px;">Tab Cloak</h3>
-        <div class="buttons">
-          <input id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)" />
-          <input id="icon" class="input" placeholder="Icon URL" onkeyup="setFavicon(this.value.trim())" />
-        </div>
         <div class="url-buttons">
           <button class="url-button" onclick="resetTab()"><img src="./assets/favicon.png" alt=""></button>
           <button class="url-button" onclick="setCloak('canvas')"><img src="./assets/images/canvas.png" alt=""></button>
@@ -98,9 +96,9 @@
         <div class="record-key">
           <span id="selectedKeyDisplay"><span id="selectedKey">Key will appear here...</span></span>
           <br>
-          <button id="recordKeyButton"><i class="fa-solid fa-microphone"></i> Record Key</button>
+          <button id="recordKeyButton"><ion-icon name="mic-outline"></ion-icon> Record Key</button>
         </div>
-        <div class="url-buttons" style="margin-top: 30px">
+        <div class="url-buttons">
           <button class="url-button" data-url="https://www.instructure.com/canvas?domain=canvas"><img src="./assets/images/canvas.png" alt=""></button>
           <button class="url-button" data-url="https://classroom.google.com/"><img src="./assets/images/classroom.png" alt=""></button>
           <button class="url-button" data-url="https://drive.google.com/drive/my-drive"><img src="./assets/images/googledrive.png" alt=""></button>
@@ -130,6 +128,16 @@
           <option value="duckduckgo">DuckDuckGo</option>
           <option value="yahoo">Yahoo</option>
         </select>
+      </div>
+    </div>
+    <div id="about" class="tab-content">
+      <div class="box">
+        <h3>Credits</h3>
+        <h4><b>smxrtfoloo/smartfoloo</b> - Main Dev, Creator. Contact me on Discord!</h4>
+        <h4><b>silvereen/silvereen_</b> - Dev. Helped me with Linux.</h4>
+        <h4><b>Aluminoom/itookpogs</b> - Moderator.</h4>
+        <p>Username after the <b>/</b> is the Discord username.</p>
+        <h4 style="margin: 20px 0px;">I do not own these games! Thanks for individual game developers who work to make the internet a more fun place!</h4>
       </div>
     </div>
   </div>

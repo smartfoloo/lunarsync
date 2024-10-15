@@ -19,12 +19,12 @@ h4 {
 }
 
 #uv-form {
-  background: var(--background3);
+  background: var(--background2);
   border: none;
   padding: 0px 20px;
   font-size: 16px;
   width: 40vw;
-  color: var(--text);
+  color: var(--shadow);
   text-align: center;
   margin: 20px 0px;
   -webkit-border-radius: 15px;
@@ -52,7 +52,7 @@ h4 {
 }
 
 ::placeholder {
-  color: var(--placeholder);
+  color: var(--shadow);
   font-size: 16px;
 }
 

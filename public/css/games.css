@@ -32,7 +32,7 @@ h4 {
 }
 
 ::placeholder {
-  color: var(--placeholder);
+  color: var(--shadow);
   font-size: 16px;
 }
 
@@ -44,12 +44,12 @@ h4 {
 }
 
 .input-container {
-  background: var(--background3);
+  background: var(--background2);
   border: 0px solid var(--theme);
   padding: 0px 20px;
   font-size: 16px;
   width: 30%;
-  color: var(--text);
+  color: var(--shadow);
   margin: 20px 0px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
@@ -77,11 +77,6 @@ h4 {
   text-decoration-style: solid;
   text-decoration-color: var(--text);
   transition: 300ms;
-}
-
-::placeholder {
-  color: var(--placeholder);
-  font-size: 16px;
 }
 
 .game-card {
@@ -137,11 +132,11 @@ h4 {
   opacity: 1;
 }
 
-.fa-star {
+.game-card ion-icon {
   position: absolute;
   display: inline-block;
   padding: 5px;
-  color: yellow;
+  color: #e64553;
   text-align: center;
   font-size: 20px;
   background: var(--text-secondary);

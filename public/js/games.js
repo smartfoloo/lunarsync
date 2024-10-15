@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function addLikedLabel(gameCard) {
-  var likedLabel = document.createElement('i');
-  likedLabel.className = 'fa-solid fa-star';
+  var likedLabel = document.createElement('ion-icon');
+  likedLabel.name = 'heart';
   gameCard.appendChild(likedLabel);
 }
 

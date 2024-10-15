@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --background: #181926;
   --background2: #24273a;
-  --background3: #494d64;
+  --background3: #363a4f;
   --theme: rgb(138, 173, 244);
   --shadow: rgba(138, 173, 244, 0.5);
   --text: #cad3f5;
@@ -142,7 +142,7 @@ a {
 }
 
 .footer {
-  background: var(--background3);
+  background: var(--background2);
   color: var(--text);
   display: flex;
   padding: 10px;
@@ -151,7 +151,7 @@ a {
   overflow: hidden;
   flex-wrap: wrap;
   text-align: center;
-  margin: 20px 300px;
+  margin: 20px 200px;
   border-radius: 20px;
 }
 
@@ -194,7 +194,7 @@ a {
   }
 
   .footer {
-    margin: 100px;
+    margin: 20px 100px;
   }
 }
 

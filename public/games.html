@@ -24,10 +24,8 @@
 
     gtag('config', 'G-Y2W1BSNMG9');
   </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
   <script src="./js/navbar.js" defer></script>
 </head>
 
@@ -44,30 +42,22 @@
       <ul class="nav-links">
         <i class="uil uil-times navCloseBtn"></i>
         <a href="/" class="nav-btn">
-          <i class="fa-solid fa-home"></i>
+          <ion-icon name="home-outline"></ion-icon>
           <p class="nav-btn-text">Home</p>
         </a>
         <a href="/games.html" class="nav-btn">
-          <i class="fa-solid fa-gamepad"></i>
+          <ion-icon name="game-controller-outline"></ion-icon>
           <p class="nav-btn-text">Games</p>
         </a>
         <a href="/search.html" class="nav-btn">
-          <i class="fa-solid fa-mask"></i>
+          <ion-icon name="server-outline"></ion-icon>
           <p class="nav-btn-text">Proxy</p>
         </a>
-        <a href="/extras.html" class="nav-btn">
-          <i class="fa-solid fa-plus"></i>
-          <p class="nav-btn-text">Extras</p>
-        </a>
         <a href="/settings.html" class="nav-btn">
-          <i class="fa-solid fa-gear"></i>
+          <ion-icon name="cog-outline"></ion-icon>
           <p class="nav-btn-text">Settings</p>
         </a>
-        <a href="/profile.html" class="nav-btn">
-          <i class="fa-solid fa-user"></i>
-          <p class="nav-btn-text">Profile</p>
-        </a>
-      </ul>
+        </ul>
     </div>
   </nav>
   <div class="main-content">
@@ -79,7 +69,7 @@
     </a>
     <div class="input-box">
       <div class="input-container">
-        <i id="addressIcon" class="search-icon fas fa-magnifying-glass"></i>
+        <ion-icon id="addressIcon" name="search-outline"></ion-icon>
         <input type="text" id="searchInput" placeholder="Search">
       </div>
     </div>
@@ -1907,7 +1897,6 @@
 </body>
 <script src="./js/games.js"></script>
 <script src="./js/index.js"></script>
-<script src="./js/randomtext.js"></script>
 
 <script src="./js/sw.js"></script>
 

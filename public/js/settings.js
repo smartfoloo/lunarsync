@@ -10,13 +10,6 @@ if (tab) {
   var tabData = {};
 }
 
-if (tabData.title) {
-  document.getElementById("title").value = tabData.title;
-}
-if (tabData.icon) {
-  document.getElementById("icon").value = tabData.icon;
-}
-
 var settingsDefaultTab = {
   title: "Lunarsync",
   icon: "/favicon.png",
@@ -111,8 +104,6 @@ function setCloak(cloak) {
 function resetTab() {
   document.title = settingsDefaultTab.title;
   document.querySelector("link[rel='icon']").href = settingsDefaultTab.icon;
-  document.getElementById("title").value = "";
-  document.getElementById("icon").value = "";
   localStorage.setItem("tab", JSON.stringify({}));
 }
 
@@ -199,3 +190,25 @@ if (aboutblankEnabled === 'true' || aboutblankEnabled === '' || aboutblankEnable
   document.getElementById('enableAboutBlank').disabled = false;
   document.getElementById('disableAboutBlank').disabled = true;
 }
+
+/* settings tabs */
+
+function openTab(evt, tabName) {
+  const tabContent = document.getElementsByClassName('tab-content');
+  const tabLinks = document.getElementsByClassName('tab-link');
+
+  for (let i = 0; i < tabContent.length; i++) {
+    tabContent[i].style.display = 'none';
+  }
+
+  for (let i = 0; i < tabLinks.length; i++) {
+    tabLinks[i].classList.remove('tab-active');
+  }
+
+  document.getElementById(tabName).style.display = 'flex';
+  evt.currentTarget.classList.add('tab-active');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('.tab-link').click();
+});

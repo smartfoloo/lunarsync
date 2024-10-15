@@ -13,11 +13,13 @@ body {
 
 h1 {
   font-size: 60px;
+  font-family: 'Montserrat';
   padding: 0px 300px;
 }
 
 h2 {
   font-weight: 500;
+  font-family: 'Montserrat';
   font-size: 30px;
 }
 

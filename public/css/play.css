@@ -1,4 +1,4 @@
-body{
+body {
 	line-height: 1.7;
   color: var(--text);
 	-webkit-transition: all 200ms linear;
@@ -57,7 +57,7 @@ h3 {
   align-items: center;
   flex-direction: row;
   background-color: var(--background3);
-  padding: 0.6rem;
+  padding: 10px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -75,59 +75,41 @@ h3 {
 }
 
 .game-image {
-  height: 40px;
-  width: 40px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
 }
 
 #gamename {
   padding-left: 10px;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .gameframe {
-  height: 80vh;
+  height: 70vh;
   border: 3px solid var(--background3);
   overflow: scroll;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.star {
+.expand,
+.heart {
   border: none;
   background: transparent;
 }
 
-.star-logo {
-  transition: transform .5s ease;
+.expand-logo,
+.heart-logo {
+  transition: transform 200ms;
   border: none;
   cursor: pointer;
-}
-
-.star-logo:hover {
-  transform: scale(0.9);
-}
-
-.expand {
-  border: none;
-  background: transparent;
-}
-.expand-logo {
-  transition: transform .5s ease;
-  border: none;
-  cursor: pointer;
-}
-
-.expand-logo:hover {
-  transform: scale(0.9); 
-}
-
-.expand-logo {
   font-size: 26px;
 }
 
-.star-logo {
-  font-size: 26px;
+.expand-logo:active,
+.heart-logo:active {
+  transform: scale(0.95);
 }
 
 @media screen and (max-width: 1000px) {

@@ -1,7 +1,7 @@
 body[theme="catppuccin-latte"] {
   --background: #eff1f5;
-  --background2: #9ca0b0;
-  --background3: #7c7f93;
+  --background2: #bcc0cc;
+  --background3: #9ca0b0;
   --theme: rgb(4, 165, 229);
   --shadow: rgba(4, 165, 229, 0.5);
   --text: #4c4f69;
@@ -13,7 +13,7 @@ body[theme="catppuccin-latte"] {
 body[theme="catppuccin-frappe"] {
   --background: #232634;
   --background2: #303446;
-  --background3: #51576d;
+  --background3: #414559;
   --theme: rgb(140, 170, 238);
   --shadow: rgba(140, 170, 238, 0.5);
   --text: #c6d0f5;
@@ -25,7 +25,7 @@ body[theme="catppuccin-frappe"] {
 body[theme="catppuccin-macchiato"] {
   --background: #181926;
   --background2: #24273a;
-  --background3: #494d64;
+  --background3: #363a4f;
   --theme: rgb(138, 173, 244);
   --shadow: rgba(138, 173, 244, 0.5);
   --text: #cad3f5;

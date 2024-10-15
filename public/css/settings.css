@@ -8,11 +8,13 @@ a {
 
 h1 {
   font-size: 50px;
+  font-family: 'Montserrat';
   margin: 20px;
 }
 
-h2{
+h2 {
   font-size: 30px;
+  font-family: 'Montserrat';
   margin-bottom: 10px;
 }
 
@@ -30,41 +32,77 @@ h4 {
 
 .main-content {
   margin-top: 100px;
-  text-align: center;
+  text-align: center !important;
+  width: calc(100% - 400px);
+  display: flex;
+  gap: 20px;
+  margin: 100px 200px 0px 200px;
 }
 
-.settings, .extras{
+.sidebar {
+  width: calc(25% - 10px);
+}
+
+.settings-tabs {
   display: flex;
-  padding: 0px 200px;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
+  flex-direction: column;
+  background: var(--background2);
+  padding: 10px;
+  gap: 10px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.main-content .tab-link {
+  padding: 11px 10px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border-radius: 10px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+  transition: 250ms;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-content .tab-link:hover {
+  background: var(--background3);
+}
+
+.main-content .tab-link:active {
+  transform: scale(0.98);
+}
+
+.tab-link ion-icon {
+  font-size: 20px;
+}
+
+.settings,
+#about {
+  display: flex;
+  width: calc(75% - 10px);
+  flex-direction: column;
+  gap: 20px;
 }
 
 .box {
   background: transparent;
   border-radius: 15px;
   border: 1px solid var(--shadow);
-  width: 400px;
-  padding: 10px 50px;
-  text-align: center;
+  width: 100%;
+  padding: 30px;
+  text-align: left;
 }
 
 ::placeholder {
   color: var(--placeholder);
   font-size: 16px;
-}
-
-@media screen and (max-width: 1000px) {
-  .settings {
-    padding: 0px 100px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .settings {
-    padding: 10px 50px;
-  }
 }
 
 .main-content button {
@@ -76,7 +114,7 @@ h4 {
   border-radius: 10px;
   transition: 250ms;
   cursor: pointer;
-  margin: 10px 5px;
+  margin: 10px 0px;
 }
 
 .main-content button:hover {
@@ -98,8 +136,12 @@ h4 {
   color: var(--placeholder);
 }
 
+span {
+  font-family: 'Inter' !important;
+}
+
 kbd {
-  font-family: 'Inter';
+  font-family: 'Inter' !important;
   background-color: var(--background3);
   padding: 20px 25px;
   font-size: 24px;
@@ -109,32 +151,9 @@ kbd {
   color: var(--text);
   cursor: pointer;
   text-shadow: 0 0.5px 1px #777, 0 2px 6px #f2f2f2;
-  background: -webkit-linear-gradient(top, #f9f9f9 0%, #D2D2D2 80%, #c0c0c0 100%);
   display: inline-block;
   transition: box-shadow 0.3s ease, transform 0.15s ease;
   box-shadow: 0 0 1px #888, 0 1px 0 var(--background3), 0 6px 0 #C0C0C0, 0 8px 17px rgba(#444, 0.4), 2px 1px 4px rgba(#444, 0.25), -2px 1px 4px rgba(#444, 0.25), 0 9px 16px rgba(#444, 0.1);
-  background: var(--background3);
-}
-
-.extras {
-  list-style-type: none;
-}
-
-ol {
-  text-align: left;
-  margin: 0px 200px;
-}
-
-@media screen and (max-width: 1000px) {
-  ol {
-    margin: 0px 100px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  ol {
-    margin: 0px 50px;
-  }
 }
 
 input {
@@ -162,15 +181,14 @@ input {
 }
 
 #recordKeyButton {
-  margin-top: 40px;
+  margin: 20px 0px;
 }
 
 .url-buttons {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 5px;
-  margin: 20px 0px;
+  margin: 0px;
 }
 
 .url-buttons button {
@@ -208,6 +226,6 @@ input {
   outline: none;
 }
 
-.extras .box b {
-  color: var(--theme);
+@media screen and (max-width: 1000px) {
+  
 }
