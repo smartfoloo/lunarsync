@@ -39,6 +39,6 @@ No, I did not. These games are made by different game developers. Thank you so m
 
 You can request a game on our site under Extras. Remember, your game may not be added at all. I cannot add games such as Roblox or Fortnite, it's just not possible.
 
-## License
+## License.
 
 [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
