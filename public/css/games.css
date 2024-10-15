@@ -195,6 +195,24 @@ kbd {
   transform: scale(0.95);
 }
 
+.button {
+  padding: 11px 10px;
+  background: var(--background2);
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border-radius: 10px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+  transition: 250ms;
+  margin: 10px 0px;
+}
+
+.button:hover {
+  background: var(--background3);
+}
+
 @media screen and (max-width: 1000px) {
   .center, .liked-games{
     margin: 0px 100px;
